@@ -1,0 +1,2526 @@
+[
+  {
+    "dataset_id": "ed73932b-0890-5239-97a6-d43f2595674d",
+    "data": [
+      {
+        "id": "8e5da7f6-d4be-5d77-b1c6-c40b81361165",
+        "name": "text_9256ef52b75822563ec0d43e29d0c62e",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/delete-me.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/delete-me.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/delete-me.txt"
+        }
+      },
+      {
+        "id": "430e48d8-68db-54d4-95a5-6b665e131389",
+        "name": "text_699b1c5e3226d48961fbb83e4c604af8",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/update-me.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt"
+        }
+      },
+      {
+        "id": "f6ed5092-4bfc-5f12-848a-0010172033c0",
+        "name": "text_c8389395d65c26fda27830535a0ec1f7",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/support.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/support.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/support.txt"
+        }
+      },
+      {
+        "id": "35cbdd07-a1df-5d67-b335-3a92c1d33a60",
+        "name": "text_8db07b17b5f17ff93ce452af3ae985f5",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/at-limit.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt"
+        }
+      },
+      {
+        "id": "d3cd8715-01c4-53e4-9558-703ebf8d34bd",
+        "name": "text_80e9a30f61f5ba92aa3cfd2293ad4abb",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/below-limit.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt"
+        }
+      },
+      {
+        "id": "c6bc7100-7a09-54a6-a54e-a439e524debc",
+        "name": "text_7cab9dc592872cbdc380c0d2463a47f0",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/unicode.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt"
+        }
+      },
+      {
+        "id": "104f3ae3-7a67-51ea-b775-5a3007f27a15",
+        "name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+        "external_metadata": {
+          "source": "gcs",
+          "title": "docs/empty.txt",
+          "url": "gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt",
+          "external_id": "gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt"
+        }
+      }
+    ],
+    "nodes": [
+      [
+        "7d008656-ec41-57e1-97f0-83873f1a447d",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497280700,
+          "updated_at": 1792497280700,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Files: docs/empty.txt\n- Topics: Empty file content\n\nFacts:\n- The chunk references a file located at the path docs/empty.txt.\n- The file docs/empty.txt contains no text content.",
+          "source_chunk_id": "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497278750,
+          "updated_at": 1792497278750,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/empty.txt",
+          "chunk_size": 7,
+          "chunk_index": 0,
+          "cut_type": "sentence_cut",
+          "contains": [],
+          "document_id": "104f3ae3-7a67-51ea-b775-5a3007f27a15",
+          "document_name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "104f3ae3-7a67-51ea-b775-5a3007f27a15",
+        {
+          "name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+          "type": "TextDocument",
+          "created_at": 1792497278720,
+          "updated_at": 1792497278720,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_bad2a223cfc40e44a2c052dc4ba1b167.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/empty.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "f2770324-b8cc-5d61-a910-c3877ca11773",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497282391,
+          "updated_at": 1792497282391,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "80e9a30f61f5ba92aa3cfd2293ad4abb",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Files: docs/below-limit.txt\n- Topics: 1024-byte test limit\n\nFacts:\n- The chunk is the file docs/below-limit.txt.\n- The file states that it is below the 1024-byte test limit.",
+          "source_chunk_id": "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497279012,
+          "updated_at": 1792497279012,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "80e9a30f61f5ba92aa3cfd2293ad4abb",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/below-limit.txt\n\nBelow the 1024-byte test limit.",
+          "chunk_size": 21,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "d3cd8715-01c4-53e4-9558-703ebf8d34bd",
+          "document_name": "text_80e9a30f61f5ba92aa3cfd2293ad4abb",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "6e993164-40e8-54f1-a266-aad596976120",
+        {
+          "name": "docs/below-limit.txt",
+          "type": "Entity",
+          "created_at": 1792497282564,
+          "updated_at": 1792497282564,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A file whose content states that it is below the 1024-byte test limit.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        {
+          "name": "document",
+          "type": "EntityType",
+          "created_at": 1792497288080,
+          "updated_at": 1792497288080,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "document",
+          "relations": []
+        }
+      ],
+      [
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        {
+          "name": "1024-byte test limit",
+          "type": "Entity",
+          "created_at": 1792497282433,
+          "updated_at": 1792497282433,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A test limit corresponding to exactly 1024 bytes.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "d5c1a947-056e-50aa-985d-ba776f97d993",
+        {
+          "name": "limit",
+          "type": "EntityType",
+          "created_at": 1792497282433,
+          "updated_at": 1792497282433,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "limit",
+          "relations": []
+        }
+      ],
+      [
+        "d3cd8715-01c4-53e4-9558-703ebf8d34bd",
+        {
+          "name": "text_80e9a30f61f5ba92aa3cfd2293ad4abb",
+          "type": "TextDocument",
+          "created_at": 1792497278984,
+          "updated_at": 1792497278984,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "80e9a30f61f5ba92aa3cfd2293ad4abb",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_80e9a30f61f5ba92aa3cfd2293ad4abb.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/below-limit.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "fb23deec-f91d-5657-871b-4b9cd2998bfc",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497283774,
+          "updated_at": 1792497283774,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "8db07b17b5f17ff93ce452af3ae985f5",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "The chunk is about a file at a byte-count test boundary.\n\nThis chunk is about:\n- Files: docs/at-limit.txt\n- Concepts: 1024-byte test limit\n\nFacts:\n- docs/at-limit.txt is exactly at the 1024-byte test limit.",
+          "source_chunk_id": "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497278573,
+          "updated_at": 1792497278573,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "8db07b17b5f17ff93ce452af3ae985f5",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/at-limit.txt\n\nExactly at the 1024-byte test limit.",
+          "chunk_size": 22,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "35cbdd07-a1df-5d67-b335-3a92c1d33a60",
+          "document_name": "text_8db07b17b5f17ff93ce452af3ae985f5",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+        {
+          "name": "docs/at-limit.txt",
+          "type": "Entity",
+          "created_at": 1792497282432,
+          "updated_at": 1792497282432,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Document path whose content states it is exactly at the 1024-byte test limit.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "35cbdd07-a1df-5d67-b335-3a92c1d33a60",
+        {
+          "name": "text_8db07b17b5f17ff93ce452af3ae985f5",
+          "type": "TextDocument",
+          "created_at": 1792497278439,
+          "updated_at": 1792497278439,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "8db07b17b5f17ff93ce452af3ae985f5",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_8db07b17b5f17ff93ce452af3ae985f5.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/at-limit.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "beb2e67f-a6de-53aa-a2d5-51c8a533dabd",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497284368,
+          "updated_at": 1792497284368,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "c8389395d65c26fda27830535a0ec1f7",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about a support-hours document.\n\nThis chunk is about:\n- Documents: docs/support.txt\n- Organizations: Test company\n- Topics: support hours\n\nFacts:\n- The document docs/support.txt contains information about Test company support hours.\n- Test company support hours are 9 AM to 5 PM.",
+          "source_chunk_id": "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497279100,
+          "updated_at": 1792497279100,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "c8389395d65c26fda27830535a0ec1f7",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/support.txt\n\nTest company support hours are 9 AM to 5 PM.",
+          "chunk_size": 27,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "f6ed5092-4bfc-5f12-848a-0010172033c0",
+          "document_name": "text_c8389395d65c26fda27830535a0ec1f7",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        {
+          "name": "test company",
+          "type": "Entity",
+          "created_at": 1792497288080,
+          "updated_at": 1792497288080,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Company referenced in docs/update-me.txt.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        {
+          "name": "organization",
+          "type": "EntityType",
+          "created_at": 1792497288080,
+          "updated_at": 1792497288080,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "organization",
+          "relations": []
+        }
+      ],
+      [
+        "fa288f08-4713-5533-a1ba-2364faa4c681",
+        {
+          "name": "9 am to 5 pm",
+          "type": "Entity",
+          "created_at": 1792497282414,
+          "updated_at": 1792497282414,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Support hours from 9 AM to 5 PM.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "07ca923c-5c48-50d7-8f43-279af8a4e23d",
+        {
+          "name": "timerange",
+          "type": "EntityType",
+          "created_at": 1792497282414,
+          "updated_at": 1792497282414,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "timerange",
+          "relations": []
+        }
+      ],
+      [
+        "f6ed5092-4bfc-5f12-848a-0010172033c0",
+        {
+          "name": "text_c8389395d65c26fda27830535a0ec1f7",
+          "type": "TextDocument",
+          "created_at": 1792497279071,
+          "updated_at": 1792497279071,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "c8389395d65c26fda27830535a0ec1f7",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_c8389395d65c26fda27830535a0ec1f7.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/support.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/support.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/support.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "a28eebeb-2af4-5f34-a7e3-d940d87b1d94",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497284280,
+          "updated_at": 1792497284280,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "9256ef52b75822563ec0d43e29d0c62e",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/delete-me.txt\n- Concepts: deletion testing\n- Codes: office access code\n\nFacts:\n- The document docs/delete-me.txt states that the test office access code is BLUEBIRD.\n- The document docs/delete-me.txt is for deletion testing.",
+          "source_chunk_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497278926,
+          "updated_at": 1792497278926,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "9256ef52b75822563ec0d43e29d0c62e",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/delete-me.txt\n\nThe test office access code is BLUEBIRD. This document is for deletion testing.",
+          "chunk_size": 38,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "8e5da7f6-d4be-5d77-b1c6-c40b81361165",
+          "document_name": "text_9256ef52b75822563ec0d43e29d0c62e",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+        {
+          "name": "docs/delete-me.txt",
+          "type": "Entity",
+          "created_at": 1792497285556,
+          "updated_at": 1792497285556,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A document intended for deletion testing.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "a3ddc348-a423-553d-9778-45ebb294b2ac",
+        {
+          "name": "bluebird",
+          "type": "Entity",
+          "created_at": 1792497285556,
+          "updated_at": 1792497285556,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "The access code for the test office.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "7f418c4b-c229-5457-99e7-d259277dbf5e",
+        {
+          "name": "accesscode",
+          "type": "EntityType",
+          "created_at": 1792497285556,
+          "updated_at": 1792497285556,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "accesscode",
+          "relations": []
+        }
+      ],
+      [
+        "51becea8-fbeb-5340-9c83-9c2e27445673",
+        {
+          "name": "deletion testing",
+          "type": "Entity",
+          "created_at": 1792497285557,
+          "updated_at": 1792497285557,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "The testing activity for which docs/delete-me.txt is intended.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "061e6aeb-2efb-5b39-8108-7ea2796d7248",
+        {
+          "name": "activity",
+          "type": "EntityType",
+          "created_at": 1792497285557,
+          "updated_at": 1792497285557,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "activity",
+          "relations": []
+        }
+      ],
+      [
+        "02bd711e-d596-5f17-914b-bf7ee54cb716",
+        {
+          "name": "test office",
+          "type": "Entity",
+          "created_at": 1792497285557,
+          "updated_at": 1792497285557,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "The office referenced by the test office access code.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "5413b1d1-13b5-577d-8943-134ad441cbb2",
+        {
+          "name": "office",
+          "type": "EntityType",
+          "created_at": 1792497285556,
+          "updated_at": 1792497285556,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "office",
+          "relations": []
+        }
+      ],
+      [
+        "8e5da7f6-d4be-5d77-b1c6-c40b81361165",
+        {
+          "name": "text_9256ef52b75822563ec0d43e29d0c62e",
+          "type": "TextDocument",
+          "created_at": 1792497278897,
+          "updated_at": 1792497278897,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "9256ef52b75822563ec0d43e29d0c62e",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_9256ef52b75822563ec0d43e29d0c62e.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/delete-me.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/delete-me.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/delete-me.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "c6fa3fef-dcea-5834-a6ec-b136cc1a99d9",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497282811,
+          "updated_at": 1792497282811,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "7cab9dc592872cbdc380c0d2463a47f0",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/unicode.txt\n- Topics: Unicode text, Caf\u00e9, \u6771\u4eac\n\nFacts:\n- The document at docs/unicode.txt contains the text \"Caf\u00e9 \u6771\u4eac \u2014 Unicode document.\"\n- The text includes the accented word Caf\u00e9 and the place name \u6771\u4eac.\n- The document is described as a Unicode document.",
+          "source_chunk_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497278660,
+          "updated_at": 1792497278660,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "7cab9dc592872cbdc380c0d2463a47f0",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/unicode.txt\n\nCaf\u00e9 \u6771\u4eac \u2014 Unicode document.",
+          "chunk_size": 22,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "c6bc7100-7a09-54a6-a54e-a439e524debc",
+          "document_name": "text_7cab9dc592872cbdc380c0d2463a47f0",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+        {
+          "name": "docs/unicode.txt",
+          "type": "Entity",
+          "created_at": 1792497286157,
+          "updated_at": 1792497286157,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A file named docs/unicode.txt containing Unicode text.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "b088def5-61a7-5595-8d77-a90843bdbed9",
+        {
+          "name": "caf\u00e9 \u6771\u4eac",
+          "type": "Entity",
+          "created_at": 1792497286157,
+          "updated_at": 1792497286157,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Text appearing in docs/unicode.txt before the em dash.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "c8536578-f83e-5787-913c-cbb5bf70a1a7",
+        {
+          "name": "text",
+          "type": "EntityType",
+          "created_at": 1792497286157,
+          "updated_at": 1792497286157,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "text",
+          "relations": []
+        }
+      ],
+      [
+        "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+        {
+          "name": "unicode document",
+          "type": "Entity",
+          "created_at": 1792497286157,
+          "updated_at": 1792497286157,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A descriptor applied to the content of docs/unicode.txt.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "d2a381fa-3658-5ca6-ada9-2109cfc9331d",
+        {
+          "name": "concept",
+          "type": "EntityType",
+          "created_at": 1792497286157,
+          "updated_at": 1792497286157,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "concept",
+          "relations": []
+        }
+      ],
+      [
+        "c6bc7100-7a09-54a6-a54e-a439e524debc",
+        {
+          "name": "text_7cab9dc592872cbdc380c0d2463a47f0",
+          "type": "TextDocument",
+          "created_at": 1792497278631,
+          "updated_at": 1792497278631,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "7cab9dc592872cbdc380c0d2463a47f0",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_7cab9dc592872cbdc380c0d2463a47f0.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/unicode.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "fdf9f968-be08-5559-9cfc-cbaff6273b34",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792497283772,
+          "updated_at": 1792497283772,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "699b1c5e3226d48961fbb83e4c604af8",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/update-me.txt\n- Companies: Test company\n- Policies: leave allowance\n- Versions: Version one\n\nFacts:\n- The document docs/update-me.txt states that Test company's leave allowance is 20 days per year.\n- The document is labeled Version one.",
+          "source_chunk_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792497278838,
+          "updated_at": 1792497278838,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "699b1c5e3226d48961fbb83e4c604af8",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/update-me.txt\n\nTest company leave allowance is 20 days per year. Version one.",
+          "chunk_size": 32,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "document_id": "430e48d8-68db-54d4-95a5-6b665e131389",
+          "document_name": "text_699b1c5e3226d48961fbb83e4c604af8",
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        {
+          "name": "docs/update-me.txt",
+          "type": "Entity",
+          "created_at": 1792497288080,
+          "updated_at": 1792497288080,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Document file containing a Test company leave allowance update.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        {
+          "name": "test company leave allowance",
+          "type": "Entity",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Leave allowance for Test company stated as 20 days per year.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "98d01d47-f222-5125-a68c-70fe23daf43e",
+        {
+          "name": "policy",
+          "type": "EntityType",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "policy",
+          "relations": []
+        }
+      ],
+      [
+        "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+        {
+          "name": "20 days per year",
+          "type": "Entity",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Annual leave allowance value of 20 days per year.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "7a7a0687-e490-5167-ad5a-0e39d9055dee",
+        {
+          "name": "quantity",
+          "type": "EntityType",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "quantity",
+          "relations": []
+        }
+      ],
+      [
+        "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+        {
+          "name": "version one",
+          "type": "Entity",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "Version identifier stated in docs/update-me.txt.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "f3edde2c-556b-5d47-8cad-eeec5f5b5a67",
+        {
+          "name": "version",
+          "type": "EntityType",
+          "created_at": 1792497288081,
+          "updated_at": 1792497288081,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "version",
+          "relations": []
+        }
+      ],
+      [
+        "430e48d8-68db-54d4-95a5-6b665e131389",
+        {
+          "name": "text_699b1c5e3226d48961fbb83e4c604af8",
+          "type": "TextDocument",
+          "created_at": 1792497278809,
+          "updated_at": 1792497278809,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "699b1c5e3226d48961fbb83e4c604af8",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee/data/b0b44bcb-c0c4-4e9a-b336-f8c9787e6527/text_699b1c5e3226d48961fbb83e4c604af8.txt",
+          "external_metadata": "{\n    \"source\": \"gcs\",\n    \"title\": \"docs/update-me.txt\",\n    \"url\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt\",\n    \"external_id\": \"gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt\"\n}",
+          "mime_type": "text/plain"
+        }
+      ]
+    ],
+    "edges": [
+      [
+        "7d008656-ec41-57e1-97f0-83873f1a447d",
+        "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+        "made_from",
+        {
+          "source_node_id": "7d008656-ec41-57e1-97f0-83873f1a447d",
+          "target_node_id": "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:40",
+          "edge_object_id": "2b63a0d2-3edd-5d4c-a67c-02253192e2c4",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Files: docs/empty.txt - Topics: Empty file content Facts: made from # docs/empty.txt."
+        }
+      ],
+      [
+        "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+        "104f3ae3-7a67-51ea-b775-5a3007f27a15",
+        "is_part_of",
+        {
+          "source_node_id": "8c6eb5ee-b55f-5b6b-90cb-05ee2def2c98",
+          "target_node_id": "104f3ae3-7a67-51ea-b775-5a3007f27a15",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:40",
+          "edge_object_id": "5ea3bb76-97c0-518e-aa7f-c761effa8eea",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/empty.txt is part of text_bad2a223cfc40e44a2c052dc4ba1b167."
+        }
+      ],
+      [
+        "f2770324-b8cc-5d61-a910-c3877ca11773",
+        "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+        "made_from",
+        {
+          "source_node_id": "f2770324-b8cc-5d61-a910-c3877ca11773",
+          "target_node_id": "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:42",
+          "edge_object_id": "324192b8-0892-5d9e-ac56-c863b78558e1",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Files: docs/below-limit.txt - Topics: 1024-byte test limi made from # docs/below-limit.txt Below the 1024-byte test limit.."
+        }
+      ],
+      [
+        "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+        "6e993164-40e8-54f1-a266-aad596976120",
+        "contains",
+        {
+          "source_node_id": "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+          "target_node_id": "6e993164-40e8-54f1-a266-aad596976120",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:42",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions docs/below-limit.txt: A file whose content states that it is below the 1024-byte test limit.",
+          "edge_object_id": "7dae319a-b965-537d-ad5b-2ff975dd842f",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        "contains",
+        {
+          "source_node_id": "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+          "target_node_id": "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:42",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions 1024-byte test limit: A test limit of 1024 bytes referenced by docs/below-limit.txt.",
+          "edge_object_id": "2e6ec447-9614-5256-98aa-a10ddea0d493",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+        "d3cd8715-01c4-53e4-9558-703ebf8d34bd",
+        "is_part_of",
+        {
+          "source_node_id": "cb4947d0-2a4d-571c-b08b-411eb2100c8f",
+          "target_node_id": "d3cd8715-01c4-53e4-9558-703ebf8d34bd",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:42",
+          "edge_object_id": "4c51a0bd-9a25-5b0d-a915-c558f42602fb",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/below-limit.txt Below the 1024-byte test limit. is part of text_80e9a30f61f5ba92aa3cfd2293ad4abb."
+        }
+      ],
+      [
+        "6e993164-40e8-54f1-a266-aad596976120",
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        "is_a",
+        {
+          "source_node_id": "6e993164-40e8-54f1-a266-aad596976120",
+          "target_node_id": "3d897781-1f4f-59f0-9622-97d2f17ed585",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:42",
+          "edge_object_id": "9d3400d1-a2bb-530f-9b91-2883ed3ffaf0",
+          "feedback_weight": 0.5,
+          "edge_text": "docs/below-limit.txt is a document."
+        }
+      ],
+      [
+        "6e993164-40e8-54f1-a266-aad596976120",
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        "is_below",
+        {
+          "source_node_id": "6e993164-40e8-54f1-a266-aad596976120",
+          "target_node_id": "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+          "relationship_name": "is_below",
+          "updated_at": "2026-10-20 11:54:42",
+          "relationship_type": "is_below",
+          "edge_text": "docs/below-limit.txt is below the 1024-byte test limit.",
+          "edge_object_id": "60442906-9e15-51ed-aba3-b51143d0b2cf",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        "d5c1a947-056e-50aa-985d-ba776f97d993",
+        "is_a",
+        {
+          "source_node_id": "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+          "target_node_id": "d5c1a947-056e-50aa-985d-ba776f97d993",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:43",
+          "edge_object_id": "25ef71bd-5a67-5834-8c40-8dbc789fdd4b",
+          "feedback_weight": 0.5,
+          "edge_text": "1024-byte test limit is a limit."
+        }
+      ],
+      [
+        "fb23deec-f91d-5657-871b-4b9cd2998bfc",
+        "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+        "made_from",
+        {
+          "source_node_id": "fb23deec-f91d-5657-871b-4b9cd2998bfc",
+          "target_node_id": "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:43",
+          "edge_object_id": "ac389fd4-f504-53a6-be19-059571262b2d",
+          "feedback_weight": 0.5,
+          "edge_text": "The chunk is about a file at a byte-count test boundary. This chunk is about: -  made from # docs/at-limit.txt Exactly at the 1024-byte test limit.."
+        }
+      ],
+      [
+        "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+        "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+        "contains",
+        {
+          "source_node_id": "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+          "target_node_id": "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:43",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions docs/at-limit.txt: Document path whose content states it is exactly at the 1024-byte test limit.",
+          "edge_object_id": "0cac27e8-5582-5dc8-adc8-a4df55bb22c2",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        "contains",
+        {
+          "source_node_id": "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+          "target_node_id": "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:43",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions 1024-byte test limit: A test limit corresponding to exactly 1024 bytes.",
+          "edge_object_id": "f054d2f3-0b54-51ba-89e0-439dc0187954",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+        "35cbdd07-a1df-5d67-b335-3a92c1d33a60",
+        "is_part_of",
+        {
+          "source_node_id": "81c4b9b0-bd65-5fcd-9e30-48b73f8bd73b",
+          "target_node_id": "35cbdd07-a1df-5d67-b335-3a92c1d33a60",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:43",
+          "edge_object_id": "06785154-69f5-5213-bd9c-d3451df8a027",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/at-limit.txt Exactly at the 1024-byte test limit. is part of text_8db07b17b5f17ff93ce452af3ae985f5."
+        }
+      ],
+      [
+        "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        "is_a",
+        {
+          "source_node_id": "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+          "target_node_id": "3d897781-1f4f-59f0-9622-97d2f17ed585",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:43",
+          "edge_object_id": "421aa67f-f8e4-5a90-86e2-9cdc21855ea5",
+          "feedback_weight": 0.5,
+          "edge_text": "docs/at-limit.txt is a document."
+        }
+      ],
+      [
+        "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+        "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+        "declares_test_limit",
+        {
+          "source_node_id": "7790a4c5-65bf-555e-8bb2-3cdd637f98ef",
+          "target_node_id": "499b1ae3-b9b4-599b-8d6c-79c9faee2613",
+          "relationship_name": "declares_test_limit",
+          "updated_at": "2026-10-20 11:54:43",
+          "relationship_type": "declares_test_limit",
+          "edge_text": "docs/at-limit.txt declares that it is exactly at the 1024-byte test limit.",
+          "edge_object_id": "2c2160d3-797e-5a60-921c-5fe004c0e304",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "beb2e67f-a6de-53aa-a2d5-51c8a533dabd",
+        "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+        "made_from",
+        {
+          "source_node_id": "beb2e67f-a6de-53aa-a2d5-51c8a533dabd",
+          "target_node_id": "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:44",
+          "edge_object_id": "733a886b-dba5-53a8-8769-b3d4d8ab68a2",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about a support-hours document. This chunk is about: - Documents:  made from # docs/support.txt Test company support hours are 9 AM to 5 PM.."
+        }
+      ],
+      [
+        "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "contains",
+        {
+          "source_node_id": "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+          "target_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:44",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions test company: Company whose support hours are 9 AM to 5 PM.",
+          "edge_object_id": "90bd2556-bd3d-5d37-bd3c-9b6208980a4f",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+        "fa288f08-4713-5533-a1ba-2364faa4c681",
+        "contains",
+        {
+          "source_node_id": "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+          "target_node_id": "fa288f08-4713-5533-a1ba-2364faa4c681",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:44",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions 9 am to 5 pm: Support hours from 9 AM to 5 PM.",
+          "edge_object_id": "227eb183-5836-573e-a21e-1cdb4581f0c5",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+        "f6ed5092-4bfc-5f12-848a-0010172033c0",
+        "is_part_of",
+        {
+          "source_node_id": "90eb5e91-c65d-5da5-b6a6-3fbf2d29b3a8",
+          "target_node_id": "f6ed5092-4bfc-5f12-848a-0010172033c0",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:44",
+          "edge_object_id": "99451321-1291-5dd9-adee-4042b7b80c03",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/support.txt Test company support hours are 9 AM to 5 PM. is part of text_c8389395d65c26fda27830535a0ec1f7."
+        }
+      ],
+      [
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "is_a",
+        {
+          "source_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "target_node_id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "203495b9-b576-5ed0-8e1b-8a255b95dafa",
+          "feedback_weight": 0.5,
+          "edge_text": "test company is a organization."
+        }
+      ],
+      [
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "fa288f08-4713-5533-a1ba-2364faa4c681",
+        "has_support_hours",
+        {
+          "source_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "target_node_id": "fa288f08-4713-5533-a1ba-2364faa4c681",
+          "relationship_name": "has_support_hours",
+          "updated_at": "2026-10-20 11:54:44",
+          "relationship_type": "has_support_hours",
+          "edge_text": "Test company support hours are 9 AM to 5 PM.",
+          "edge_object_id": "0be6e163-d6b0-5744-8fa2-891f8d060fd2",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        "has_leave_allowance",
+        {
+          "source_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "target_node_id": "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+          "relationship_name": "has_leave_allowance",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "has_leave_allowance",
+          "edge_text": "Test company leave allowance is the leave allowance for Test company.",
+          "edge_object_id": "4ebb60b7-de85-504d-aace-0c5e74c5467f",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "fa288f08-4713-5533-a1ba-2364faa4c681",
+        "07ca923c-5c48-50d7-8f43-279af8a4e23d",
+        "is_a",
+        {
+          "source_node_id": "fa288f08-4713-5533-a1ba-2364faa4c681",
+          "target_node_id": "07ca923c-5c48-50d7-8f43-279af8a4e23d",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:44",
+          "edge_object_id": "d1950103-f125-56aa-9917-95b75f6066e3",
+          "feedback_weight": 0.5,
+          "edge_text": "9 am to 5 pm is a timerange."
+        }
+      ],
+      [
+        "a28eebeb-2af4-5f34-a7e3-d940d87b1d94",
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "made_from",
+        {
+          "source_node_id": "a28eebeb-2af4-5f34-a7e3-d940d87b1d94",
+          "target_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "2ac4a7e8-0d58-5094-96f0-e801fc0a948b",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Documents: docs/delete-me.txt - Concepts: deletion testin made from # docs/delete-me.txt The test office access code is BLUEBIRD. This document is f."
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+        "contains",
+        {
+          "source_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "target_node_id": "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions docs/delete-me.txt: A document intended for deletion testing.",
+          "edge_object_id": "96993cf8-266a-5de4-b6b0-b07e40940aed",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "a3ddc348-a423-553d-9778-45ebb294b2ac",
+        "contains",
+        {
+          "source_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "target_node_id": "a3ddc348-a423-553d-9778-45ebb294b2ac",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions bluebird: The access code for the test office.",
+          "edge_object_id": "65a5d2b1-ef8d-576c-834a-e1b78e077f64",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "02bd711e-d596-5f17-914b-bf7ee54cb716",
+        "contains",
+        {
+          "source_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "target_node_id": "02bd711e-d596-5f17-914b-bf7ee54cb716",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions test office: The office referenced by the test office access code.",
+          "edge_object_id": "4f2423e3-da87-52ca-86ac-8d2c8007faa8",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "51becea8-fbeb-5340-9c83-9c2e27445673",
+        "contains",
+        {
+          "source_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "target_node_id": "51becea8-fbeb-5340-9c83-9c2e27445673",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions deletion testing: The testing activity for which docs/delete-me.txt is intended.",
+          "edge_object_id": "a132c184-52b2-509c-9431-afb3b6e2fce7",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "070473f9-46c9-51db-bebc-1e005abf4414",
+        "8e5da7f6-d4be-5d77-b1c6-c40b81361165",
+        "is_part_of",
+        {
+          "source_node_id": "070473f9-46c9-51db-bebc-1e005abf4414",
+          "target_node_id": "8e5da7f6-d4be-5d77-b1c6-c40b81361165",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "d5ad1ca3-89cc-53be-b7e1-3c08b1890f9f",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/delete-me.txt The test office access code is BLUEBIRD. This document is f is part of text_9256ef52b75822563ec0d43e29d0c62e."
+        }
+      ],
+      [
+        "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        "is_a",
+        {
+          "source_node_id": "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+          "target_node_id": "3d897781-1f4f-59f0-9622-97d2f17ed585",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "efb30257-b941-51cc-b514-e5f6e9f62765",
+          "feedback_weight": 0.5,
+          "edge_text": "docs/delete-me.txt is a document."
+        }
+      ],
+      [
+        "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+        "a3ddc348-a423-553d-9778-45ebb294b2ac",
+        "mentions",
+        {
+          "source_node_id": "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+          "target_node_id": "a3ddc348-a423-553d-9778-45ebb294b2ac",
+          "relationship_name": "mentions",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "mentions",
+          "edge_text": "docs/delete-me.txt states that the test office access code is BLUEBIRD.",
+          "edge_object_id": "2f599529-7154-5def-911f-74206efbe738",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+        "51becea8-fbeb-5340-9c83-9c2e27445673",
+        "used_for",
+        {
+          "source_node_id": "fd75aedc-7f1d-503c-b56c-7741d7d302eb",
+          "target_node_id": "51becea8-fbeb-5340-9c83-9c2e27445673",
+          "relationship_name": "used_for",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "used_for",
+          "edge_text": "docs/delete-me.txt is for deletion testing.",
+          "edge_object_id": "75f72937-ff2c-54a8-8d27-44ab26bd5366",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "a3ddc348-a423-553d-9778-45ebb294b2ac",
+        "7f418c4b-c229-5457-99e7-d259277dbf5e",
+        "is_a",
+        {
+          "source_node_id": "a3ddc348-a423-553d-9778-45ebb294b2ac",
+          "target_node_id": "7f418c4b-c229-5457-99e7-d259277dbf5e",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "3352d3a3-6add-534c-88f4-58f19fa4967c",
+          "feedback_weight": 0.5,
+          "edge_text": "bluebird is a accesscode."
+        }
+      ],
+      [
+        "51becea8-fbeb-5340-9c83-9c2e27445673",
+        "061e6aeb-2efb-5b39-8108-7ea2796d7248",
+        "is_a",
+        {
+          "source_node_id": "51becea8-fbeb-5340-9c83-9c2e27445673",
+          "target_node_id": "061e6aeb-2efb-5b39-8108-7ea2796d7248",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "ee891a14-7bbc-57b9-8f31-02658a1b5892",
+          "feedback_weight": 0.5,
+          "edge_text": "deletion testing is a activity."
+        }
+      ],
+      [
+        "02bd711e-d596-5f17-914b-bf7ee54cb716",
+        "5413b1d1-13b5-577d-8943-134ad441cbb2",
+        "is_a",
+        {
+          "source_node_id": "02bd711e-d596-5f17-914b-bf7ee54cb716",
+          "target_node_id": "5413b1d1-13b5-577d-8943-134ad441cbb2",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:45",
+          "edge_object_id": "aeabce4c-4351-5e7e-a6ce-53bfbdc9b243",
+          "feedback_weight": 0.5,
+          "edge_text": "test office is a office."
+        }
+      ],
+      [
+        "02bd711e-d596-5f17-914b-bf7ee54cb716",
+        "a3ddc348-a423-553d-9778-45ebb294b2ac",
+        "has_access_code",
+        {
+          "source_node_id": "02bd711e-d596-5f17-914b-bf7ee54cb716",
+          "target_node_id": "a3ddc348-a423-553d-9778-45ebb294b2ac",
+          "relationship_name": "has_access_code",
+          "updated_at": "2026-10-20 11:54:45",
+          "relationship_type": "has_access_code",
+          "edge_text": "The test office has access code BLUEBIRD.",
+          "edge_object_id": "e5722004-fef9-502e-8a8b-a89259ad63e1",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "c6fa3fef-dcea-5834-a6ec-b136cc1a99d9",
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        "made_from",
+        {
+          "source_node_id": "c6fa3fef-dcea-5834-a6ec-b136cc1a99d9",
+          "target_node_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:46",
+          "edge_object_id": "fd9e6c98-5637-5cd8-bfdb-5651d2084e89",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Documents: docs/unicode.txt - Topics: Unicode text, Caf\u00e9, made from # docs/unicode.txt Caf\u00e9 \u6771\u4eac \u2014 Unicode document.."
+        }
+      ],
+      [
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+        "contains",
+        {
+          "source_node_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "target_node_id": "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:46",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions docs/unicode.txt: A file named docs/unicode.txt containing Unicode text.",
+          "edge_object_id": "c64485ea-026e-5f27-ab68-d1554b1c8372",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        "b088def5-61a7-5595-8d77-a90843bdbed9",
+        "contains",
+        {
+          "source_node_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "target_node_id": "b088def5-61a7-5595-8d77-a90843bdbed9",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:46",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions caf\u00e9 \u6771\u4eac: Text appearing in docs/unicode.txt before the em dash.",
+          "edge_object_id": "b140699d-5a8c-5d6f-adb7-c775d03834d0",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+        "contains",
+        {
+          "source_node_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "target_node_id": "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:46",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions unicode document: A descriptor applied to the content of docs/unicode.txt.",
+          "edge_object_id": "3a4b6fb4-2022-5024-bffc-2e42edb87e6a",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+        "c6bc7100-7a09-54a6-a54e-a439e524debc",
+        "is_part_of",
+        {
+          "source_node_id": "119acaff-6fc4-5afd-9bb3-26e4cc6a5fad",
+          "target_node_id": "c6bc7100-7a09-54a6-a54e-a439e524debc",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:46",
+          "edge_object_id": "f532a6a7-ff7b-5cfa-9dee-08b6e336e970",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/unicode.txt Caf\u00e9 \u6771\u4eac \u2014 Unicode document. is part of text_7cab9dc592872cbdc380c0d2463a47f0."
+        }
+      ],
+      [
+        "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        "is_a",
+        {
+          "source_node_id": "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+          "target_node_id": "3d897781-1f4f-59f0-9622-97d2f17ed585",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:46",
+          "edge_object_id": "b925610f-8f9a-5782-8fc2-7efab5f8a44f",
+          "feedback_weight": 0.5,
+          "edge_text": "docs/unicode.txt is a document."
+        }
+      ],
+      [
+        "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+        "b088def5-61a7-5595-8d77-a90843bdbed9",
+        "contains_text",
+        {
+          "source_node_id": "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+          "target_node_id": "b088def5-61a7-5595-8d77-a90843bdbed9",
+          "relationship_name": "contains_text",
+          "updated_at": "2026-10-20 11:54:46",
+          "relationship_type": "contains_text",
+          "edge_text": "docs/unicode.txt contains the text Caf\u00e9 \u6771\u4eac.",
+          "edge_object_id": "c97f70e0-5698-58a6-87ff-51eaae620f91",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+        "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+        "is_described_as",
+        {
+          "source_node_id": "56260a63-b7f5-55b9-9b9f-4f0ee660f180",
+          "target_node_id": "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+          "relationship_name": "is_described_as",
+          "updated_at": "2026-10-20 11:54:46",
+          "relationship_type": "is_described_as",
+          "edge_text": "docs/unicode.txt is described as a Unicode document.",
+          "edge_object_id": "3ac8dec6-de16-5dd0-9016-527db06ebe16",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "b088def5-61a7-5595-8d77-a90843bdbed9",
+        "c8536578-f83e-5787-913c-cbb5bf70a1a7",
+        "is_a",
+        {
+          "source_node_id": "b088def5-61a7-5595-8d77-a90843bdbed9",
+          "target_node_id": "c8536578-f83e-5787-913c-cbb5bf70a1a7",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:46",
+          "edge_object_id": "79494d1e-1708-5fa1-a869-bbb8cdd728b8",
+          "feedback_weight": 0.5,
+          "edge_text": "caf\u00e9 \u6771\u4eac is a text."
+        }
+      ],
+      [
+        "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+        "d2a381fa-3658-5ca6-ada9-2109cfc9331d",
+        "is_a",
+        {
+          "source_node_id": "5cbfe651-9b9b-536b-bd41-5a31632c8117",
+          "target_node_id": "d2a381fa-3658-5ca6-ada9-2109cfc9331d",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:46",
+          "edge_object_id": "ccae4f64-e2c5-5a7c-809f-204957863a93",
+          "feedback_weight": 0.5,
+          "edge_text": "unicode document is a concept."
+        }
+      ],
+      [
+        "fdf9f968-be08-5559-9cfc-cbaff6273b34",
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "made_from",
+        {
+          "source_node_id": "fdf9f968-be08-5559-9cfc-cbaff6273b34",
+          "target_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "d00d6dda-8c56-5899-bb93-0db680ae5a97",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Documents: docs/update-me.txt - Companies: Test company - made from # docs/update-me.txt Test company leave allowance is 20 days per year. Version o."
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        "contains",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "67d2669a-30e2-5e8f-938e-10654aea5569",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions docs/update-me.txt: Document file containing a Test company leave allowance update.",
+          "edge_object_id": "7c40be0f-3822-5e2f-9ddb-c7f96661e43a",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "contains",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions test company: Company referenced in docs/update-me.txt.",
+          "edge_object_id": "fe50eb02-31e0-59df-8fbd-f3d5462aee63",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        "contains",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions test company leave allowance: Leave allowance for Test company stated as 20 days per year.",
+          "edge_object_id": "f7568c23-312b-5c0b-8bce-b2dca23e4219",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+        "contains",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions 20 days per year: Annual leave allowance value of 20 days per year.",
+          "edge_object_id": "7d80b13b-a32d-5938-8dbb-0cff537bcbd8",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+        "contains",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions version one: Version identifier stated in docs/update-me.txt.",
+          "edge_object_id": "6e5fedc3-7a63-5734-b32b-ec9faa870eee",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+        "430e48d8-68db-54d4-95a5-6b665e131389",
+        "is_part_of",
+        {
+          "source_node_id": "81ee1e00-75fa-5d25-be03-1dfa82ecdeed",
+          "target_node_id": "430e48d8-68db-54d4-95a5-6b665e131389",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "433122f1-66a6-51fd-9242-e0c8a4992c2b",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/update-me.txt Test company leave allowance is 20 days per year. Version o is part of text_699b1c5e3226d48961fbb83e4c604af8."
+        }
+      ],
+      [
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        "3d897781-1f4f-59f0-9622-97d2f17ed585",
+        "is_a",
+        {
+          "source_node_id": "67d2669a-30e2-5e8f-938e-10654aea5569",
+          "target_node_id": "3d897781-1f4f-59f0-9622-97d2f17ed585",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "a28b9199-9aad-5548-a535-a057821d95fe",
+          "feedback_weight": 0.5,
+          "edge_text": "docs/update-me.txt is a document."
+        }
+      ],
+      [
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        "c36bc431-8872-59be-8a31-ee8d509e85fb",
+        "mentions",
+        {
+          "source_node_id": "67d2669a-30e2-5e8f-938e-10654aea5569",
+          "target_node_id": "c36bc431-8872-59be-8a31-ee8d509e85fb",
+          "relationship_name": "mentions",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "mentions",
+          "edge_text": "docs/update-me.txt mentions Test company.",
+          "edge_object_id": "63fa3a93-61c6-5fd9-b470-0d076745633d",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        "contains",
+        {
+          "source_node_id": "67d2669a-30e2-5e8f-938e-10654aea5569",
+          "target_node_id": "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "contains",
+          "edge_text": "docs/update-me.txt contains the Test company leave allowance statement.",
+          "edge_object_id": "e186ff75-4b64-5457-a232-37d7c64ce9e8",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "67d2669a-30e2-5e8f-938e-10654aea5569",
+        "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+        "has_version",
+        {
+          "source_node_id": "67d2669a-30e2-5e8f-938e-10654aea5569",
+          "target_node_id": "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+          "relationship_name": "has_version",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "has_version",
+          "edge_text": "docs/update-me.txt has version Version one.",
+          "edge_object_id": "65c91c13-e73d-5985-b566-044a520dc696",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        "98d01d47-f222-5125-a68c-70fe23daf43e",
+        "is_a",
+        {
+          "source_node_id": "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+          "target_node_id": "98d01d47-f222-5125-a68c-70fe23daf43e",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "b4b36ef3-cd0a-5c97-9ac4-7a4941c4c678",
+          "feedback_weight": 0.5,
+          "edge_text": "test company leave allowance is a policy."
+        }
+      ],
+      [
+        "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+        "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+        "has_value",
+        {
+          "source_node_id": "adaabfc1-5c85-5b9a-a7b3-ac476591d570",
+          "target_node_id": "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+          "relationship_name": "has_value",
+          "updated_at": "2026-10-20 11:54:48",
+          "relationship_type": "has_value",
+          "edge_text": "Test company leave allowance has value 20 days per year.",
+          "edge_object_id": "98b558fd-5fc9-505d-bc03-531ef9df31ec",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+        "7a7a0687-e490-5167-ad5a-0e39d9055dee",
+        "is_a",
+        {
+          "source_node_id": "898aa2a3-e587-55c0-bb6f-2423b5c5dc5e",
+          "target_node_id": "7a7a0687-e490-5167-ad5a-0e39d9055dee",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "1e550ea3-2854-5b85-898d-2fc058cf7c5c",
+          "feedback_weight": 0.5,
+          "edge_text": "20 days per year is a quantity."
+        }
+      ],
+      [
+        "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+        "f3edde2c-556b-5d47-8cad-eeec5f5b5a67",
+        "is_a",
+        {
+          "source_node_id": "987dbcbf-6c26-51f5-bf2b-55b8f9dde99a",
+          "target_node_id": "f3edde2c-556b-5d47-8cad-eeec5f5b5a67",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 11:54:48",
+          "edge_object_id": "4f9e7772-29df-5796-ae8d-e96277310834",
+          "feedback_weight": 0.5,
+          "edge_text": "version one is a version."
+        }
+      ]
+    ]
+  }
+]

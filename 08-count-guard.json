@@ -1,0 +1,9 @@
+{
+  "case": "real bucket count overflow",
+  "passed": true,
+  "max_objects": 7,
+  "actual_objects": 8,
+  "downloads": 0,
+  "state_preserved": true,
+  "error": "Pipeline execution failed at `step=extract` when processing package with `load_id=1792497566.1582248` with exception:\n\n<class 'dlt.extract.exceptions.ResourceExtractionError'>\nIn processing pipe `gcs_documents`: extraction of resource `gcs_documents` in `generator` `gcs_documents` caused an exception: GCS prefix exceeds max_objects=7."
+}

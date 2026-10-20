@@ -1,0 +1,349 @@
+[
+  {
+    "dataset_id": "2c7c205d-a63a-5369-84c6-870ecf0e951b",
+    "data": [
+      {
+        "id": "adffd6a6-7be2-52b1-b960-2dfc8f5147cc",
+        "name": "text_1125072c48b8f6ea1bb164e1b4a936aa",
+        "external_metadata": {}
+      }
+    ],
+    "nodes": [
+      [
+        "bf93b248-10c4-5987-a2f3-64d43c1b0f3a",
+        {
+          "name": "",
+          "type": "TextSummary",
+          "created_at": 1792498837030,
+          "updated_at": 1792498837030,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 3,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_and_summarize",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "1125072c48b8f6ea1bb164e1b4a936aa",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/release165-single.txt\n- Projects: project mascot\n- Concepts: silver otter\n\nFacts:\n- The document docs/release165-single.txt states that the project mascot is a silver otter.",
+          "source_chunk_id": "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+          "summarized_in": null,
+          "global_context_bucket_id": null
+        }
+      ],
+      [
+        "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+        {
+          "name": "",
+          "type": "DocumentChunk",
+          "created_at": 1792498835159,
+          "updated_at": 1792498835159,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 2,
+          "metadata": {
+            "index_fields": [
+              "text"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_chunks_from_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "1125072c48b8f6ea1bb164e1b4a936aa",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/release165-single.txt\n\nThe project mascot is a silver otter.",
+          "chunk_size": 20,
+          "chunk_index": 0,
+          "cut_type": "sentence_end",
+          "content_hash": "c5b698bb46cdaa9760495dc1255f4a4d0cf8722f57982c515b39793c0568674b",
+          "max_chunk_tokens": 510,
+          "chunker_id": "text_chunker_v1",
+          "document_id": "adffd6a6-7be2-52b1-b960-2dfc8f5147cc",
+          "document_name": "text_1125072c48b8f6ea1bb164e1b4a936aa",
+          "external_metadata": null,
+          "truth_alignment": null,
+          "truth_epoch": null
+        }
+      ],
+      [
+        "adffd6a6-7be2-52b1-b960-2dfc8f5147cc",
+        {
+          "name": "text_1125072c48b8f6ea1bb164e1b4a936aa",
+          "type": "TextDocument",
+          "created_at": 1792498835129,
+          "updated_at": 1792498835129,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 1,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "classify_documents",
+          "source_node_set": null,
+          "source_user": "default_user@example.com",
+          "source_content_hash": "1125072c48b8f6ea1bb164e1b4a936aa",
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "raw_data_location": "file:///private/tmp/gcs-live-evidence-20261020/cognee-165/data/44479dfa-3d90-4571-acbd-70952453f5f5/text_1125072c48b8f6ea1bb164e1b4a936aa.txt",
+          "external_metadata": "{}",
+          "mime_type": "text/plain"
+        }
+      ],
+      [
+        "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+        {
+          "name": "the project",
+          "type": "Entity",
+          "created_at": 1792498838786,
+          "updated_at": 1792498838786,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "The project referred to in docs/release165-single.txt, whose mascot is a silver otter.",
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null,
+          "conflicts_reviewed_at": null
+        }
+      ],
+      [
+        "ed098e70-7598-5ee9-a836-d175d95aae72",
+        {
+          "name": "project",
+          "type": "EntityType",
+          "created_at": 1792498838785,
+          "updated_at": 1792498838785,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "project",
+          "relations": []
+        }
+      ],
+      [
+        "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        {
+          "name": "silver otter",
+          "type": "Entity",
+          "created_at": 1792498838786,
+          "updated_at": 1792498838786,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "A silver otter serving as the project mascot.",
+          "relations": [],
+          "truth_alignment": null,
+          "truth_subspace_signature": null,
+          "truth_epoch": null,
+          "conflicts_reviewed_at": null
+        }
+      ],
+      [
+        "5d76eb72-04ef-5580-b2ea-161f8429437a",
+        {
+          "name": "animal",
+          "type": "EntityType",
+          "created_at": 1792498838786,
+          "updated_at": 1792498838786,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "metadata": {
+            "index_fields": [
+              "name"
+            ],
+            "identity_fields": [
+              "name"
+            ]
+          },
+          "belongs_to_set": null,
+          "source_pipeline": "cognify_pipeline",
+          "source_task": "extract_graph_from_data",
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "description": "animal",
+          "relations": []
+        }
+      ]
+    ],
+    "edges": [
+      [
+        "bf93b248-10c4-5987-a2f3-64d43c1b0f3a",
+        "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+        "made_from",
+        {
+          "source_node_id": "bf93b248-10c4-5987-a2f3-64d43c1b0f3a",
+          "target_node_id": "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+          "relationship_name": "made_from",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "made_from",
+          "edge_object_id": "deae36a4-74d6-5249-b746-75c7d7c0c9ff",
+          "feedback_weight": 0.5,
+          "edge_text": "This chunk is about: - Documents: docs/release165-single.txt - Projects: project made from # docs/release165-single.txt The project mascot is a silver otter.."
+        }
+      ],
+      [
+        "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+        "adffd6a6-7be2-52b1-b960-2dfc8f5147cc",
+        "is_part_of",
+        {
+          "source_node_id": "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+          "target_node_id": "adffd6a6-7be2-52b1-b960-2dfc8f5147cc",
+          "relationship_name": "is_part_of",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "is_part_of",
+          "edge_object_id": "6e51e0c7-5812-57ff-b013-6343a656fcb7",
+          "feedback_weight": 0.5,
+          "edge_text": "# docs/release165-single.txt The project mascot is a silver otter. is part of text_1125072c48b8f6ea1bb164e1b4a936aa."
+        }
+      ],
+      [
+        "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+        "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+        "contains",
+        {
+          "source_node_id": "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+          "target_node_id": "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions the project: The project referred to in docs/release165-single.txt, whose mascot is a silver otter.",
+          "edge_object_id": "21091b7e-e116-50e0-8058-4b79bcdbba89",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+        "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "contains",
+        {
+          "source_node_id": "ef4a9320-e1f2-5b15-a317-77a5b703bd36",
+          "target_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+          "relationship_name": "contains",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "contains",
+          "edge_text": "Document chunk mentions silver otter: A silver otter serving as the project mascot.",
+          "edge_object_id": "77316ad8-bf43-5b1a-b675-c5049f8f1905",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+        "ed098e70-7598-5ee9-a836-d175d95aae72",
+        "is_a",
+        {
+          "source_node_id": "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+          "target_node_id": "ed098e70-7598-5ee9-a836-d175d95aae72",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "is_a",
+          "edge_object_id": "27701b5d-9dc0-56b9-9ba0-180401bf317a",
+          "feedback_weight": 0.5,
+          "edge_text": "the project is a project."
+        }
+      ],
+      [
+        "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+        "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "has_mascot",
+        {
+          "source_node_id": "e6f26c5e-e47d-5ad4-8d7d-7c1980836f39",
+          "target_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+          "relationship_name": "has_mascot",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "has_mascot",
+          "edge_text": "The project's mascot is a silver otter.",
+          "edge_object_id": "a548b480-1c83-5be7-a05c-838eb33f0c76",
+          "feedback_weight": 0.5
+        }
+      ],
+      [
+        "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "5d76eb72-04ef-5580-b2ea-161f8429437a",
+        "is_a",
+        {
+          "source_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+          "target_node_id": "5d76eb72-04ef-5580-b2ea-161f8429437a",
+          "relationship_name": "is_a",
+          "updated_at": "2026-10-20 12:20:38",
+          "relationship_type": "is_a",
+          "edge_object_id": "e4d7904d-96ff-5f6b-915b-1e377b8a5e14",
+          "feedback_weight": 0.5,
+          "edge_text": "silver otter is a animal."
+        }
+      ]
+    ]
+  }
+]

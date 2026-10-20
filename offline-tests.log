@@ -1,0 +1,27 @@
+
+[2m2026-10-20T11:59:24.364536[0m [[32m[1minfo     [0m] [1mDeleted old log file: /tmp/cognee_logs/2026-10-20_13-47-12.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T11:59:24.365514[0m [[32m[1minfo     [0m] [1mLog file created at: /private/tmp/cognee_logs/2026-10-20_17-29-24.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/private/tmp/cognee_logs/2026-10-20_17-29-24.log[0m
+
+[2m2026-10-20T11:59:24.366212[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T11:59:24.366884[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.4.0[0m [36mdatabase_path[0m=[35m/Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/cognee/.cognee_system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T11:59:24.367779[0m [[32m[1minfo     [0m] [1mDatabase storage: /Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/cognee/.cognee_system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T11:59:24.723752[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+/Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/dlt/destinations/impl/sqlalchemy/merge_job.py:302: SAWarning: implicitly coercing SELECT object to scalar subquery; please use the .scalar_subquery() method to produce a scalar subquery.
+  order_by=order_dir_func(order_by_col),
+........
+[2m2026-10-20T11:59:30.583915[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/large.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+...
+[2m2026-10-20T11:59:31.481509[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/a.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+.
+[2m2026-10-20T11:59:31.865028[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/a.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+2026-10-20 17:29:31,957|[WARNING]|34771|8375975808|dlt|utils.py|verify_schema_merge_disposition:293|The "hard_delete" column hint for column "deleted" in table "gcs_documents" with write disposition "replace" in schema "gcs" will be ignored. The "hard_delete" column hint is only applied when using the "merge" write disposition.
+.2026-10-20 17:29:32,524|[WARNING]|34771|8375975808|dlt|utils.py|verify_schema_merge_disposition:293|The "hard_delete" column hint for column "deleted" in table "gcs_documents" with write disposition "replace" in schema "gcs" will be ignored. The "hard_delete" column hint is only applied when using the "merge" write disposition.
+.
+----------------------------------------------------------------------
+Ran 14 tests in 5.497s
+
+OK

@@ -1,0 +1,43 @@
+{
+  "upstream_delete_data_and_graph": "PASS",
+  "new_document_graph": "PASS",
+  "oversized_existing_graph_cleanup": "PASS",
+  "metadata_only_no_download": "PASS",
+  "metadata_before": {
+    "updated": "2026-10-20T10:12:30.343000Z",
+    "generation": "1792491150264997",
+    "metageneration": "1"
+  },
+  "metadata_after": {
+    "updated": "2026-10-20T11:58:35.019000Z",
+    "generation": "1792491150264997",
+    "metageneration": "2"
+  },
+  "final_document": {
+    "staging_rows": 0,
+    "data_records": 1,
+    "graph_nodes": 11,
+    "graph_edges": 13,
+    "result": "FAIL: upstream Cognee empty-corpus cleanup limitation"
+  },
+  "vector_table_counts": {
+    "cognee": {
+      "EntityType_name": 9,
+      "SessionQAVector_text": 4,
+      "TextSummary_text": 6,
+      "EdgeType_relationship_name": 45,
+      "DocumentChunk_text": 6,
+      "Entity_name": 12,
+      "TextDocument_name": 6
+    },
+    "cognee-final": {
+      "EntityType_name": 4,
+      "SessionQAVector_text": 2,
+      "TextSummary_text": 1,
+      "EdgeType_relationship_name": 13,
+      "DocumentChunk_text": 1,
+      "Entity_name": 4,
+      "TextDocument_name": 1
+    }
+  }
+}

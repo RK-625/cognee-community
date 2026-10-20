@@ -1,0 +1,65 @@
+[
+  {
+    "name": "docs/",
+    "size": 0,
+    "generation": "1792491120505209",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:12:00.576000+00:00"
+  },
+  {
+    "name": "docs/above-limit.txt",
+    "size": 1025,
+    "generation": "1792491148109205",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:12:28.183000+00:00"
+  },
+  {
+    "name": "docs/at-limit.txt",
+    "size": 1024,
+    "generation": "1792491148297399",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:12:28.376000+00:00"
+  },
+  {
+    "name": "docs/below-limit.txt",
+    "size": 1023,
+    "generation": "1792491148470039",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:12:28.544000+00:00"
+  },
+  {
+    "name": "docs/empty.txt",
+    "size": 0,
+    "generation": "1792491149377129",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:12:29.450000+00:00"
+  },
+  {
+    "name": "docs/support.txt",
+    "size": 1115,
+    "generation": "1792497468008148",
+    "metageneration": "1",
+    "updated": "2026-10-20T11:57:48.138000+00:00"
+  },
+  {
+    "name": "docs/unicode.txt",
+    "size": 35,
+    "generation": "1792491150264997",
+    "metageneration": "2",
+    "updated": "2026-10-20T11:58:35.019000+00:00"
+  },
+  {
+    "name": "docs/update-me.txt",
+    "size": 64,
+    "generation": "1792497349076846",
+    "metageneration": "1",
+    "updated": "2026-10-20T11:55:49.207000+00:00"
+  },
+  {
+    "name": "outside-prefix.txt",
+    "size": 78,
+    "generation": "1792493702099813",
+    "metageneration": "1",
+    "updated": "2026-10-20T10:55:02.175000+00:00"
+  }
+]

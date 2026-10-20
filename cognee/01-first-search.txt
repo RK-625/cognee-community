@@ -1,0 +1,1 @@
+[{'dataset_id': UUID('ed73932b-0890-5239-97a6-d43f2595674d'), 'dataset_name': 'gcs_live_evidence', 'dataset_tenant_id': None, 'search_result': ['Support hours are 9 AM to 5 PM. The context does not provide any information about a launch meeting.']}]

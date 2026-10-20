@@ -1,0 +1,33 @@
+   Building cognee-community-connector-gcs @ file:///Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs
+      Built cognee-community-connector-gcs @ file:///Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs
+Uninstalled 12 packages in 750ms
+Installed 20 packages in 160ms
+
+[2m2026-10-20T12:23:20.038545[0m [[32m[1minfo     [0m] [1mDeleted old log file: /Users/apple/.cognee/logs/2026-10-20_17-27-09.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T12:23:20.038910[0m [[32m[1minfo     [0m] [1mLog file created at: /Users/apple/.cognee/logs/2026-10-20_12-23-19.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/Users/apple/.cognee/logs/2026-10-20_12-23-19.log[0m
+
+[2m2026-10-20T12:23:20.039052[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T12:23:20.039168[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.6.5[0m [36mdatabase_path[0m=[35m/Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/cognee/.cognee_system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T12:23:20.039274[0m [[32m[1minfo     [0m] [1mDatabase storage: /Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/cognee/.cognee_system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T12:23:20.039351[0m [[32m[1minfo     [0m] [1mLoaded settings from /Users/apple/.codex/worktrees/b59e/cognee-community/.env; its values take precedence over preset environment variables.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T12:23:22.727505[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+/Users/apple/.codex/worktrees/b59e/cognee-community/packages/connector/gcs/.venv/lib/python3.13/site-packages/dlt/destinations/impl/sqlalchemy/merge_job.py:248: SAWarning: implicitly coercing SELECT object to scalar subquery; please use the .scalar_subquery() method to produce a scalar subquery.
+  order_by=order_dir_func(order_by_col),
+........
+[2m2026-10-20T12:23:28.639519[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/large.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+...
+[2m2026-10-20T12:23:29.707517[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/a.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+.
+[2m2026-10-20T12:23:30.066985[0m [[33m[1mwarning  [0m] [1mGCS: skipping gs://company-documents/docs/a.txt (100 bytes exceeds max_object_size=10).[0m [[0m[1m[34mgcs_connector[0m][0m
+2026-10-20 17:53:30,139|[WARNING]|38743|8375975808|dlt|utils.py|verify_schema_merge_disposition:210|The "hard_delete" column hint for column "deleted" in table "gcs_documents" with write disposition "replace" in schema "gcs" will be ignored. The "hard_delete" column hint is only applied when using the "merge" write disposition.
+.2026-10-20 17:53:30,486|[WARNING]|38743|8375975808|dlt|utils.py|verify_schema_merge_disposition:210|The "hard_delete" column hint for column "deleted" in table "gcs_documents" with write disposition "replace" in schema "gcs" will be ignored. The "hard_delete" column hint is only applied when using the "merge" write disposition.
+.
+----------------------------------------------------------------------
+Ran 14 tests in 5.292s
+
+OK

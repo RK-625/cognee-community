@@ -1,0 +1,70 @@
+# GCS connector validation evidence
+
+Code commit: `af5ad4b59493f9c040aa1a45f0ad70dca12d75a3`.
+
+The full live scenario matrix used Cognee 1.4.0 / dlt 1.31.0. Final-document deletion passed on Cognee 1.6.5 / dlt 1.30.0, and 14 tests passed with the updated locked dependencies. The full live matrix was not repeated on 1.6.5.
+
+Google service-account JSON authentication; real GCS synthetic fixtures; 12-object and 1,024-byte limits, with count guards tested separately. DeepSeek extraction/search and local BAAI embeddings.
+
+Console PNGs are real GCS captures. Clean table PNGs render recorded test outputs, with test labels/padding removed from previews. They are not Cognee product UI. Deletion rows retain last known content/size where available.
+
+Raw inventories/results are at the root; graph/Data/search snapshots are under cognee/, cognee-final/ and cognee-165/. The 1.4.0 final-document failure is historical; cognee-165/result.json records successful current-version cleanup.
+
+SHA-256 checksums:
+
+```text
+67a81fbff5093bcc5c70e1f5731f4bd1980da5366081a6fd23bc3417348a98dd  01-first-gcs.json
+c637fef105442c626b5dcc8f1e12fdcb48de1b2ed93d6b6e28768fc07a8c649f  01-first-results.json
+d2a05ef1658e9233bd554df50d11a09d460a25a29374350737df030dc2b23be4  01-gcs-initial.png
+67a81fbff5093bcc5c70e1f5731f4bd1980da5366081a6fd23bc3417348a98dd  02-unchanged-gcs.json
+30cba0436bbd52b8d88aeedc26a95390527caf1a9747143871f503df4cf153f4  02-unchanged-results.json
+7f8ec04d0d275a5f6f182286e07476529cbc2e00d403449e716176989f2a4270  03-gcs-outside-prefix.png
+c68ff693f1f47cd1e002e9c529532a086625bb1ff8cbdef8fc744f5255a1cd5e  03-prefix-exclusion-gcs.json
+0bf1d036959d8a230f0dd7e8c12a2f55f69e2970b1f8f54af3687f8543b9eba0  03-prefix-exclusion-results.json
+17a326b0be19d67b08f2a422d46e1a5738943766b9ba7c346401017452622889  04-gcs-updated.png
+8c05417c5247dc37f11c27ab9bd14dec57147cf8986171eca4812828d7f34211  04-update-gcs.json
+52772372f00bb5b22fbdcf47773680ad8fd002744823c6bc45b75a9eb1210ee5  04-update-results.json
+d86143fbf977cde45dd6700b4205526b7148066a1c5cbef7abfd1f9fdd44179c  05-delete-gcs.json
+8b71e3a91e12fbf7ea64608117d7097aa19f76a84409f64c4f8d77b9902a4ebc  05-delete-results.json
+bc5bf9daae2d73ee62492c40ffb1a87a89b52ee40060888f694bc76547576d0f  05-gcs-deleted.png
+6db93c45cc33710827860e2e7f1c2786c30dbca6d6cde2dbd2a8ef28b20aef7c  06-gcs-new-and-oversized.png
+32e9c5da6b6ce396a64d99cff7727073fffa6690674170bd69961a2c85776749  06-new-and-oversized-gcs.json
+0eef49c86b99f7d6e81cdd0c9bef26d3b4b0145d11ec9e462c0652d354d57b34  06-new-and-oversized-results.json
+4cca3f9c6310bada2767eeb5cfcd9142ad5b50817eefc95b17114d7678e0a21d  07-gcs-metadata.png
+e74caeafaf95198c0fb4210e81912f5e96ea44f8c434b29ac3d23e89de6be6a6  07-metadata-gcs.json
+2980f06e796fea8d1ae5d94a247a4b0a77f58a3abbb63ed7a60f52eefcd73b42  07-metadata-results.json
+a7199516c0713fb2faa968df4a908eb1e818a44b17fe4858fdcac8891e1d86d8  08-count-guard.json
+0f7d7c70378cfd204a63ebaf3fce46a6877f90f7a5124932b2ece0437a924dd5  10-fresh-prefix-gcs.json
+25b961eb2b87b077b66aa4b0ba14af73cdfc8a7065a85c12fc9ca7b274e4573b  10-fresh-prefix-results.json
+7914bfb1069c0f5d95471efd7df7797890d3856ed05bd206764819331d089688  13-gcs-release165-deleted.png
+a1de49ee1125dd4a0aa65fc2189a3f7e9714281b823509ead131985a0334e672  clean-01-first.png
+cef3fc6728a83968761870469a9cf635e2b06abf74f26585e2b1f2f02015f0d9  clean-02-unchanged.png
+744344041e350abed015bcd3e2bfdb425acb6f180b31d11bf8ca578e37d839aa  clean-04-update.png
+23c95f19b88fb43d3395c93d8ceac3f64da3e26f644dffeed18ff047ebcab7f2  clean-05-delete.png
+07dbcb9e15621c4942f88fb6dc1da60ce32539b76fe1c171a5c232bef8419c34  clean-06-new-and-oversized.png
+ab4445ac1e0cfa37228cf2beeacf8034a7d98cafdb080bd4785792fc0f7149bf  clean-07-metadata.png
+0f0487760975d9cfbc7f060d7ae629e6de23a7de46ccb7a9abb7c3eeb3c1e18e  clean-08-count.png
+173b7052be57151c913deef760de07ffe4fc9338b953eefb010820ff9d2d8b66  clean-10-fresh-prefix.png
+f20e74f87ca04da8415498d65d0b471077c7335b5850de53a28684e7c547d46e  clean-13-final-delete.png
+103cde4280c2fe59bc422ffe8e01fe790c71584fd33736119f898311528bb4db  cognee-165/12-release165-before-graph.json
+f21cfc89169dd84ad859717829811c72537889a9316ea8c0fd0a29af40183623  cognee-165/12-release165-before-search.txt
+b0136d85d46c38d630c23cf0ea5195fa2b2d9fe265b9935f858f241736ef3ddc  cognee-165/13-release165-after-graph.json
+cce46494667093cfcaa58a00f05b27f8fdc20fda9a8b224e06d27ea58aaf7c02  cognee-165/locked-tests.log
+af89643709f4cef1687990253c5da8f2bbb04592cf4224d52a2f6f6404f0d6f3  cognee-165/result.json
+48d451313f83625def0e2d8ca611b9e35f577e3489564a0769ad814e2863fdb3  cognee-final/08-single-graph.json
+a1a3406b19cfa73cb06e9451f93177d34b5c07b9b9593619cc7c51e05748a92a  cognee-final/08-single-search.txt
+48d451313f83625def0e2d8ca611b9e35f577e3489564a0769ad814e2863fdb3  cognee-final/09-final-delete-graph.json
+a0148add31ed451f3b7d08b80c9160dc6602ccddbe91bd6388057405c10752c4  cognee-final/09-final-delete-search.txt
+82622e5c56c558af4bdb4a428c1f5ef8510f500d72b40bad867c31efd1291df6  cognee/01-first-graph.json
+918db3e72b9d350eb3cfc43a32ad94cdb64a34b01c68727dfebd3d6641890870  cognee/01-first-search.txt
+8ab3a1d7599f802221fb596456f2557fa24a207798f912366c52993b1f67f565  cognee/04-update-graph.json
+ed5f0fc7f786da288ec8880830562562f0773e03442d70e31900c8bf244cd2bd  cognee/04-update-search.txt
+27a3d76a36e79b11e490b1aa443684db6fcd571070c9211aa2e45f611982e2d8  cognee/05-delete-graph.json
+18767fe71ccbc81684c8fd4af072f21c98e3b8bdee7ef6b04cde5d5bc11301a8  cognee/05-delete-search.txt
+65006c3ecb2bcf7fd275a893688b519c92f8bb67213e7e360406415d42b92f9b  cognee/06-new-and-oversized-graph.json
+4240baed70b3682557420b41ba96bf96e3c4fa6c6ee0fba14ea1ba433339f8cb  cognee/06-new-and-oversized-search.txt
+57209cd28479151267f7673b4ce9d4961d1b88b1dab3c3204af5aa70971eff2d  cognee/11-current-graph.json
+4240baed70b3682557420b41ba96bf96e3c4fa6c6ee0fba14ea1ba433339f8cb  cognee/11-current-search.txt
+74581417f45c97941ad68e90a99f202d70b925c015207db472ea3d4a5b129565  offline-tests.log
+5455bec2dedb5189147f8674d3a958b11f91fb2b4afdb675a63d61c42f20cdbf  verification.json
+```

@@ -1,0 +1,90 @@
+{
+  "stage": "06-new-and-oversized",
+  "time": "2026-10-20T11:58:14.634722+00:00",
+  "bucket": "spy-501711-cognee-gcs-test-20261020",
+  "prefix": "docs/",
+  "max_objects": 12,
+  "max_object_size": 1024,
+  "downloads": [
+    {
+      "name": "docs/new-document.txt",
+      "bytes": 56,
+      "generation_precondition": 1792497458873631
+    }
+  ],
+  "load_ids": [
+    "1792497493.287903"
+  ],
+  "rows": [
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt",
+      "title": "docs/at-limit.txt",
+      "content": "Exactly at the 1024-byte test limit.\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ",
+      "sha256": "1f9d92ddac1f38062179feedebcd1930d75634dcf9eaeda24c64ebcf88d0904d"
+    },
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt",
+      "title": "docs/below-limit.txt",
+      "content": "Below the 1024-byte test limit.\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+      "sha256": "38aaba9378a94e0312a397caddd59af3fca0604f55d37c6b7b9a671236b05e18"
+    },
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt",
+      "title": "docs/empty.txt",
+      "content": "",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/new-document.txt",
+      "title": "docs/new-document.txt",
+      "content": "GCS_NEW_SENTINEL: The project mascot is a silver otter.\n",
+      "sha256": "7df8ff4ea0b606e6f8d536225a77217810eaeeb05ddaccf9d3f51348185f1f60"
+    },
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt",
+      "title": "docs/unicode.txt",
+      "content": "Café 東京 — Unicode document.\n",
+      "sha256": "ddcf02b3d8c647426f35f9ae8463abd5d65d02a138f5d3b03841971686648cb9"
+    },
+    {
+      "id": "gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt",
+      "title": "docs/update-me.txt",
+      "content": "GCS_UPDATED_SENTINEL: The launch meeting is now Friday at 3 PM.\n",
+      "sha256": "f324cc2e7a924628a7fd7c5f8799b0ba563c3fbc872cf5daf2b3125dfee8039c"
+    }
+  ],
+  "inventory": {
+    "spy-501711-cognee-gcs-test-20261020/docs/": {
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/at-limit.txt": {
+        "updated": "2026-10-20T10:12:28.376000Z",
+        "generation": "1792491148297399",
+        "metageneration": "1"
+      },
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/below-limit.txt": {
+        "updated": "2026-10-20T10:12:28.544000Z",
+        "generation": "1792491148470039",
+        "metageneration": "1"
+      },
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/empty.txt": {
+        "updated": "2026-10-20T10:12:29.450000Z",
+        "generation": "1792491149377129",
+        "metageneration": "1"
+      },
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/new-document.txt": {
+        "updated": "2026-10-20T11:57:38.947000Z",
+        "generation": "1792497458873631",
+        "metageneration": "1"
+      },
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/unicode.txt": {
+        "updated": "2026-10-20T10:12:30.343000Z",
+        "generation": "1792491150264997",
+        "metageneration": "1"
+      },
+      "gs://spy-501711-cognee-gcs-test-20261020/docs/update-me.txt": {
+        "updated": "2026-10-20T11:55:49.207000Z",
+        "generation": "1792497349076846",
+        "metageneration": "1"
+      }
+    }
+  }
+}

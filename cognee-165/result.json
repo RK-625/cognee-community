@@ -1,0 +1,30 @@
+{
+  "version": "1.6.5",
+  "before": {
+    "data": 1,
+    "nodes": 7,
+    "edges": 7
+  },
+  "after": {
+    "data": 0,
+    "nodes": 0,
+    "edges": 0
+  },
+  "staging": {
+    "dlt_database_gcs_release165__gcs_release165": 0
+  },
+  "vector_counts": {
+    "EntityType_name": 0,
+    "SessionQAVector_text": 0,
+    "TextSummary_text": 0,
+    "EdgeType_relationship_name": 0,
+    "DocumentChunk_text": 0,
+    "Entity_name": 0,
+    "TextDocument_name": 0
+  },
+  "sync": "completed",
+  "search": "NoDataError: no searchable memory (expected for empty dataset)",
+  "offline_tests": 14,
+  "dlt": "1.30.0",
+  "fastembed": "0.8.0"
+}
