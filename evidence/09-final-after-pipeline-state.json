@@ -1,0 +1,108 @@
+[
+  {
+    "path": "pipelines/ingest_dlt_02f00a58f632ea915319a090b7a21c0e/state.json",
+    "state": {
+      "_state_version": 2,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/final"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:04:32.775218+00:00",
+        "_last_extracted_hash": "J7YoG4I7tsTsS+T80mOVZ++qsQmP2R4Ju4oLp5gELp4="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+      "default_schema_name": "azure_blob",
+      "dataset_name": "azure_validation_final",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "J7YoG4I7tsTsS+T80mOVZ++qsQmP2R4Ju4oLp5gELp4=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f00a58f632ea915319a090b7a21c0e/load/loaded/1792519472.651785/.restore/state.json",
+    "state": {
+      "_state_version": 1,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/final"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:03:48.673266+00:00",
+        "_last_extracted_hash": "p3TnZAZJpv3tbE0ykcQqwh2ZRCuNn1xkNBoM1lyBrUo="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+      "default_schema_name": "azure_blob",
+      "dataset_name": "azure_validation_final",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "p3TnZAZJpv3tbE0ykcQqwh2ZRCuNn1xkNBoM1lyBrUo=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt": {
+                    "name": "final/only-document.txt",
+                    "last_modified": "2026-10-20T18:03:17Z",
+                    "etag": "0x8DF2ED46B4826DA"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f00a58f632ea915319a090b7a21c0e/load/loaded/1792519428.557081/.restore/state.json",
+    "state": {
+      "_state_version": 0,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": true,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/final",
+        "last_run_context": null
+      },
+      "schema_names": [],
+      "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+      "default_schema_name": null,
+      "dataset_name": "azure_validation_final",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "6S1SZOmVOC4Aew/YJ4JBVLKDFWxVJKhfj03UVhjPlmw="
+    }
+  }
+]

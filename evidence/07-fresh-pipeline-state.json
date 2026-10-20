@@ -1,0 +1,93 @@
+[
+  {
+    "path": "pipelines/ingest_dlt_55dc6261431a3fee011ffffc0e1df22b/state.json",
+    "state": {
+      "_state_version": 1,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/fresh",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/fresh/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/fresh",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/fresh",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:03:19.069279+00:00",
+        "_last_extracted_hash": "jJBT/ENpL9GNEPa/nhqqCr3MbyVEmmlOP6QQnbj8j6w="
+      },
+      "pipeline_name": "ingest_dlt_55dc6261431a3fee011ffffc0e1df22b",
+      "default_schema_name": "azure_blob",
+      "dataset_name": "azure_validation_fresh",
+      "schema_names": [
+        "azure_blob"
+      ],
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "jJBT/ENpL9GNEPa/nhqqCr3MbyVEmmlOP6QQnbj8j6w=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt": {
+                    "name": "docs/new-document.txt",
+                    "last_modified": "2026-10-20T18:02:09Z",
+                    "etag": "0x8DF2ED4427F5D42"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T18:02:50Z",
+                    "etag": "0x8DF2ED45B0190F7"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T18:00:28Z",
+                    "etag": "0x8DF2ED406817FC2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_55dc6261431a3fee011ffffc0e1df22b/load/loaded/1792519398.483667/.restore/state.json",
+    "state": {
+      "_state_version": 0,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": true,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/fresh",
+        "last_run_context": null
+      },
+      "pipeline_name": "ingest_dlt_55dc6261431a3fee011ffffc0e1df22b",
+      "default_schema_name": null,
+      "dataset_name": "azure_validation_fresh",
+      "schema_names": [],
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "2Nj+rNN1YiHokzNAZE605A1vxPRixC6qI9NbZZHexXE="
+    }
+  }
+]

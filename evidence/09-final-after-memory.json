@@ -1,0 +1,24 @@
+{
+  "dataset_id": "e31a6710-2407-5d1f-b8b5-a937d787376f",
+  "data": [],
+  "nodes": [],
+  "edges": [],
+  "vector_counts": {
+    "DocumentChunk_text": 0,
+    "EdgeType_relationship_name": 0,
+    "EntityType_name": 0,
+    "Entity_name": 0,
+    "SessionQAVector_text": 0,
+    "TextDocument_name": 0,
+    "TextSummary_text": 0
+  },
+  "vector_rows": {
+    "DocumentChunk_text": [],
+    "EdgeType_relationship_name": [],
+    "EntityType_name": [],
+    "Entity_name": [],
+    "SessionQAVector_text": [],
+    "TextDocument_name": [],
+    "TextSummary_text": []
+  }
+}

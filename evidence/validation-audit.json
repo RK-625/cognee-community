@@ -1,0 +1,233 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Initial sync: seven eligible text documents",
+      "passed": true,
+      "detail": {
+        "data": 7,
+        "nodes": 41,
+        "edges": 42,
+        "vectors": {
+          "DocumentChunk_text": 7,
+          "EdgeType_relationship_name": 42,
+          "EntityType_name": 9,
+          "Entity_name": 11,
+          "TextDocument_name": 7,
+          "TextSummary_text": 7
+        }
+      }
+    },
+    {
+      "check": "Exact size boundaries / empty / Unicode",
+      "passed": true,
+      "detail": "1023/1024 accepted, 1025 excluded; empty content and Unicode preserved"
+    },
+    {
+      "check": "Prefix exclusion and folder skip",
+      "passed": true,
+      "detail": "outside-prefix.txt and folder placeholder absent from staging"
+    },
+    {
+      "check": "Persistent new-process unchanged rerun",
+      "passed": true,
+      "detail": {
+        "data": 7,
+        "nodes": 41,
+        "edges": 42,
+        "vectors": {
+          "DocumentChunk_text": 7,
+          "EdgeType_relationship_name": 42,
+          "EntityType_name": 9,
+          "Entity_name": 11,
+          "SessionQAVector_text": 1,
+          "TextDocument_name": 7,
+          "TextSummary_text": 7
+        }
+      }
+    },
+    {
+      "check": "Overwrite: one download, stable source URL ID",
+      "passed": true,
+      "detail": {
+        "question": "When is the Kestrel launch?",
+        "answer": [
+          {
+            "dataset_id": "34261ed1-b39c-52a9-9a2b-93fcd136a08d",
+            "dataset_name": "azure_validation_main",
+            "dataset_tenant_id": null,
+            "search_result": [
+              "Friday at 3 PM."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Overwrite removes old graph/vector fact",
+      "passed": true,
+      "detail": "Current graph and stored vector text contain no Monday fact. Cognee recreates the content-derived Data ID; source URL ID stays stable."
+    },
+    {
+      "check": "Delete: direct BlobNotFound and cleanup",
+      "passed": true,
+      "detail": {
+        "question": "What is the Zephyr vault access phrase?",
+        "answer": [
+          {
+            "dataset_id": "34261ed1-b39c-52a9-9a2b-93fcd136a08d",
+            "dataset_name": "azure_validation_main",
+            "dataset_tenant_id": null,
+            "search_result": [
+              "The provided context does not contain any information about a Zephyr vault access phrase."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Add plus newly oversized cleanup",
+      "passed": true,
+      "detail": {
+        "question": "What is the Polaris project mascot?",
+        "answer": [
+          {
+            "dataset_id": "34261ed1-b39c-52a9-9a2b-93fcd136a08d",
+            "dataset_name": "azure_validation_main",
+            "dataset_tenant_id": null,
+            "search_result": [
+              "A silver otter."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "check": "Metadata: changed ETag / Last-Modified, identical content",
+      "passed": true,
+      "detail": {
+        "action": "metadata",
+        "name": "docs/unicode.txt",
+        "before": {
+          "etag": "\"0x8DF2ED3C39E790F\"",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        "after": {
+          "etag": "\"0x8DF2ED45B0190F7\"",
+          "last_modified": "2026-10-20 18:02:50+00:00"
+        }
+      }
+    },
+    {
+      "check": "Metadata: no duplicate Data or graph artifacts",
+      "passed": true,
+      "detail": "Six Data rows retained; graph node snapshot identical"
+    },
+    {
+      "check": "Fresh destination: complete independent snapshot",
+      "passed": true,
+      "detail": {
+        "data": 6,
+        "nodes": 33,
+        "edges": 34,
+        "vectors": {
+          "DocumentChunk_text": 6,
+          "EdgeType_relationship_name": 34,
+          "EntityType_name": 7,
+          "Entity_name": 9,
+          "TextDocument_name": 6,
+          "TextSummary_text": 6
+        }
+      }
+    },
+    {
+      "check": "Count guard: zero downloads and committed SQL unchanged",
+      "passed": true,
+      "detail": "8 non-folder blobs exceeds max_objects=7; committed staging and Data unchanged"
+    },
+    {
+      "check": "Count guard: cursor unchanged",
+      "passed": true,
+      "detail": "Persisted inventory unchanged after expected failure"
+    },
+    {
+      "check": "Count guard: recovery succeeds without downloads",
+      "passed": true,
+      "detail": {
+        "data": 6,
+        "nodes": 33,
+        "edges": 34,
+        "vectors": {
+          "DocumentChunk_text": 6,
+          "EdgeType_relationship_name": 34,
+          "EntityType_name": 6,
+          "Entity_name": 9,
+          "SessionQAVector_text": 1,
+          "TextDocument_name": 6,
+          "TextSummary_text": 6
+        }
+      }
+    },
+    {
+      "check": "Final document: nonempty before, entirely empty after",
+      "passed": true,
+      "detail": {
+        "before": {
+          "data": 1,
+          "nodes": 7,
+          "edges": 7,
+          "vectors": {
+            "DocumentChunk_text": 1,
+            "EdgeType_relationship_name": 7,
+            "EntityType_name": 2,
+            "Entity_name": 2,
+            "TextDocument_name": 1,
+            "TextSummary_text": 1
+          }
+        },
+        "after": {
+          "data": 0,
+          "nodes": 0,
+          "edges": 0,
+          "vectors": {
+            "DocumentChunk_text": 0,
+            "EdgeType_relationship_name": 0,
+            "EntityType_name": 0,
+            "Entity_name": 0,
+            "SessionQAVector_text": 0,
+            "TextDocument_name": 0,
+            "TextSummary_text": 0
+          }
+        }
+      }
+    },
+    {
+      "check": "Final empty dataset search",
+      "passed": true,
+      "detail": {
+        "question": "What is the Solstice observatory telescope named?",
+        "exception": "NoDataError",
+        "error": "NoDataError: No searchable memory in dataset 'azure_validation_final' (id: e31a6710-2407-5d1f-b8b5-a937d787376f): no data has been added; add data and run cognify before searching. (Status code: 404)"
+      }
+    },
+    {
+      "check": "Live format, paging, race, and failure recovery assertions",
+      "passed": true,
+      "detail": {
+        "accepted_formats": 15,
+        "pages": 9,
+        "race": "failed",
+        "recovery": "completed",
+        "missing_container": "failed",
+        "vanish": "completed"
+      }
+    },
+    {
+      "check": "One tested connector source throughout",
+      "passed": true,
+      "detail": [
+        "e08712992cdc1ee5e33f71581d50f0162b2c18cbbd8f205879d9dfdc17db0ab4"
+      ]
+    }
+  ]
+}

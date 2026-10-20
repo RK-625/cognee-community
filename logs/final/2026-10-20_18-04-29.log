@@ -1,0 +1,92 @@
+2026-10-20T18:04:29.549608 [INFO    ] Log file created at: /private/tmp/azure-blob-validation-20261020/logs/final/2026-10-20_18-04-29.log log_file=/private/tmp/azure-blob-validation-20261020/logs/final/2026-10-20_18-04-29.log [cognee.shared.logging_utils]
+2026-10-20T18:04:29.549716 [WARNING ] Cognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/ [cognee.shared.logging_utils]
+2026-10-20T18:04:29.549806 [INFO    ] Logging initialized python_version=3.13.5 structlog_version=25.5.0 cognee_version=1.6.5 os_info=Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000) database_path=/private/tmp/azure-blob-validation-20261020/runtime/final/system/databases [cognee.shared.logging_utils]
+2026-10-20T18:04:29.549863 [INFO    ] Database storage: /private/tmp/azure-blob-validation-20261020/runtime/final/system/databases [cognee.shared.logging_utils]
+2026-10-20T18:04:29.549916 [INFO    ] No .env file found; using process environment variables only. [cognee.shared.logging_utils]
+2026-10-20T18:04:31.311260 [INFO    ] auth posture: authentication=required, multi_tenant=enabled (default (no env vars set)) [get_authenticated_user]
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'b35806aa-ccb0-11f1-a92d-b9a7bf983815'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 200
+Response headers:
+    'Content-Length': '19083'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '69392211-a01e-0031-30bd-60bab5000000'
+    'x-ms-client-request-id': 'b35806aa-ccb0-11f1-a92d-b9a7bf983815'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:04:31 GMT'
+setup plugin alembic.autogenerate.schemas
+setup plugin alembic.autogenerate.tables
+setup plugin alembic.autogenerate.types
+setup plugin alembic.autogenerate.constraints
+setup plugin alembic.autogenerate.defaults
+setup plugin alembic.autogenerate.comments
+setup plugin alembic.ext.checkconstraint_byname
+Using database: sqlite+aiosqlite:////private/tmp/azure-blob-validation-20261020/runtime/final/system/databases/cognee_db
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+Relational migrations applied (target head).
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'b3b5ce0c-ccb0-11f1-a92d-b9a7bf983815'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 200
+Response headers:
+    'Content-Length': '231'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '693922b9-a01e-0031-4fbd-60bab5000000'
+    'x-ms-client-request-id': 'b3b5ce0c-ccb0-11f1-a92d-b9a7bf983815'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:04:31 GMT'
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt'
+Request method: 'HEAD'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': 'b3bc34d6-ccb0-11f1-a92d-b9a7bf983815'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 404
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '693922c7-a01e-0031-5dbd-60bab5000000'
+    'x-ms-client-request-id': 'b3bc34d6-ccb0-11f1-a92d-b9a7bf983815'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'BlobNotFound'
+    'Date': 'Tue, 20 Oct 2026 18:04:31 GMT'
+2026-10-20T18:04:32.868730 [INFO    ] Resolved 1 DLT source(s) into 0 DataItem(s) (0 manifest(s), 0 document(s)). [resolve_dlt_sources]
+2026-10-20T18:04:32.872166 [INFO    ] Skipping LLM connection test: this pipeline has no LLM task. [cognee.shared.logging_utils]
+2026-10-20T18:04:32.872975 [INFO    ] Testing connection to Embedding endpoint... [cognee.shared.logging_utils]
+2026-10-20T18:04:33.092603 [INFO    ] Loading local model BAAI/bge-small-en-v1.5 from /private/tmp/azure-blob-validation-20261020/runtime/models [FastembedEmbeddingEngine]
+2026-10-20T18:04:35.647223 [INFO    ] Embedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096. [cognee.shared.logging_utils]
+2026-10-20T18:04:35.888763 [INFO    ] Deleting 1 orphaned dlt row(s) from dataset 'azure_validation_final'. [resolve_dlt_sources]
+2026-10-20T18:04:36.148771 [WARNING ] No nodes found in the database [cognee.shared.logging_utils]
+2026-10-20T18:04:36.167783 [INFO    ] Deleted 7 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-20T18:04:36.188834 [WARNING ] Stored file to clean up was already gone: file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt [cognee.shared.logging_utils]
+2026-10-20T18:04:36.222719 [INFO    ] Session invalidation: removed 1 QA and 0 context entr(ies) referencing deleted data in dataset e31a6710-2407-5d1f-b8b5-a937d787376f [invalidate_sessions]
+2026-10-20T18:04:36.235716 [INFO    ] Embedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096. [cognee.shared.logging_utils]
+2026-10-20T18:04:36.241516 [INFO    ] Testing connection to LLM endpoint... [cognee.shared.logging_utils]
+2026-10-20T18:04:37.672716 [WARNING ] No nodes found in the database [cognee.shared.logging_utils]
+2026-10-20T18:04:37.726855 [WARNING ] Search attempt on an empty knowledge graph - no data has been added to this dataset: azure_validation_final [cognee.shared.logging_utils]
+2026-10-20T18:04:37.727639 [WARNING ] Search attempt on an empty knowledge graph [cognee.shared.logging_utils]
+2026-10-20T18:04:37.766639 [ERROR   ] NoDataError raised (Status code: 404): The knowledge graph is empty. Ingest data through Cognee before searching. [cognee.shared.logging_utils]
+2026-10-20T18:04:37.766780 [ERROR   ] NoDataError raised (Status code: 404): Dataset 'azure_validation_final' (id: e31a6710-2407-5d1f-b8b5-a937d787376f): no data has been added; add data and run cognify before searching. [cognee.shared.logging_utils]
+2026-10-20T18:04:37.766977 [ERROR   ] NoDataError raised (Status code: 404): No searchable memory in dataset 'azure_validation_final' (id: e31a6710-2407-5d1f-b8b5-a937d787376f): no data has been added; add data and run cognify before searching. [cognee.shared.logging_utils]

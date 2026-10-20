@@ -1,0 +1,463 @@
+{
+  "time": "2026-10-20T18:01:18.237341+00:00",
+  "coverage": "real Azure SDK with controlled mutation immediately before conditional download; real SQLite dlt destination",
+  "formats": {
+    "status": "completed",
+    "error": null,
+    "events": [
+      {
+        "op": "page",
+        "index": 0,
+        "names": [
+          "formats/bom.txt",
+          "formats/folder/"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 1,
+        "names": [
+          "formats/invalid.txt",
+          "formats/noextension"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 2,
+        "names": [
+          "formats/sample.TXT",
+          "formats/sample.csv"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 3,
+        "names": [
+          "formats/sample.htm",
+          "formats/sample.html"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 4,
+        "names": [
+          "formats/sample.json",
+          "formats/sample.log"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 5,
+        "names": [
+          "formats/sample.markdown",
+          "formats/sample.md"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 6,
+        "names": [
+          "formats/sample.rst",
+          "formats/sample.txt"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 7,
+        "names": [
+          "formats/sample.xml",
+          "formats/sample.yaml"
+        ]
+      },
+      {
+        "op": "page",
+        "index": 8,
+        "names": [
+          "formats/sample.yml",
+          "formats/skip.pdf"
+        ]
+      },
+      {
+        "op": "download",
+        "name": "formats/bom.txt",
+        "etag": "0x8DF2ED4166C4710",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 30
+      },
+      {
+        "op": "download",
+        "name": "formats/invalid.txt",
+        "etag": "0x8DF2ED416717512",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 25
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.TXT",
+        "etag": "0x8DF2ED41666F213",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.csv",
+        "etag": "0x8DF2ED4163B86FF",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.htm",
+        "etag": "0x8DF2ED4165BFA15",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.html",
+        "etag": "0x8DF2ED41656F309",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 51
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.json",
+        "etag": "0x8DF2ED41635BCFF",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 51
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.log",
+        "etag": "0x8DF2ED416519E0E",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.markdown",
+        "etag": "0x8DF2ED4163019F8",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 55
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.md",
+        "etag": "0x8DF2ED4162A9DFC",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 49
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.rst",
+        "etag": "0x8DF2ED41661C413",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.txt",
+        "etag": "0x8DF2ED416245EF8",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.xml",
+        "etag": "0x8DF2ED416410301",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.yaml",
+        "etag": "0x8DF2ED41646CD01",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 51
+      },
+      {
+        "op": "download",
+        "name": "formats/sample.yml",
+        "etag": "0x8DF2ED4164C4905",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 50
+      }
+    ],
+    "after": {
+      "rows": {
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/bom.txt": "BOM decoded without marker.",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/invalid.txt": "Invalid byte replaced: \ufffd.",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.TXT": "The TXT sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.csv": "The csv sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.htm": "The htm sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.html": "The html sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.json": "The json sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.log": "The log sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.markdown": "The markdown sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.md": "The md sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.rst": "The rst sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.txt": "The txt sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.xml": "The xml sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yaml": "The yaml sample contains a format validation fact.\n",
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yml": "The yml sample contains a format validation fact.\n"
+      },
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/bom.txt": {
+                    "name": "formats/bom.txt",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED4166C4710"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/invalid.txt": {
+                    "name": "formats/invalid.txt",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED416717512"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.TXT": {
+                    "name": "formats/sample.TXT",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED41666F213"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.csv": {
+                    "name": "formats/sample.csv",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED4163B86FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.htm": {
+                    "name": "formats/sample.htm",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED4165BFA15"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.html": {
+                    "name": "formats/sample.html",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED41656F309"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.json": {
+                    "name": "formats/sample.json",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED41635BCFF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.log": {
+                    "name": "formats/sample.log",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED416519E0E"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.markdown": {
+                    "name": "formats/sample.markdown",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED4163019F8"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.md": {
+                    "name": "formats/sample.md",
+                    "last_modified": "2026-10-20T18:00:54Z",
+                    "etag": "0x8DF2ED4162A9DFC"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.rst": {
+                    "name": "formats/sample.rst",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED41661C413"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.txt": {
+                    "name": "formats/sample.txt",
+                    "last_modified": "2026-10-20T18:00:54Z",
+                    "etag": "0x8DF2ED416245EF8"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.xml": {
+                    "name": "formats/sample.xml",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED416410301"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yaml": {
+                    "name": "formats/sample.yaml",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED41646CD01"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yml": {
+                    "name": "formats/sample.yml",
+                    "last_modified": "2026-10-20T18:00:55Z",
+                    "etag": "0x8DF2ED4164C4905"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "race_initial": {
+    "status": "completed",
+    "error": null,
+    "events": [
+      {
+        "op": "download",
+        "name": "race/document.txt",
+        "etag": "0x8DF2ED416DDDD68",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 39
+      }
+    ],
+    "after": {
+      "rows": {
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": "The Iris beacon code is bronze falcon.\n"
+      },
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": {
+                    "name": "race/document.txt",
+                    "last_modified": "2026-10-20T18:00:56Z",
+                    "etag": "0x8DF2ED416DDDD68"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "etag_race": {
+    "status": "failed",
+    "error": "Pipeline execution failed at `step=extract` when processing package with `load_id=1792519279.728457` with exception:\n\n<class 'dlt.extract.exceptions.ResourceExtractionError'>\nIn processing pipe `azure_blob_documents`: extraction of resource `azure_blob_documents` in `generator` `azure_blob_documents` caused an exception: The condition specified using HTTP conditional header(s) is not met.\nRequestId:9dee3cb7-301e-0051-0fbd-60c62a000000\nTime:2026-10-20T18:01:19.8162045Z\nErrorCode:ConditionNotMet\nContent: <?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>ConditionNotMet</Code><Message>The condition specified using HTTP conditional header(s) is not met.\nRequestId:9dee3cb7-301e-0051-0fbd-60c62a000000\nTime:2026-10-20T18:01:19.8162045Z</Message></Error>",
+    "events": [
+      {
+        "op": "download",
+        "name": "race/document.txt",
+        "etag": "0x8DF2ED424E7369E",
+        "condition": "MatchConditions.IfNotModified",
+        "mutation_before_download": "overwrite",
+        "error": "ResourceModifiedError",
+        "code": "StorageErrorCode.CONDITION_NOT_MET"
+      }
+    ],
+    "after": {
+      "rows": {
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": "The Iris beacon code is bronze falcon.\n"
+      },
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": {
+                    "name": "race/document.txt",
+                    "last_modified": "2026-10-20T18:00:56Z",
+                    "etag": "0x8DF2ED416DDDD68"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "race_recovery": {
+    "status": "completed",
+    "error": null,
+    "events": [
+      {
+        "op": "download",
+        "name": "race/document.txt",
+        "etag": "0x8DF2ED424F3DBA2",
+        "condition": "MatchConditions.IfNotModified",
+        "bytes": 38
+      }
+    ],
+    "after": {
+      "rows": {
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": "The Iris beacon code is silver crane.\n"
+      },
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": {
+                    "name": "race/document.txt",
+                    "last_modified": "2026-10-20T18:01:19Z",
+                    "etag": "0x8DF2ED424F3DBA2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "missing_container": {
+    "status": "failed",
+    "error": "Pipeline execution failed at `step=extract` when processing package with `load_id=1792519280.046366` with exception:\n\n<class 'dlt.extract.exceptions.ResourceExtractionError'>\nIn processing pipe `azure_blob_documents`: extraction of resource `azure_blob_documents` in `generator` `azure_blob_documents` caused an exception: The specified container does not exist.\nRequestId:9dee3d04-301e-0051-59bd-60c62a000000\nTime:2026-10-20T18:01:20.0746469Z\nErrorCode:ContainerNotFound\nContent: <?xml version=\"1.0\" encoding=\"utf-8\"?><Error><Code>ContainerNotFound</Code><Message>The specified container does not exist.\nRequestId:9dee3d04-301e-0051-59bd-60c62a000000\nTime:2026-10-20T18:01:20.0746469Z</Message></Error>",
+    "events": [],
+    "after": {
+      "rows": {
+        "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": "The Iris beacon code is silver crane.\n"
+      },
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt": {
+                    "name": "race/document.txt",
+                    "last_modified": "2026-10-20T18:01:19Z",
+                    "etag": "0x8DF2ED424F3DBA2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "vanish_after_listing": {
+    "status": "completed",
+    "error": null,
+    "events": [
+      {
+        "op": "download",
+        "name": "race/document.txt",
+        "etag": "0x8DF2ED42527A7B4",
+        "condition": "MatchConditions.IfNotModified",
+        "mutation_before_download": "vanish",
+        "error": "ResourceNotFoundError",
+        "code": "BlobNotFound"
+      },
+      {
+        "op": "properties",
+        "name": "race/document.txt",
+        "error": "ResourceNotFoundError",
+        "code": "BlobNotFound"
+      }
+    ],
+    "after": {
+      "rows": {},
+      "state": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "assertions": "passed"
+}

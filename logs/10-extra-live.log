@@ -1,0 +1,1079 @@
+
+[2m2026-10-20T18:01:15.276215[0m [[32m[1minfo     [0m] [1mLog file created at: /private/tmp/azure-blob-validation-20261020/logs/extra/2026-10-20_18-01-15.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/private/tmp/azure-blob-validation-20261020/logs/extra/2026-10-20_18-01-15.log[0m
+
+[2m2026-10-20T18:01:15.276481[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:01:15.276576[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.6.5[0m [36mdatabase_path[0m=[35m/private/tmp/azure-blob-validation-20261020/runtime/extra/system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T18:01:15.276660[0m [[32m[1minfo     [0m] [1mDatabase storage: /private/tmp/azure-blob-validation-20261020/runtime/extra/system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:01:15.276721[0m [[32m[1minfo     [0m] [1mNo .env file found; using process environment variables only.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:01:17.346016[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '3feb1996-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1707'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b45-301e-0051-27bd-60c62a000000'
+    'x-ms-client-request-id': '3feb1996-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4002f642-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1822'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b53-301e-0051-33bd-60c62a000000'
+    'x-ms-client-request-id': '4002f642-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '400842dc-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1820'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b61-301e-0051-41bd-60c62a000000'
+    'x-ms-client-request-id': '400842dc-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '400d8c42-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1821'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b68-301e-0051-48bd-60c62a000000'
+    'x-ms-client-request-id': '400d8c42-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4012c388-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1829'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b72-301e-0051-52bd-60c62a000000'
+    'x-ms-client-request-id': '4012c388-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4017fa1a-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1832'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b7b-301e-0051-5abd-60c62a000000'
+    'x-ms-client-request-id': '4017fa1a-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '401d2968-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1820'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b81-301e-0051-60bd-60c62a000000'
+    'x-ms-client-request-id': '401d2968-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4023a25c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1821'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b89-301e-0051-68bd-60c62a000000'
+    'x-ms-client-request-id': '4023a25c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED&marker=REDACTED&maxresults=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4028dd6c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '1716'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b94-301e-0051-73bd-60c62a000000'
+    'x-ms-client-request-id': '4028dd6c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/bom.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4166C4710'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '402df950-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '30'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4166C4710"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3b9d-301e-0051-7cbd-60c62a000000'
+    'x-ms-client-request-id': '402df950-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/invalid.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED416717512'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '403340cc-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '25'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED416717512"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3ba6-301e-0051-05bd-60c62a000000'
+    'x-ms-client-request-id': '403340cc-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.TXT'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED41666F213'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40384374-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED41666F213"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bb0-301e-0051-0fbd-60c62a000000'
+    'x-ms-client-request-id': '40384374-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.csv'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4163B86FF'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '403dbcc8-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4163B86FF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bbc-301e-0051-1bbd-60c62a000000'
+    'x-ms-client-request-id': '403dbcc8-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.htm'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4165BFA15'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4042e3ce-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4165BFA15"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bc5-301e-0051-23bd-60c62a000000'
+    'x-ms-client-request-id': '4042e3ce-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.html'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED41656F309'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4048172c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '51'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED41656F309"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bca-301e-0051-28bd-60c62a000000'
+    'x-ms-client-request-id': '4048172c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.json'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED41635BCFF'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '404d7e4c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '51'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED41635BCFF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bd5-301e-0051-33bd-60c62a000000'
+    'x-ms-client-request-id': '404d7e4c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.log'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED416519E0E'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '405271a4-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED416519E0E"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bea-301e-0051-47bd-60c62a000000'
+    'x-ms-client-request-id': '405271a4-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.markdown'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4163019F8'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40574616-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '55'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4163019F8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bef-301e-0051-4cbd-60c62a000000'
+    'x-ms-client-request-id': '40574616-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.md'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4162A9DFC'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '405d3292-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '49'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:54 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4162A9DFC"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bf3-301e-0051-50bd-60c62a000000'
+    'x-ms-client-request-id': '405d3292-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.rst'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED41661C413'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '406213ac-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED41661C413"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3bfb-301e-0051-57bd-60c62a000000'
+    'x-ms-client-request-id': '406213ac-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED416245EF8'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4066f610-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:54 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED416245EF8"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c02-301e-0051-5ebd-60c62a000000'
+    'x-ms-client-request-id': '4066f610-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.xml'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED416410301'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '406c53b2-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED416410301"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c10-301e-0051-6cbd-60c62a000000'
+    'x-ms-client-request-id': '406c53b2-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yaml'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED41646CD01'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40719070-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '51'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED41646CD01"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c1e-301e-0051-7abd-60c62a000000'
+    'x-ms-client-request-id': '40719070-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/formats/sample.yml'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4164C4905'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4076739c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '50'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:55 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4164C4905"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c2c-301e-0051-08bd-60c62a000000'
+    'x-ms-client-request-id': '4076739c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4091031a-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '909'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c58-301e-0051-30bd-60c62a000000'
+    'x-ms-client-request-id': '4091031a-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED416DDDD68'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40965202-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '39'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:56 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED416DDDD68"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c61-301e-0051-39bd-60c62a000000'
+    'x-ms-client-request-id': '40965202-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '37'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40b001e8-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+A body is sent with the request[0m
+
+[1mResponse status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:01:19 GMT'
+    'ETag': '"0x8DF2ED424E7369E"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3c93-301e-0051-6bbd-60c62a000000'
+    'x-ms-client-request-id': '40b001e8-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40b7f92a-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '909'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3ca1-301e-0051-79bd-60c62a000000'
+    'x-ms-client-request-id': '40b7f92a-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '38'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40bd15b8-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+A body is sent with the request[0m
+
+[1mResponse status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:01:19 GMT'
+    'ETag': '"0x8DF2ED424F3DBA2"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3cab-301e-0051-03bd-60c62a000000'
+    'x-ms-client-request-id': '40bd15b8-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED424E7369E'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40c23e9e-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 412
+Response headers:
+    'Content-Length': '252'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3cb7-301e-0051-0fbd-60c62a000000'
+    'x-ms-client-request-id': '40c23e9e-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ConditionNotMet'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40cc88d6-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '909'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3cce-301e-0051-26bd-60c62a000000'
+    'x-ms-client-request-id': '40cc88d6-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED424F3DBA2'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40d197b8-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '38'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:01:19 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED424F3DBA2"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3cd8-301e-0051-30bd-60c62a000000'
+    'x-ms-client-request-id': '40d197b8-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation-missing?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40e88266-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 404
+Response headers:
+    'Content-Length': '225'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d04-301e-0051-59bd-60c62a000000'
+    'x-ms-client-request-id': '40e88266-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'ContainerNotFound'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'PUT'
+Request headers:
+    'Content-Length': '36'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-version': 'REDACTED'
+    'Content-Type': 'application/octet-stream'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40f09af0-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+A body is sent with the request[0m
+
+[1mResponse status: 201
+Response headers:
+    'Content-Length': '0'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:01:20 GMT'
+    'ETag': '"0x8DF2ED42527A7B4"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d19-301e-0051-6bbd-60c62a000000'
+    'x-ms-client-request-id': '40f09af0-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-content-crc64': 'REDACTED'
+    'x-ms-request-server-encrypted': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:19 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '40fb9d92-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '909'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d37-301e-0051-06bd-60c62a000000'
+    'x-ms-client-request-id': '40fb9d92-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:20 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'DELETE'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4100ec8e-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 202
+Response headers:
+    'Content-Length': '0'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d47-301e-0051-16bd-60c62a000000'
+    'x-ms-client-request-id': '4100ec8e-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-delete-type-permanent': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:01:20 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED42527A7B4'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '4106b1fa-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 404
+Response headers:
+    'Content-Length': '215'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d4e-301e-0051-1dbd-60c62a000000'
+    'x-ms-client-request-id': '4106b1fa-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'BlobNotFound'
+    'Date': 'Tue, 20 Oct 2026 18:01:20 GMT'[0m
+
+[2m2026-10-20T18:01:20.276679[0m [[33m[1mwarning  [0m] [1mAzure Blob: race/document.txt disappeared before download, skipping.[0m [[0m[1m[34mazure_blob_connector[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/race/document.txt'
+Request method: 'HEAD'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '410b631c-ccb0-11f1-94ec-af947fd425cf'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 404
+Response headers:
+    'Transfer-Encoding': 'chunked'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '9dee3d55-301e-0051-24bd-60c62a000000'
+    'x-ms-client-request-id': '410b631c-ccb0-11f1-94ec-af947fd425cf'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'BlobNotFound'
+    'Date': 'Tue, 20 Oct 2026 18:01:20 GMT'[0m
+EXTRA LIVE: formats, real pagination, ETag race rollback/recovery, missing-container rollback, disappearance passed

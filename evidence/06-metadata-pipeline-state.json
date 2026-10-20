@@ -1,0 +1,387 @@
+[
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/state.json",
+    "state": {
+      "_state_version": 5,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/main"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:02:55.157472+00:00",
+        "_last_extracted_hash": "Ojxuk+bxErwrYNPJERMUZV81xXfzbHD0K3s1x3CSK8I="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": "azure_blob",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "Ojxuk+bxErwrYNPJERMUZV81xXfzbHD0K3s1x3CSK8I=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt": {
+                    "name": "docs/new-document.txt",
+                    "last_modified": "2026-10-20T18:02:09Z",
+                    "etag": "0x8DF2ED4427F5D42"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T18:02:50Z",
+                    "etag": "0x8DF2ED45B0190F7"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T18:00:28Z",
+                    "etag": "0x8DF2ED406817FC2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/load/loaded/1792519137.679559/.restore/state.json",
+    "state": {
+      "_state_version": 0,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": true,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": null
+      },
+      "schema_names": [],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": null,
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "4cESOWEIMThAiZnRCKROFDCJcSbFNbURvSRNftkjSy4="
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/load/loaded/1792519256.211841/.restore/state.json",
+    "state": {
+      "_state_version": 1,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/main"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T17:58:58.224413+00:00",
+        "_last_extracted_hash": "39QhQEJM3GMsYVAJxVdC8LtLUEELq89SRH7L6IlCfyM="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": "azure_blob",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "39QhQEJM3GMsYVAJxVdC8LtLUEELq89SRH7L6IlCfyM=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/delete-me.txt": {
+                    "name": "docs/delete-me.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38E7A02"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/support.txt": {
+                    "name": "docs/support.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C3992404"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C39E790F"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C3A3CE1E"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/load/loaded/1792519375.023515/.restore/state.json",
+    "state": {
+      "_state_version": 4,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/main"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:02:13.599912+00:00",
+        "_last_extracted_hash": "OJY35mPEsIuG13WyNbR81YtWIq72KH/ErYWnlolGzL8="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": "azure_blob",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "OJY35mPEsIuG13WyNbR81YtWIq72KH/ErYWnlolGzL8=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt": {
+                    "name": "docs/new-document.txt",
+                    "last_modified": "2026-10-20T18:02:09Z",
+                    "etag": "0x8DF2ED4427F5D42"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C39E790F"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T18:00:28Z",
+                    "etag": "0x8DF2ED406817FC2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/load/loaded/1792519333.4803672/.restore/state.json",
+    "state": {
+      "_state_version": 3,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/main"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:01:39.435289+00:00",
+        "_last_extracted_hash": "b0FiZFTadgXmcPju0Y+wkNLFMuZObglEtNV/nOcWQ0U="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": "azure_blob",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "b0FiZFTadgXmcPju0Y+wkNLFMuZObglEtNV/nOcWQ0U=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/support.txt": {
+                    "name": "docs/support.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C3992404"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C39E790F"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T18:00:28Z",
+                    "etag": "0x8DF2ED406817FC2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "pipelines/ingest_dlt_02f50b966d082d9e161da5c58201848b/load/loaded/1792519299.313066/.restore/state.json",
+    "state": {
+      "_state_version": 2,
+      "_state_engine_version": 4,
+      "_local": {
+        "first_run": false,
+        "_dev_mode": false,
+        "initial_cwd": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+        "last_run_context": {
+          "settings_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main/.dlt",
+          "local_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "run_dir": "/private/tmp/azure-blob-validation-20261020/runtime/main",
+          "uri": "file:///private/tmp/azure-blob-validation-20261020/runtime/main"
+        },
+        "_last_extracted_at": "\uf0272026-10-20T18:00:56.346517+00:00",
+        "_last_extracted_hash": "AyRx/sLBUS8R7scYVnaMcFa/pWz/86uZveOu2x3hURA="
+      },
+      "schema_names": [
+        "azure_blob"
+      ],
+      "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+      "dataset_name": "azure_validation_main",
+      "default_schema_name": "azure_blob",
+      "destination_type": "dlt.destinations.sqlalchemy",
+      "destination_name": null,
+      "_version_hash": "AyRx/sLBUS8R7scYVnaMcFa/pWz/86uZveOu2x3hURA=",
+      "sources": {
+        "azure_blob": {
+          "resources": {
+            "azure_blob_documents": {
+              "inventories": {
+                "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/": {
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt": {
+                    "name": "docs/at-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C381D4F9"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt": {
+                    "name": "docs/below-limit.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38888FF"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/delete-me.txt": {
+                    "name": "docs/delete-me.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C38E7A02"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt": {
+                    "name": "docs/empty.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C393F60B"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/support.txt": {
+                    "name": "docs/support.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C3992404"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt": {
+                    "name": "docs/unicode.txt",
+                    "last_modified": "2026-10-20T17:58:36Z",
+                    "etag": "0x8DF2ED3C39E790F"
+                  },
+                  "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt": {
+                    "name": "docs/update-me.txt",
+                    "last_modified": "2026-10-20T18:00:28Z",
+                    "etag": "0x8DF2ED406817FC2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

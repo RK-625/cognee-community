@@ -1,0 +1,74 @@
+{
+  "time": "2026-10-20T18:00:28.800530+00:00",
+  "action": "update",
+  "events": [
+    {
+      "action": "upload",
+      "name": "docs/update-me.txt",
+      "bytes": 42,
+      "sha256": "220922abc51e02f52322d548b4a34a3f6cc0de8b33f31e7dc87881ff1ac9219e"
+    }
+  ],
+  "inventory": [
+    {
+      "name": "docs/above-limit.txt",
+      "size": 1025,
+      "etag": "0x8DF2ED3C3AA5B15",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/at-limit.txt",
+      "size": 1024,
+      "etag": "0x8DF2ED3C381D4F9",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/below-limit.txt",
+      "size": 1023,
+      "etag": "0x8DF2ED3C38888FF",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/delete-me.txt",
+      "size": 49,
+      "etag": "0x8DF2ED3C38E7A02",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/empty.txt",
+      "size": 0,
+      "etag": "0x8DF2ED3C393F60B",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/folder/",
+      "size": 0,
+      "etag": "0x8DF2ED3C3B04C14",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/support.txt",
+      "size": 42,
+      "etag": "0x8DF2ED3C3992404",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/unicode.txt",
+      "size": 38,
+      "etag": "0x8DF2ED3C39E790F",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/update-me.txt",
+      "size": 42,
+      "etag": "0x8DF2ED406817FC2",
+      "last_modified": "2026-10-20 18:00:28+00:00"
+    },
+    {
+      "name": "outside-prefix.txt",
+      "size": 42,
+      "etag": "0x8DF2ED3C3B52C13",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    }
+  ]
+}

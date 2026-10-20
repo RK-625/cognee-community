@@ -1,0 +1,145 @@
+2026-10-20T18:00:51.757702 [INFO    ] Log file created at: /private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_18-00-51.log log_file=/private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_18-00-51.log [cognee.shared.logging_utils]
+2026-10-20T18:00:51.757829 [WARNING ] Cognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/ [cognee.shared.logging_utils]
+2026-10-20T18:00:51.757926 [INFO    ] Logging initialized python_version=3.13.5 structlog_version=25.5.0 cognee_version=1.6.5 os_info=Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000) database_path=/private/tmp/azure-blob-validation-20261020/runtime/main/system/databases [cognee.shared.logging_utils]
+2026-10-20T18:00:51.757987 [INFO    ] Database storage: /private/tmp/azure-blob-validation-20261020/runtime/main/system/databases [cognee.shared.logging_utils]
+2026-10-20T18:00:51.758046 [INFO    ] No .env file found; using process environment variables only. [cognee.shared.logging_utils]
+2026-10-20T18:00:54.251597 [INFO    ] auth posture: authentication=required, multi_tenant=enabled (default (no env vars set)) [get_authenticated_user]
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '32323f50-ccb0-11f1-8cbc-05419cf83c61'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 200
+Response headers:
+    'Content-Length': '18408'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '957b1c78-601e-004c-08bc-60cb96000000'
+    'x-ms-client-request-id': '32323f50-ccb0-11f1-8cbc-05419cf83c61'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:00:55 GMT'
+setup plugin alembic.autogenerate.schemas
+setup plugin alembic.autogenerate.tables
+setup plugin alembic.autogenerate.types
+setup plugin alembic.autogenerate.constraints
+setup plugin alembic.autogenerate.defaults
+setup plugin alembic.autogenerate.comments
+setup plugin alembic.ext.checkconstraint_byname
+Using database: sqlite+aiosqlite:////private/tmp/azure-blob-validation-20261020/runtime/main/system/databases/cognee_db
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+Relational migrations applied (target head).
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '32b4969e-ccb0-11f1-8cbc-05419cf83c61'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 200
+Response headers:
+    'Content-Length': '6295'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '957b1e31-601e-004c-5cbc-60cb96000000'
+    'x-ms-client-request-id': '32b4969e-ccb0-11f1-8cbc-05419cf83c61'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:00:56 GMT'
+2026-10-20T18:00:56.267311 [WARNING ] Azure Blob: skipping docs/above-limit.txt (1025 bytes > max_object_size=1024). [azure_blob_connector]
+Request URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED406817FC2'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '32bbd544-ccb0-11f1-8cbc-05419cf83c61'
+    'Authorization': 'REDACTED'
+No body was attached to the request
+Response status: 206
+Response headers:
+    'Content-Length': '42'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:28 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED406817FC2"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '957b1e52-601e-004c-75bc-60cb96000000'
+    'x-ms-client-request-id': '32bbd544-ccb0-11f1-8cbc-05419cf83c61'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:00:56 GMT'
+2026-10-20T18:00:56.509781 [INFO    ] Resolved 1 DLT source(s) into 7 DataItem(s) (0 manifest(s), 7 document(s)). [resolve_dlt_sources]
+2026-10-20T18:00:56.513848 [INFO    ] Skipping LLM connection test: this pipeline has no LLM task. [cognee.shared.logging_utils]
+2026-10-20T18:00:56.515075 [INFO    ] Testing connection to Embedding endpoint... [cognee.shared.logging_utils]
+2026-10-20T18:00:56.870514 [INFO    ] Loading local model BAAI/bge-small-en-v1.5 from /private/tmp/azure-blob-validation-20261020/runtime/models [FastembedEmbeddingEngine]
+2026-10-20T18:00:59.813267 [INFO    ] Embedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096. [cognee.shared.logging_utils]
+2026-10-20T18:00:59.885779 [INFO    ] Pipeline item started: `04ba8b2c-612d-5750-8795-de34ed8902fb` [run_tasks_with_telemetry()]
+2026-10-20T18:00:59.886001 [INFO    ] Coroutine task started: `resolve_data_directories` [run_tasks_base]
+2026-10-20T18:00:59.886301 [INFO    ] Coroutine task started: `ingest_data` [run_tasks_base]
+2026-10-20T18:00:59.886415 [INFO    ] cognee-core store_to_dataset starting [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.886861 [INFO    ] cognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items) [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.887707 [INFO    ] cognee-core store_to_dataset [loop 1/4] finished in 0.001 seconds [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.887787 [INFO    ] cognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items) [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.914937 [INFO    ] cognee-core store_to_dataset [loop 2/4] finished in 0.027 seconds [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.915019 [INFO    ] cognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items) [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.915144 [INFO    ] Registered loader: pypdf_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915202 [INFO    ] Registered loader: text_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915403 [INFO    ] Registered loader: code_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915516 [INFO    ] Registered loader: image_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915586 [INFO    ] Registered loader: audio_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915642 [INFO    ] Registered loader: video_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915691 [INFO    ] Registered loader: csv_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915740 [INFO    ] Registered loader: advanced_pdf_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.915936 [INFO    ] Registered loader: docling_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.916004 [INFO    ] Registered loader: dlt_csv_loader [cognee.infrastructure.loaders.LoaderEngine]
+2026-10-20T18:00:59.916600 [INFO    ] cognee-core store_to_dataset [loop 3/4] finished in 0.002 seconds [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.916657 [INFO    ] cognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated) [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.920970 [INFO    ] cognee-core store_to_dataset [loop 4/4] finished in 0.004 seconds [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.921049 [INFO    ] cognee-core store_to_dataset finished in 0.035 seconds [cognee.tasks.ingestion.ingest_data]
+2026-10-20T18:00:59.921217 [INFO    ] Coroutine task completed: `ingest_data` [run_tasks_base]
+2026-10-20T18:00:59.921286 [INFO    ] Coroutine task completed: `resolve_data_directories` [run_tasks_base]
+2026-10-20T18:00:59.921352 [INFO    ] Pipeline item completed: `04ba8b2c-612d-5750-8795-de34ed8902fb` [run_tasks_with_telemetry()]
+2026-10-20T18:01:00.164749 [INFO    ] Deleting 1 orphaned dlt row(s) from dataset 'azure_validation_main'. [resolve_dlt_sources]
+2026-10-20T18:01:00.467804 [INFO    ] Retrieved 34 nodes and 35 edges in 0.00 seconds [cognee.shared.logging_utils]
+2026-10-20T18:01:00.489020 [INFO    ] Deleted 7 orphaned EdgeType node(s) [provenance_delete_planner]
+2026-10-20T18:01:00.514390 [WARNING ] Stored file to clean up was already gone: file:///private/tmp/azure-blob-validation-20261020/runtime/main/data/f3f376c4-4cbf-4b56-b333-8372f919d770/text_a1441263411fb3847dda717ab78f46d4.txt [cognee.shared.logging_utils]
+2026-10-20T18:01:00.554249 [INFO    ] Session invalidation: removed 2 QA and 1 context entr(ies) referencing deleted data in dataset 34261ed1-b39c-52a9-9a2b-93fcd136a08d [invalidate_sessions]
+2026-10-20T18:01:00.568495 [INFO    ] Embedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096. [cognee.shared.logging_utils]
+2026-10-20T18:01:00.577770 [INFO    ] Testing connection to LLM endpoint... [cognee.shared.logging_utils]
+2026-10-20T18:01:01.968497 [INFO    ] Pipeline item started: `d599e24a-1fa9-520d-9dc2-995fc0f07c37` [run_tasks_with_telemetry()]
+2026-10-20T18:01:01.968606 [INFO    ] Coroutine task started: `classify_documents` [run_tasks_base]
+2026-10-20T18:01:01.968940 [INFO    ] Async Generator task started: `extract_chunks_from_documents` [run_tasks_base]
+2026-10-20T18:01:02.009032 [INFO    ] Coroutine task started: `extract_graph_and_summarize` [run_tasks_base]
+2026-10-20T18:01:14.375118 [INFO    ] Coroutine task started: `add_data_points` [run_tasks_base]
+2026-10-20T18:01:14.729575 [INFO    ] Coroutine task completed: `add_data_points` [run_tasks_base]
+2026-10-20T18:01:14.729671 [INFO    ] Coroutine task completed: `extract_graph_and_summarize` [run_tasks_base]
+2026-10-20T18:01:14.729743 [INFO    ] Async Generator task completed: `extract_chunks_from_documents` [run_tasks_base]
+2026-10-20T18:01:14.729804 [INFO    ] Coroutine task completed: `classify_documents` [run_tasks_base]
+2026-10-20T18:01:14.729871 [INFO    ] Pipeline item completed: `d599e24a-1fa9-520d-9dc2-995fc0f07c37` [run_tasks_with_telemetry()]
+2026-10-20T18:01:15.057156 [INFO    ] Vector store compaction: 7 collection(s), fragments 8 -> 4, 0 old version(s) removed, left for later runs: 2 task(s) and 0 version(s), 0 error(s) [compact_vector_store]
+2026-10-20T18:01:15.100708 [INFO    ] Retrieved 41 nodes and 42 edges in 0.00 seconds [cognee.shared.logging_utils]
+2026-10-20T18:01:15.233573 [INFO    ] Vector collection retrieval completed: Retrieved distances from 6 collections in 0.02s [cognee.shared.logging_utils]
+2026-10-20T18:01:15.233762 [INFO    ] Retrieving ID-filtered graph from database. [CogneeGraph]
+2026-10-20T18:01:15.237783 [INFO    ] ID-filtered retrieval: 41 nodes and 42 edges in 0.00s [cognee.shared.logging_utils]
+2026-10-20T18:01:15.239061 [INFO    ] Graph projection completed: 41 nodes, 42 edges in 0.00s [CogneeGraph]
+2026-10-20T18:01:15.239677 [INFO    ] Completed resolving edges to text extra={'node_count': 17, 'connection_count': 15} [cognee.shared.logging_utils]
+2026-10-20T18:01:15.249438 [INFO    ] Neighborhood retrieval (1-hop): 4 nodes and 0 edges in 0.01s [cognee.shared.logging_utils]

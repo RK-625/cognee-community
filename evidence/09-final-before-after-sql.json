@@ -1,0 +1,74 @@
+{
+  "cognee_db": {
+    "data": [
+      {
+        "id": "e76a8052e318583994700c84e0624047",
+        "label": "final/only-document.txt",
+        "name": "text_7f4d75049a0efa04947ad7041a887f6f",
+        "extension": "txt",
+        "mime_type": "text/plain",
+        "original_extension": "txt",
+        "original_mime_type": "text/plain",
+        "loader_engine": "text_loader",
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt",
+        "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt",
+        "owner_id": "10b4d25a440340e2b8e50c1480c43ab2",
+        "tenant_id": null,
+        "dataset_id": "e31a671024075d1fb8b5a937d787376f",
+        "legacy_id": null,
+        "content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+        "raw_content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+        "external_metadata": "{}",
+        "system_metadata": "{\"source\": \"azure_blob\", \"title\": \"final/only-document.txt\", \"table_name\": \"azure_blob_documents\", \"url\": \"https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt\", \"external_id\": \"https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt\"}",
+        "node_set": "null",
+        "pipeline_status": "{\"add_pipeline\": {\"e31a6710-2407-5d1f-b8b5-a937d787376f\": \"DATA_ITEM_PROCESSING_COMPLETED\"}, \"cognify_pipeline\": {\"e31a6710-2407-5d1f-b8b5-a937d787376f\": \"DATA_ITEM_PROCESSING_COMPLETED\"}}",
+        "token_count": 21,
+        "data_size": 83,
+        "created_at": "2026-10-20 18:03:51.805023",
+        "updated_at": "2026-10-20 18:03:57.427026",
+        "last_accessed": null,
+        "importance_weight": 0.5
+      }
+    ]
+  },
+  "dlt_database_azure_validation_final__azure_validation_final": {
+    "azure_blob_documents": [
+      {
+        "deleted": null,
+        "cognee_node_set": null,
+        "id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "title": "final/only-document.txt",
+        "content": "The Solstice observatory telescope is named copper ibis.\n",
+        "_dlt_load_id": "1792519428.557081",
+        "_dlt_id": "E5wnzOFgqGruwA"
+      }
+    ],
+    "_dlt_pipeline_state": [
+      {
+        "version": 1,
+        "engine_version": 4,
+        "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+        "state": "eNqtUk1PwzAM/S85d12Sjn1U4sAYHJCYBILLEIq81l0jsqRr0m0d4r+TjCEKghs5OX7P79lOXomwDhyKLdZWGk1SFn2mUK+k7iCDiNisxDUIDWu0JH0icGhqFEtlluQ5IpWsUIWSgJOUSL1C60SunKC8oBTOxsUw4QgTdpawCdAJXY6As4wiiUiOBTSe2vHwGh0HTwEHFt13bAtKesC3KAqpQR2lrPPhMefaKnB9E3EnbWO7UaCCVfuj4ENcN0r5TZyGFyXY0qtUyYNeXCxuqm3ille0fcnuNruSL+4vm7lm+5f51Nwy1U7rR3PuZa1p6ixs6rU7h7/V+CskcpM1a9TumJd660NTyw9a6Vxl034/MyuNCIdQwCkfMsppHC5xZmqMd1LnZmdjje5E7X1tqH/cUP+f5YxWbe+z9djtXdA/vdFfjIgo8H9jbXJZSMw9M5j3GO1x+sDGKU1SNlp4GjpYeZTux7NrfjUbDKeDMR/OLsjb6bwDrdr38Q==",
+        "created_at": "2026-10-20 18:03:48.652134",
+        "version_hash": "p3TnZAZJpv3tbE0ykcQqwh2ZRCuNn1xkNBoM1lyBrUo=",
+        "_dlt_load_id": "1792519428.557081",
+        "_dlt_id": "HkZOSbZaokQ+OQ"
+      }
+    ]
+  },
+  "dlt_database_azure_validation_final__azure_validation_final_staging": {
+    "azure_blob_documents": [
+      {
+        "deleted": null,
+        "cognee_node_set": null,
+        "id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "title": "final/only-document.txt",
+        "content": "The Solstice observatory telescope is named copper ibis.\n",
+        "_dlt_load_id": "1792519428.557081",
+        "_dlt_id": "E5wnzOFgqGruwA"
+      }
+    ]
+  }
+}

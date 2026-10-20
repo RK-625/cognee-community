@@ -1,0 +1,86 @@
+
+[2m2026-10-20T18:03:30.008794[0m [[32m[1minfo     [0m] [1mLog file created at: /private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_18-03-29.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_18-03-29.log[0m
+
+[2m2026-10-20T18:03:30.009056[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:30.009158[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.6.5[0m [36mdatabase_path[0m=[35m/private/tmp/azure-blob-validation-20261020/runtime/main/system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T18:03:30.009241[0m [[32m[1minfo     [0m] [1mDatabase storage: /private/tmp/azure-blob-validation-20261020/runtime/main/system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:30.009303[0m [[32m[1minfo     [0m] [1mNo .env file found; using process environment variables only.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:32.189410[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '90357810-ccb0-11f1-8b37-65377349120c'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '19762'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '4b60ff5e-c01e-006a-38bd-60838e000000'
+    'x-ms-client-request-id': '90357810-ccb0-11f1-8b37-65377349120c'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:32 GMT'[0m
+
+[1msetup plugin alembic.autogenerate.schemas[0m
+
+[1msetup plugin alembic.autogenerate.tables[0m
+
+[1msetup plugin alembic.autogenerate.types[0m
+
+[1msetup plugin alembic.autogenerate.constraints[0m
+
+[1msetup plugin alembic.autogenerate.defaults[0m
+
+[1msetup plugin alembic.autogenerate.comments[0m
+
+[1msetup plugin alembic.ext.checkconstraint_byname[0m
+
+[1mUsing database: sqlite+aiosqlite:////private/tmp/azure-blob-validation-20261020/runtime/main/system/databases/cognee_db[0m
+
+[1mContext impl SQLiteImpl.      [0m
+
+[1mWill assume non-transactional DDL.[0m
+
+[1mRelational migrations applied (target head).[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '90a2348c-ccb0-11f1-8b37-65377349120c'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '6300'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '4b61001e-c01e-006a-69bd-60838e000000'
+    'x-ms-client-request-id': '90a2348c-ccb0-11f1-8b37-65377349120c'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:33 GMT'[0m
+
+[2m2026-10-20T18:03:33.859102[0m [[31m[1merror    [0m] [1mDLTIngestionError raised (Status code: 500): DLT pipeline execution failed for dataset 'azure_validation_main': Pipeline execution failed at `step=extract` when processing package with `load_id=1792519413.8031979` with exception:
+
+<class 'dlt.extract.exceptions.ResourceExtractionError'>
+In processing pipe `azure_blob_documents`: extraction of resource `azure_blob_documents` in `generator` `azure_blob_documents` caused an exception: Azure prefix exceeds max_objects=7.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:34.076207[0m [[32m[1minfo     [0m] [1mRetrieved 33 nodes and 34 edges in 0.01 seconds[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+/private/tmp/azure-blob-validation-20261020/run_scenario.py:86: DeprecationWarning: table_names() is deprecated, use list_tables() instead
+  names=connection.table_names()
+RESULT 08-count-guard raised downloads 0 counts {'data': 6, 'nodes': 33, 'edges': 34, 'vectors': {'DocumentChunk_text': 6, 'EdgeType_relationship_name': 34, 'EntityType_name': 6, 'Entity_name': 9, 'SessionQAVector_text': 1, 'TextDocument_name': 6, 'TextSummary_text': 6}} snapshot_error None

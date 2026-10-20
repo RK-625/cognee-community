@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-20T17:56:40.792956+00:00",
+  "python": "3.13.5",
+  "versions": {
+    "cognee": "1.6.5",
+    "dlt": "1.30.0",
+    "fastembed": "0.8.0",
+    "azure-core": "1.41.0",
+    "azure-storage-blob": "12.31.0"
+  },
+  "commit": "972c8897790f739255e0d7385c7e54ef83c67f5b",
+  "source_sha256": "e08712992cdc1ee5e33f71581d50f0162b2c18cbbd8f205879d9dfdc17db0ab4",
+  "azure_error": "HTTPSConnection(host='cogneeazblob20261020.blob.core.windows.net', port=443): Failed to resolve 'cogneeazblob20261020.blob.core.windows.net' ([Errno 8] nodename nor servname provided, or not known)",
+  "model_error": "Could not load model BAAI/bge-small-en-v1.5 from any source."
+}

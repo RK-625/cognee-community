@@ -1,0 +1,783 @@
+{
+  "dataset_id": "e31a6710-2407-5d1f-b8b5-a937d787376f",
+  "data": [
+    {
+      "id": "e76a8052-e318-5839-9470-0c84e0624047",
+      "label": "final/only-document.txt",
+      "name": "text_7f4d75049a0efa04947ad7041a887f6f",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt",
+      "owner_id": "10b4d25a-4403-40e2-b8e5-0c1480c43ab2",
+      "tenant_id": null,
+      "dataset_id": "e31a6710-2407-5d1f-b8b5-a937d787376f",
+      "legacy_id": null,
+      "content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+      "raw_content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "final/only-document.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "e31a6710-2407-5d1f-b8b5-a937d787376f": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "e31a6710-2407-5d1f-b8b5-a937d787376f": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 21,
+      "data_size": 83,
+      "created_at": "2026-10-20 18:03:51.805023",
+      "updated_at": "2026-10-20 18:03:57.427026",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    }
+  ],
+  "nodes": [
+    [
+      "365648b2-1fbd-5b34-9a19-2114fd53adb3",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519436953,
+        "updated_at": 1792519436953,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Organizations/Places: Solstice observatory\n- Products: telescope\n- Names: copper ibis\n\nFacts:\n- The telescope at Solstice observatory is named copper ibis.",
+        "source_chunk_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519433324,
+        "updated_at": 1792519433324,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# final/only-document.txt\n\nThe Solstice observatory telescope is named copper ibis.",
+        "chunk_size": 21,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "7413e3e88c878f994a6a877c4e3d0065e18fb3d8a653d6e2e3ac2c83be0fb6cc",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "e76a8052-e318-5839-9470-0c84e0624047",
+        "document_name": "text_7f4d75049a0efa04947ad7041a887f6f",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "e76a8052-e318-5839-9470-0c84e0624047",
+      {
+        "name": "text_7f4d75049a0efa04947ad7041a887f6f",
+        "type": "TextDocument",
+        "created_at": 1792519433323,
+        "updated_at": 1792519433323,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7f4d75049a0efa04947ad7041a887f6f",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/final/data/10b4d25a-4403-40e2-b8e5-0c1480c43ab2/text_7f4d75049a0efa04947ad7041a887f6f.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "4631422d-3f54-51ba-9935-0697680edf7b",
+      {
+        "name": "solstice observatory",
+        "type": "Entity",
+        "created_at": 1792519436904,
+        "updated_at": 1792519436904,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "An observatory associated with the telescope Copper Ibis.",
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "388f60fb-220d-55e8-ae9c-3ac93cead308",
+      {
+        "name": "organization",
+        "type": "EntityType",
+        "created_at": 1792519436904,
+        "updated_at": 1792519436904,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "organization",
+        "relations": []
+      }
+    ],
+    [
+      "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+      {
+        "name": "copper ibis",
+        "type": "Entity",
+        "created_at": 1792519436904,
+        "updated_at": 1792519436904,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "The telescope of Solstice Observatory, named Copper Ibis.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "5c32873d-97cc-522a-8ec6-b73ad358c3f4",
+      {
+        "name": "telescope",
+        "type": "EntityType",
+        "created_at": 1792519436904,
+        "updated_at": 1792519436904,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "telescope",
+        "relations": []
+      }
+    ]
+  ],
+  "edges": [
+    [
+      "365648b2-1fbd-5b34-9a19-2114fd53adb3",
+      "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+      "made_from",
+      {
+        "source_node_id": "365648b2-1fbd-5b34-9a19-2114fd53adb3",
+        "target_node_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "made_from",
+        "edge_object_id": "6cc32af4-70b7-5bcc-8ada-bec3bbeca2ed",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Organizations/Places: Solstice observatory - Products: te made from # final/only-document.txt The Solstice observatory telescope is named copper ibi."
+      }
+    ],
+    [
+      "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+      "e76a8052-e318-5839-9470-0c84e0624047",
+      "is_part_of",
+      {
+        "source_node_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "target_node_id": "e76a8052-e318-5839-9470-0c84e0624047",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "db2d648e-35fc-545a-bbe5-e147a2ffe0e8",
+        "feedback_weight": 0.5,
+        "edge_text": "# final/only-document.txt The Solstice observatory telescope is named copper ibi is part of text_7f4d75049a0efa04947ad7041a887f6f."
+      }
+    ],
+    [
+      "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+      "4631422d-3f54-51ba-9935-0697680edf7b",
+      "contains",
+      {
+        "source_node_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "target_node_id": "4631422d-3f54-51ba-9935-0697680edf7b",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions solstice observatory: An observatory associated with the telescope Copper Ibis.",
+        "edge_object_id": "d71f54e3-095d-50a8-816b-425d34c137e3",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+      "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+      "contains",
+      {
+        "source_node_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "target_node_id": "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions copper ibis: The telescope of Solstice Observatory, named Copper Ibis.",
+        "edge_object_id": "99480a65-d5fa-5fd2-84ce-9fe52471df00",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "4631422d-3f54-51ba-9935-0697680edf7b",
+      "388f60fb-220d-55e8-ae9c-3ac93cead308",
+      "is_a",
+      {
+        "source_node_id": "4631422d-3f54-51ba-9935-0697680edf7b",
+        "target_node_id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "is_a",
+        "edge_object_id": "a3a7dc93-7e87-577c-8955-f6ae9bb2c1c6",
+        "feedback_weight": 0.5,
+        "edge_text": "solstice observatory is a organization."
+      }
+    ],
+    [
+      "4631422d-3f54-51ba-9935-0697680edf7b",
+      "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+      "has_telescope",
+      {
+        "source_node_id": "4631422d-3f54-51ba-9935-0697680edf7b",
+        "target_node_id": "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+        "relationship_name": "has_telescope",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "has_telescope",
+        "edge_text": "Solstice Observatory's telescope is named Copper Ibis.",
+        "edge_object_id": "f48efe01-0cf2-51a2-a367-5e8b84da4eaf",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+      "5c32873d-97cc-522a-8ec6-b73ad358c3f4",
+      "is_a",
+      {
+        "source_node_id": "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+        "target_node_id": "5c32873d-97cc-522a-8ec6-b73ad358c3f4",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:56",
+        "relationship_type": "is_a",
+        "edge_object_id": "acf2f4f0-45b2-5685-ae10-5353a55c6faf",
+        "feedback_weight": 0.5,
+        "edge_text": "copper ibis is a telescope."
+      }
+    ]
+  ],
+  "vector_counts": {
+    "DocumentChunk_text": 1,
+    "EdgeType_relationship_name": 7,
+    "EntityType_name": 2,
+    "Entity_name": 2,
+    "TextDocument_name": 1,
+    "TextSummary_text": 1
+  },
+  "vector_rows": {
+    "DocumentChunk_text": [
+      {
+        "id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+        "payload": {
+          "id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+          "created_at": 1792519437128,
+          "updated_at": 1792519437128,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# final/only-document.txt\n\nThe Solstice observatory telescope is named copper ibis.",
+          "document_id": "e76a8052-e318-5839-9470-0c84e0624047",
+          "document_name": "text_7f4d75049a0efa04947ad7041a887f6f",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "EdgeType_relationship_name": [
+      {
+        "id": "1ef72ebb-7e06-5259-b616-0a1c56afc3fe",
+        "payload": {
+          "id": "1ef72ebb-7e06-5259-b616-0a1c56afc3fe",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Organizations/Places: Solstice observatory - Products: te made from # final/only-document.txt The Solstice observatory telescope is named copper ibi.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "c2591820-862a-54b0-917f-d398bd356a1d",
+        "payload": {
+          "id": "c2591820-862a-54b0-917f-d398bd356a1d",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# final/only-document.txt The Solstice observatory telescope is named copper ibi is part of text_7f4d75049a0efa04947ad7041a887f6f.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "4840b392-74ee-5811-bde4-314374b8db97",
+        "payload": {
+          "id": "4840b392-74ee-5811-bde4-314374b8db97",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions solstice observatory: An observatory associated with the telescope Copper Ibis.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "771ce07b-e7ab-5761-ae94-d5709005f713",
+        "payload": {
+          "id": "771ce07b-e7ab-5761-ae94-d5709005f713",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "solstice observatory is a organization.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "eef643c4-36ae-592f-a7e8-c31034fa41b0",
+        "payload": {
+          "id": "eef643c4-36ae-592f-a7e8-c31034fa41b0",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Solstice Observatory's telescope is named Copper Ibis.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "91aa3389-f0cc-5b8b-b631-f881fd8d0bc1",
+        "payload": {
+          "id": "91aa3389-f0cc-5b8b-b631-f881fd8d0bc1",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "copper ibis is a telescope.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "467dffe4-3f90-56bb-9337-56cc194cef8f",
+        "payload": {
+          "id": "467dffe4-3f90-56bb-9337-56cc194cef8f",
+          "created_at": 1792519437362,
+          "updated_at": 1792519437362,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions copper ibis: The telescope of Solstice Observatory, named Copper Ibis.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "EntityType_name": [
+      {
+        "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "payload": {
+          "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+          "created_at": 1792519437288,
+          "updated_at": 1792519437288,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "organization",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "5c32873d-97cc-522a-8ec6-b73ad358c3f4",
+        "payload": {
+          "id": "5c32873d-97cc-522a-8ec6-b73ad358c3f4",
+          "created_at": 1792519437288,
+          "updated_at": 1792519437288,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "telescope",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "Entity_name": [
+      {
+        "id": "4631422d-3f54-51ba-9935-0697680edf7b",
+        "payload": {
+          "id": "4631422d-3f54-51ba-9935-0697680edf7b",
+          "created_at": 1792519437128,
+          "updated_at": 1792519437128,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "solstice observatory",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+        "payload": {
+          "id": "e00a0672-fda1-52bc-b672-2ab9402be1cf",
+          "created_at": 1792519437128,
+          "updated_at": 1792519437128,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "copper ibis",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "TextDocument_name": [
+      {
+        "id": "e76a8052-e318-5839-9470-0c84e0624047",
+        "payload": {
+          "id": "e76a8052-e318-5839-9470-0c84e0624047",
+          "created_at": 1792519437128,
+          "updated_at": 1792519437128,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_7f4d75049a0efa04947ad7041a887f6f",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      }
+    ],
+    "TextSummary_text": [
+      {
+        "id": "365648b2-1fbd-5b34-9a19-2114fd53adb3",
+        "payload": {
+          "id": "365648b2-1fbd-5b34-9a19-2114fd53adb3",
+          "created_at": 1792519437128,
+          "updated_at": 1792519437128,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Organizations/Places: Solstice observatory\n- Products: telescope\n- Names: copper ibis\n\nFacts:\n- The telescope at Solstice observatory is named copper ibis.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "4ccc9e82-34be-53e8-be69-2e3e486494a8",
+          "external_metadata": null
+        }
+      }
+    ]
+  }
+}

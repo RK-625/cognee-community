@@ -1,0 +1,174 @@
+{
+  "step": "02-unchanged",
+  "started": "2026-10-20T17:59:47.197721+00:00",
+  "scope": "main",
+  "prefix": "docs/",
+  "dataset": "azure_validation_main",
+  "max_object_size": 1024,
+  "max_objects": 12,
+  "source_sha256": "e08712992cdc1ee5e33f71581d50f0162b2c18cbbd8f205879d9dfdc17db0ab4",
+  "versions": {
+    "cognee": "1.6.5",
+    "dlt": "1.30.0",
+    "fastembed": "0.8.0",
+    "azure-storage-blob": "12.31.0"
+  },
+  "azure_inventory": [
+    {
+      "name": "docs/above-limit.txt",
+      "size": 1025,
+      "etag": "0x8DF2ED3C3AA5B15",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/at-limit.txt",
+      "size": 1024,
+      "etag": "0x8DF2ED3C381D4F9",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/below-limit.txt",
+      "size": 1023,
+      "etag": "0x8DF2ED3C38888FF",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/delete-me.txt",
+      "size": 49,
+      "etag": "0x8DF2ED3C38E7A02",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/empty.txt",
+      "size": 0,
+      "etag": "0x8DF2ED3C393F60B",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/folder/",
+      "size": 0,
+      "etag": "0x8DF2ED3C3B04C14",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/support.txt",
+      "size": 42,
+      "etag": "0x8DF2ED3C3992404",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/unicode.txt",
+      "size": 38,
+      "etag": "0x8DF2ED3C39E790F",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/update-me.txt",
+      "size": 41,
+      "etag": "0x8DF2ED3C3A3CE1E",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "outside-prefix.txt",
+      "size": 42,
+      "etag": "0x8DF2ED3C3B52C13",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    }
+  ],
+  "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+  "status": "completed",
+  "error": null,
+  "duration_seconds": 5.323,
+  "sdk_events": [
+    {
+      "operation": "list_blobs",
+      "prefix": "docs/",
+      "objects": [
+        {
+          "name": "docs/above-limit.txt",
+          "size": 1025,
+          "etag": "0x8DF2ED3C3AA5B15",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/at-limit.txt",
+          "size": 1024,
+          "etag": "0x8DF2ED3C381D4F9",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/below-limit.txt",
+          "size": 1023,
+          "etag": "0x8DF2ED3C38888FF",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/delete-me.txt",
+          "size": 49,
+          "etag": "0x8DF2ED3C38E7A02",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/empty.txt",
+          "size": 0,
+          "etag": "0x8DF2ED3C393F60B",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/folder/",
+          "size": 0,
+          "etag": "0x8DF2ED3C3B04C14",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/support.txt",
+          "size": 42,
+          "etag": "0x8DF2ED3C3992404",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/unicode.txt",
+          "size": 38,
+          "etag": "0x8DF2ED3C39E790F",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/update-me.txt",
+          "size": 41,
+          "etag": "0x8DF2ED3C3A3CE1E",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        }
+      ],
+      "complete": true
+    }
+  ],
+  "downloads": [],
+  "counts": {
+    "data": 7,
+    "nodes": 41,
+    "edges": 42,
+    "vectors": {
+      "DocumentChunk_text": 7,
+      "EdgeType_relationship_name": 42,
+      "EntityType_name": 9,
+      "Entity_name": 11,
+      "SessionQAVector_text": 1,
+      "TextDocument_name": 7,
+      "TextSummary_text": 7
+    }
+  },
+  "search": {
+    "question": "When is the Kestrel launch?",
+    "answer": [
+      {
+        "dataset_id": "34261ed1-b39c-52a9-9a2b-93fcd136a08d",
+        "dataset_name": "azure_validation_main",
+        "dataset_tenant_id": null,
+        "search_result": [
+          "Monday at nine AM."
+        ]
+      }
+    ]
+  },
+  "finished": "2026-10-20T17:59:54.680690+00:00"
+}

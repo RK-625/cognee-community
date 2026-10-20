@@ -1,0 +1,3703 @@
+{
+  "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+  "data": [
+    {
+      "id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+      "label": "docs/below-limit.txt",
+      "name": "text_f0f967b1b0b74756d12b7941f5c24757",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_f0f967b1b0b74756d12b7941f5c24757.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_f0f967b1b0b74756d12b7941f5c24757.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "f0f967b1b0b74756d12b7941f5c24757",
+      "raw_content_hash": "f0f967b1b0b74756d12b7941f5c24757",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/below-limit.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 18,
+      "data_size": 73,
+      "created_at": "2026-10-20 18:03:22.321545",
+      "updated_at": "2026-10-20 18:03:27.709456",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    },
+    {
+      "id": "08face7b-d0fc-5e33-8300-d85380df4750",
+      "label": "docs/new-document.txt",
+      "name": "text_0c49e8d5bd0b3a7f54bda67014c8cf50",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_0c49e8d5bd0b3a7f54bda67014c8cf50.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_0c49e8d5bd0b3a7f54bda67014c8cf50.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "0c49e8d5bd0b3a7f54bda67014c8cf50",
+      "raw_content_hash": "0c49e8d5bd0b3a7f54bda67014c8cf50",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/new-document.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 20,
+      "data_size": 70,
+      "created_at": "2026-10-20 18:03:22.325614",
+      "updated_at": "2026-10-20 18:03:27.833804",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    },
+    {
+      "id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+      "label": "docs/at-limit.txt",
+      "name": "text_7583dc0170cb7e893bdd9921bba89f76",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_7583dc0170cb7e893bdd9921bba89f76.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_7583dc0170cb7e893bdd9921bba89f76.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "7583dc0170cb7e893bdd9921bba89f76",
+      "raw_content_hash": "7583dc0170cb7e893bdd9921bba89f76",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/at-limit.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 20,
+      "data_size": 68,
+      "created_at": "2026-10-20 18:03:22.330106",
+      "updated_at": "2026-10-20 18:03:32.304546",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    },
+    {
+      "id": "a8254dab-898e-5a3d-9e7f-169187380329",
+      "label": "docs/update-me.txt",
+      "name": "text_b2306843bd7048ae15eb4c60962d67bf",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_b2306843bd7048ae15eb4c60962d67bf.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_b2306843bd7048ae15eb4c60962d67bf.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "b2306843bd7048ae15eb4c60962d67bf",
+      "raw_content_hash": "b2306843bd7048ae15eb4c60962d67bf",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/update-me.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 20,
+      "data_size": 63,
+      "created_at": "2026-10-20 18:03:22.330337",
+      "updated_at": "2026-10-20 18:03:36.657070",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    },
+    {
+      "id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+      "label": "docs/unicode.txt",
+      "name": "text_01f1161849ef5da38fde66ec3d67c2bf",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_01f1161849ef5da38fde66ec3d67c2bf.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_01f1161849ef5da38fde66ec3d67c2bf.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "01f1161849ef5da38fde66ec3d67c2bf",
+      "raw_content_hash": "01f1161849ef5da38fde66ec3d67c2bf",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/unicode.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 17,
+      "data_size": 57,
+      "created_at": "2026-10-20 18:03:22.321116",
+      "updated_at": "2026-10-20 18:03:27.607574",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    },
+    {
+      "id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+      "label": "docs/empty.txt",
+      "name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+      "extension": "txt",
+      "mime_type": "text/plain",
+      "original_extension": "txt",
+      "original_mime_type": "text/plain",
+      "loader_engine": "text_loader",
+      "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_bad2a223cfc40e44a2c052dc4ba1b167.txt",
+      "original_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_bad2a223cfc40e44a2c052dc4ba1b167.txt",
+      "owner_id": "f4177749-949f-4c2c-9ec4-6adb4d550dcd",
+      "tenant_id": null,
+      "dataset_id": "6e355f24-727a-5860-9c3c-e359c856c255",
+      "legacy_id": null,
+      "content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+      "raw_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+      "external_metadata": {},
+      "system_metadata": {
+        "source": "azure_blob",
+        "title": "docs/empty.txt",
+        "table_name": "azure_blob_documents",
+        "url": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt",
+        "external_id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt"
+      },
+      "node_set": null,
+      "pipeline_status": {
+        "add_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        },
+        "cognify_pipeline": {
+          "6e355f24-727a-5860-9c3c-e359c856c255": "DATA_ITEM_PROCESSING_COMPLETED"
+        }
+      },
+      "token_count": 8,
+      "data_size": 16,
+      "created_at": "2026-10-20 18:03:22.326043",
+      "updated_at": "2026-10-20 18:03:27.529075",
+      "last_accessed": null,
+      "importance_weight": 0.5
+    }
+  ],
+  "nodes": [
+    [
+      "ed0cc16a-f4c2-51d3-a51c-7955fe4ba9db",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519406746,
+        "updated_at": 1792519406746,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- File: docs/empty.txt\n\nFacts:\n- The chunk contains only the heading \"# docs/empty.txt\".\n- The chunk provides no substantive content to summarize.",
+        "source_chunk_id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404196,
+        "updated_at": 1792519404196,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/empty.txt",
+        "chunk_size": 8,
+        "chunk_index": 0,
+        "cut_type": "sentence_cut",
+        "content_hash": "e823af3d33a70a89c60d007f3c417cb7a88712cb29448df24de5edc04fd88a5f",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "contains": [],
+        "document_id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+        "document_name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "f039110a-68d9-5385-a4e0-f464606d3f5e",
+      {
+        "name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+        "type": "TextDocument",
+        "created_at": 1792519404195,
+        "updated_at": 1792519404195,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "bad2a223cfc40e44a2c052dc4ba1b167",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_bad2a223cfc40e44a2c052dc4ba1b167.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "ccb2b8e3-54c6-5113-a40a-e4508aa5666e",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519407088,
+        "updated_at": 1792519407088,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "01f1161849ef5da38fde66ec3d67c2bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Documents: docs/unicode.txt\n- Concepts: caf\u00e9 mascot\n- Entities: blue heron\n- Symbols: \u2615\n\nFacts:\n- The document docs/unicode.txt states that the caf\u00e9 mascot is a blue heron.\n- The caf\u00e9 mascot is a blue heron.\n- A coffee emoji appears in the chunk.",
+        "source_chunk_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "323b7951-1f0f-558f-8249-8dc08bb76955",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404198,
+        "updated_at": 1792519404198,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "01f1161849ef5da38fde66ec3d67c2bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/unicode.txt\n\nThe caf\u00e9 mascot is a blue heron. \u2615",
+        "chunk_size": 17,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "9b381a356df662b62949f4d4df54415404c32d3bfe98059cc4f9960c5e3df92b",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+        "document_name": "text_01f1161849ef5da38fde66ec3d67c2bf",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+      {
+        "name": "text_01f1161849ef5da38fde66ec3d67c2bf",
+        "type": "TextDocument",
+        "created_at": 1792519404196,
+        "updated_at": 1792519404196,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "01f1161849ef5da38fde66ec3d67c2bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_01f1161849ef5da38fde66ec3d67c2bf.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "136714db-2afe-573c-bab7-401b6e5fe12a",
+      {
+        "name": "caf\u00e9",
+        "type": "Entity",
+        "created_at": 1792519406806,
+        "updated_at": 1792519406806,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "A caf\u00e9 whose mascot is a blue heron.",
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "388f60fb-220d-55e8-ae9c-3ac93cead308",
+      {
+        "name": "organization",
+        "type": "EntityType",
+        "created_at": 1792519407209,
+        "updated_at": 1792519407209,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "organization",
+        "relations": []
+      }
+    ],
+    [
+      "877ce917-3ac5-5e07-acaf-9908ff194f21",
+      {
+        "name": "blue heron",
+        "type": "Entity",
+        "created_at": 1792519406806,
+        "updated_at": 1792519406806,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "A blue heron serving as the caf\u00e9's mascot.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "5d76eb72-04ef-5580-b2ea-161f8429437a",
+      {
+        "name": "animal",
+        "type": "EntityType",
+        "created_at": 1792519407372,
+        "updated_at": 1792519407372,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "animal",
+        "relations": []
+      }
+    ],
+    [
+      "0f7100a1-fbbc-5cb9-b4f2-16846924455f",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519406277,
+        "updated_at": 1792519406278,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "f0f967b1b0b74756d12b7941f5c24757",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Places: Meridian\n- Organizations: Meridian museum\n- Concepts: admission costs\n\nFacts:\n- The Meridian museum admission costs nine dollars.",
+        "source_chunk_id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404174,
+        "updated_at": 1792519404174,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "f0f967b1b0b74756d12b7941f5c24757",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/below-limit.txt\n\nThe Meridian museum admission costs nine dollars.",
+        "chunk_size": 18,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "1a01e995c299796835beecf96294fb6a47a5b53ae006580369d2b738fe14560b",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+        "document_name": "text_f0f967b1b0b74756d12b7941f5c24757",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+      {
+        "name": "text_f0f967b1b0b74756d12b7941f5c24757",
+        "type": "TextDocument",
+        "created_at": 1792519404173,
+        "updated_at": 1792519404173,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "f0f967b1b0b74756d12b7941f5c24757",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_f0f967b1b0b74756d12b7941f5c24757.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+      {
+        "name": "meridian museum",
+        "type": "Entity",
+        "created_at": 1792519407209,
+        "updated_at": 1792519407209,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "Museum whose admission costs nine dollars.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "c7ff8a14-d0ec-5847-8d94-98215233e110",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519406299,
+        "updated_at": 1792519406299,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "0c49e8d5bd0b3a7f54bda67014c8cf50",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Projects: Polaris project\n- Topics: mascot\n\nFacts:\n- The Polaris project mascot is a silver otter.",
+        "source_chunk_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404162,
+        "updated_at": 1792519404162,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "0c49e8d5bd0b3a7f54bda67014c8cf50",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/new-document.txt\n\nThe Polaris project mascot is a silver otter.",
+        "chunk_size": 20,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "102384409d9607d47cc317a8881d453f7c25f2e715ba7d217baf43559cdd2382",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "08face7b-d0fc-5e33-8300-d85380df4750",
+        "document_name": "text_0c49e8d5bd0b3a7f54bda67014c8cf50",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "08face7b-d0fc-5e33-8300-d85380df4750",
+      {
+        "name": "text_0c49e8d5bd0b3a7f54bda67014c8cf50",
+        "type": "TextDocument",
+        "created_at": 1792519404161,
+        "updated_at": 1792519404161,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "0c49e8d5bd0b3a7f54bda67014c8cf50",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_0c49e8d5bd0b3a7f54bda67014c8cf50.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+      {
+        "name": "polaris project",
+        "type": "Entity",
+        "created_at": 1792519407372,
+        "updated_at": 1792519407372,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "A project whose mascot is a silver otter.",
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "ed098e70-7598-5ee9-a836-d175d95aae72",
+      {
+        "name": "project",
+        "type": "EntityType",
+        "created_at": 1792519407372,
+        "updated_at": 1792519407372,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "project",
+        "relations": []
+      }
+    ],
+    [
+      "eae2d91c-a60b-5df8-ab33-45f99317769b",
+      {
+        "name": "silver otter",
+        "type": "Entity",
+        "created_at": 1792519407372,
+        "updated_at": 1792519407372,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "A silver otter serving as the mascot of the Polaris project.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "4d9ba274-1ac0-5afc-8a67-a29e18cf0613",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519406693,
+        "updated_at": 1792519406693,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7583dc0170cb7e893bdd9921bba89f76",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Documents: docs/at-limit.txt\n- Places: Borealis archive\n- Events: Saturday opening\nFacts:\n- The Borealis archive is referenced in docs/at-limit.txt.\n- The Borealis archive opens at noon on Saturday.",
+        "source_chunk_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404193,
+        "updated_at": 1792519404193,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7583dc0170cb7e893bdd9921bba89f76",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/at-limit.txt\n\nThe Borealis archive opens at noon on Saturday.",
+        "chunk_size": 20,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "1bc689d40910f5af5bed1c6c6c853a292ef899988367e210c9fcdf6d6ceb637e",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+        "document_name": "text_7583dc0170cb7e893bdd9921bba89f76",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+      {
+        "name": "text_7583dc0170cb7e893bdd9921bba89f76",
+        "type": "TextDocument",
+        "created_at": 1792519404192,
+        "updated_at": 1792519404192,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "7583dc0170cb7e893bdd9921bba89f76",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_7583dc0170cb7e893bdd9921bba89f76.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+      {
+        "name": "borealis archive",
+        "type": "Entity",
+        "created_at": 1792519412050,
+        "updated_at": 1792519412050,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "An archive that opens at noon on Saturday.",
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "1beb9f91-51dc-51f8-8a49-8dfaddc70846",
+      {
+        "name": "archive",
+        "type": "EntityType",
+        "created_at": 1792519412050,
+        "updated_at": 1792519412050,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "archive",
+        "relations": []
+      }
+    ],
+    [
+      "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+      {
+        "name": "borealis archive opening",
+        "type": "Entity",
+        "created_at": 1792519412050,
+        "updated_at": 1792519412050,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "The opening of the Borealis archive, scheduled for noon on Saturday.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+      {
+        "name": "event",
+        "type": "EntityType",
+        "created_at": 1792519416439,
+        "updated_at": 1792519416439,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "event",
+        "relations": []
+      }
+    ],
+    [
+      "ec374fa4-f17e-51b2-b67d-e26d1c921d89",
+      {
+        "name": "",
+        "type": "TextSummary",
+        "created_at": 1792519407926,
+        "updated_at": 1792519407926,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 3,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_and_summarize",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "b2306843bd7048ae15eb4c60962d67bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "This chunk is about:\n- Files: docs/update-me.txt\n- Projects/Events: Kestrel launch\n\nFacts:\n- The Kestrel launch is Friday at three PM.\n- The file docs/update-me.txt states that the Kestrel launch is Friday at three PM.",
+        "source_chunk_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "summarized_in": null,
+        "global_context_bucket_id": null
+      }
+    ],
+    [
+      "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+      {
+        "name": "",
+        "type": "DocumentChunk",
+        "created_at": 1792519404175,
+        "updated_at": 1792519404175,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 2,
+        "metadata": {
+          "index_fields": [
+            "text"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_chunks_from_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "b2306843bd7048ae15eb4c60962d67bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "text": "# docs/update-me.txt\n\nThe Kestrel launch is Friday at three PM.",
+        "chunk_size": 20,
+        "chunk_index": 0,
+        "cut_type": "sentence_end",
+        "content_hash": "8cc2080bb222af248f7e4af9ebf90fd9ecde03e19a05485add39a17206172d9f",
+        "max_chunk_tokens": 510,
+        "chunker_id": "text_chunker_v1",
+        "document_id": "a8254dab-898e-5a3d-9e7f-169187380329",
+        "document_name": "text_b2306843bd7048ae15eb4c60962d67bf",
+        "external_metadata": null,
+        "truth_alignment": null,
+        "truth_epoch": null
+      }
+    ],
+    [
+      "a8254dab-898e-5a3d-9e7f-169187380329",
+      {
+        "name": "text_b2306843bd7048ae15eb4c60962d67bf",
+        "type": "TextDocument",
+        "created_at": 1792519404175,
+        "updated_at": 1792519404175,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 1,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "classify_documents",
+        "source_node_set": null,
+        "source_user": "default_user@example.com",
+        "source_content_hash": "b2306843bd7048ae15eb4c60962d67bf",
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "raw_data_location": "file:///private/tmp/azure-blob-validation-20261020/runtime/fresh/data/f4177749-949f-4c2c-9ec4-6adb4d550dcd/text_b2306843bd7048ae15eb4c60962d67bf.txt",
+        "external_metadata": "{}",
+        "mime_type": "text/plain"
+      }
+    ],
+    [
+      "975b7305-e421-5ff4-99eb-76782d6618d4",
+      {
+        "name": "kestrel",
+        "type": "Entity",
+        "created_at": 1792519416439,
+        "updated_at": 1792519416439,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "Kestrel is the product whose launch is scheduled for Friday at three PM.",
+        "relations": [],
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ],
+    [
+      "f76d57aa-4740-5218-9539-0e0978cbf183",
+      {
+        "name": "product",
+        "type": "EntityType",
+        "created_at": 1792519416439,
+        "updated_at": 1792519416439,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "product",
+        "relations": []
+      }
+    ],
+    [
+      "197810bb-4698-5f21-839d-411faa524c27",
+      {
+        "name": "kestrel launch",
+        "type": "Entity",
+        "created_at": 1792519416439,
+        "updated_at": 1792519416439,
+        "ontology_valid": false,
+        "ontology_uri": null,
+        "version": 1,
+        "topological_rank": 0,
+        "metadata": {
+          "index_fields": [
+            "name"
+          ],
+          "identity_fields": [
+            "name"
+          ]
+        },
+        "belongs_to_set": null,
+        "source_pipeline": "cognify_pipeline",
+        "source_task": "extract_graph_from_data",
+        "source_node_set": null,
+        "source_user": null,
+        "source_content_hash": null,
+        "feedback_weight": 0.5,
+        "importance_weight": 0.5,
+        "description": "The Kestrel launch is the launch event for Kestrel, scheduled for Friday at three PM.",
+        "truth_alignment": null,
+        "truth_subspace_signature": null,
+        "truth_epoch": null,
+        "conflicts_reviewed_at": null
+      }
+    ]
+  ],
+  "edges": [
+    [
+      "ed0cc16a-f4c2-51d3-a51c-7955fe4ba9db",
+      "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+      "made_from",
+      {
+        "source_node_id": "ed0cc16a-f4c2-51d3-a51c-7955fe4ba9db",
+        "target_node_id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:26",
+        "relationship_type": "made_from",
+        "edge_object_id": "7a51ecb4-4a39-580a-b748-81bc6b1f5a17",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - File: docs/empty.txt Facts: - The chunk contains only the made from # docs/empty.txt."
+      }
+    ],
+    [
+      "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+      "f039110a-68d9-5385-a4e0-f464606d3f5e",
+      "is_part_of",
+      {
+        "source_node_id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+        "target_node_id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:26",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "5ea66328-5bc2-5e2d-acf9-a6dbfda8b223",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/empty.txt is part of text_bad2a223cfc40e44a2c052dc4ba1b167."
+      }
+    ],
+    [
+      "ccb2b8e3-54c6-5113-a40a-e4508aa5666e",
+      "323b7951-1f0f-558f-8249-8dc08bb76955",
+      "made_from",
+      {
+        "source_node_id": "ccb2b8e3-54c6-5113-a40a-e4508aa5666e",
+        "target_node_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "made_from",
+        "edge_object_id": "91173e6b-4384-507d-bb65-8352505c19f7",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Documents: docs/unicode.txt - Concepts: caf\u00e9 mascot - Ent made from # docs/unicode.txt The caf\u00e9 mascot is a blue heron. \u2615."
+      }
+    ],
+    [
+      "323b7951-1f0f-558f-8249-8dc08bb76955",
+      "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+      "is_part_of",
+      {
+        "source_node_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "target_node_id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "f006c1f9-0912-590f-94e0-202c5354fd0e",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/unicode.txt The caf\u00e9 mascot is a blue heron. \u2615 is part of text_01f1161849ef5da38fde66ec3d67c2bf."
+      }
+    ],
+    [
+      "323b7951-1f0f-558f-8249-8dc08bb76955",
+      "136714db-2afe-573c-bab7-401b6e5fe12a",
+      "contains",
+      {
+        "source_node_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "target_node_id": "136714db-2afe-573c-bab7-401b6e5fe12a",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions caf\u00e9: A caf\u00e9 whose mascot is a blue heron.",
+        "edge_object_id": "55b3e036-d88b-5167-9d1b-61d1579f9154",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "323b7951-1f0f-558f-8249-8dc08bb76955",
+      "877ce917-3ac5-5e07-acaf-9908ff194f21",
+      "contains",
+      {
+        "source_node_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "target_node_id": "877ce917-3ac5-5e07-acaf-9908ff194f21",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions blue heron: A blue heron serving as the caf\u00e9's mascot.",
+        "edge_object_id": "e26fe197-f096-538a-9c14-df7a44d12f40",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "136714db-2afe-573c-bab7-401b6e5fe12a",
+      "388f60fb-220d-55e8-ae9c-3ac93cead308",
+      "is_a",
+      {
+        "source_node_id": "136714db-2afe-573c-bab7-401b6e5fe12a",
+        "target_node_id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_a",
+        "edge_object_id": "7f766666-d40f-50f9-9bcd-faecedb1c872",
+        "feedback_weight": 0.5,
+        "edge_text": "caf\u00e9 is a organization."
+      }
+    ],
+    [
+      "136714db-2afe-573c-bab7-401b6e5fe12a",
+      "877ce917-3ac5-5e07-acaf-9908ff194f21",
+      "has_mascot",
+      {
+        "source_node_id": "136714db-2afe-573c-bab7-401b6e5fe12a",
+        "target_node_id": "877ce917-3ac5-5e07-acaf-9908ff194f21",
+        "relationship_name": "has_mascot",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "has_mascot",
+        "edge_text": "The caf\u00e9's mascot is a blue heron.",
+        "edge_object_id": "e2e3f1c6-b017-5756-9119-0293341d2edd",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "877ce917-3ac5-5e07-acaf-9908ff194f21",
+      "5d76eb72-04ef-5580-b2ea-161f8429437a",
+      "is_a",
+      {
+        "source_node_id": "877ce917-3ac5-5e07-acaf-9908ff194f21",
+        "target_node_id": "5d76eb72-04ef-5580-b2ea-161f8429437a",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_a",
+        "edge_object_id": "802789b3-2b4f-5e53-8385-4b3528bcc861",
+        "feedback_weight": 0.5,
+        "edge_text": "blue heron is a animal."
+      }
+    ],
+    [
+      "0f7100a1-fbbc-5cb9-b4f2-16846924455f",
+      "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+      "made_from",
+      {
+        "source_node_id": "0f7100a1-fbbc-5cb9-b4f2-16846924455f",
+        "target_node_id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "made_from",
+        "edge_object_id": "cbcb1b20-b72f-543b-b350-50179706942d",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Places: Meridian - Organizations: Meridian museum - Conce made from # docs/below-limit.txt The Meridian museum admission costs nine dollars.."
+      }
+    ],
+    [
+      "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+      "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+      "is_part_of",
+      {
+        "source_node_id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+        "target_node_id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "5d597f4e-622a-5596-b929-620c06d242e9",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/below-limit.txt The Meridian museum admission costs nine dollars. is part of text_f0f967b1b0b74756d12b7941f5c24757."
+      }
+    ],
+    [
+      "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+      "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+      "contains",
+      {
+        "source_node_id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+        "target_node_id": "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions meridian museum: Museum whose admission costs nine dollars.",
+        "edge_object_id": "f6ec8fe9-8ace-5097-a12c-d6953fdfefb0",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+      "388f60fb-220d-55e8-ae9c-3ac93cead308",
+      "is_a",
+      {
+        "source_node_id": "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+        "target_node_id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_a",
+        "edge_object_id": "be17031b-21de-566f-a878-a782921fd6b2",
+        "feedback_weight": 0.5,
+        "edge_text": "meridian museum is a organization."
+      }
+    ],
+    [
+      "c7ff8a14-d0ec-5847-8d94-98215233e110",
+      "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+      "made_from",
+      {
+        "source_node_id": "c7ff8a14-d0ec-5847-8d94-98215233e110",
+        "target_node_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "made_from",
+        "edge_object_id": "3eb03997-a36e-5a45-9dea-1e5107b37d0f",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Projects: Polaris project - Topics: mascot Facts: - The P made from # docs/new-document.txt The Polaris project mascot is a silver otter.."
+      }
+    ],
+    [
+      "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+      "08face7b-d0fc-5e33-8300-d85380df4750",
+      "is_part_of",
+      {
+        "source_node_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "target_node_id": "08face7b-d0fc-5e33-8300-d85380df4750",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "5a6117ec-d0d9-5b65-b70d-e8f80fae6fa2",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/new-document.txt The Polaris project mascot is a silver otter. is part of text_0c49e8d5bd0b3a7f54bda67014c8cf50."
+      }
+    ],
+    [
+      "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+      "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+      "contains",
+      {
+        "source_node_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "target_node_id": "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions polaris project: A project whose mascot is a silver otter.",
+        "edge_object_id": "b1ccc401-4114-59b4-8f15-6efdfc4e3adb",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+      "eae2d91c-a60b-5df8-ab33-45f99317769b",
+      "contains",
+      {
+        "source_node_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "target_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions silver otter: A silver otter serving as the mascot of the Polaris project.",
+        "edge_object_id": "de108d1d-72bf-54d5-b474-bb43de3d0611",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+      "ed098e70-7598-5ee9-a836-d175d95aae72",
+      "is_a",
+      {
+        "source_node_id": "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+        "target_node_id": "ed098e70-7598-5ee9-a836-d175d95aae72",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_a",
+        "edge_object_id": "4187d936-7dab-55a0-b6ec-5beeaec3fac0",
+        "feedback_weight": 0.5,
+        "edge_text": "polaris project is a project."
+      }
+    ],
+    [
+      "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+      "eae2d91c-a60b-5df8-ab33-45f99317769b",
+      "has_mascot",
+      {
+        "source_node_id": "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+        "target_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "relationship_name": "has_mascot",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "has_mascot",
+        "edge_text": "Polaris project has a silver otter as its mascot.",
+        "edge_object_id": "77d22077-3c1b-55d6-a3ed-c21742054885",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "eae2d91c-a60b-5df8-ab33-45f99317769b",
+      "5d76eb72-04ef-5580-b2ea-161f8429437a",
+      "is_a",
+      {
+        "source_node_id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "target_node_id": "5d76eb72-04ef-5580-b2ea-161f8429437a",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:27",
+        "relationship_type": "is_a",
+        "edge_object_id": "e4d7904d-96ff-5f6b-915b-1e377b8a5e14",
+        "feedback_weight": 0.5,
+        "edge_text": "silver otter is a animal."
+      }
+    ],
+    [
+      "4d9ba274-1ac0-5afc-8a67-a29e18cf0613",
+      "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+      "made_from",
+      {
+        "source_node_id": "4d9ba274-1ac0-5afc-8a67-a29e18cf0613",
+        "target_node_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "made_from",
+        "edge_object_id": "d17c129c-3b8a-5e98-ab55-c87a97628e33",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Documents: docs/at-limit.txt - Places: Borealis archive - made from # docs/at-limit.txt The Borealis archive opens at noon on Saturday.."
+      }
+    ],
+    [
+      "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+      "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+      "is_part_of",
+      {
+        "source_node_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "target_node_id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "2e3bab01-41d5-55b5-872b-5657443acde1",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/at-limit.txt The Borealis archive opens at noon on Saturday. is part of text_7583dc0170cb7e893bdd9921bba89f76."
+      }
+    ],
+    [
+      "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+      "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+      "contains",
+      {
+        "source_node_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "target_node_id": "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions borealis archive: An archive that opens at noon on Saturday.",
+        "edge_object_id": "202d9646-ce6c-503c-931e-670f0b3255eb",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+      "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+      "contains",
+      {
+        "source_node_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "target_node_id": "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions borealis archive opening: The opening of the Borealis archive, scheduled for noon on Saturday.",
+        "edge_object_id": "424260ae-2b1f-54e7-a5d3-44843f79bf5a",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+      "1beb9f91-51dc-51f8-8a49-8dfaddc70846",
+      "is_a",
+      {
+        "source_node_id": "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+        "target_node_id": "1beb9f91-51dc-51f8-8a49-8dfaddc70846",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "is_a",
+        "edge_object_id": "039bd9fa-b568-58ee-ab19-6a2129520562",
+        "feedback_weight": 0.5,
+        "edge_text": "borealis archive is a archive."
+      }
+    ],
+    [
+      "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+      "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+      "has_opening",
+      {
+        "source_node_id": "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+        "target_node_id": "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+        "relationship_name": "has_opening",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "has_opening",
+        "edge_text": "The Borealis archive opens at noon on Saturday.",
+        "edge_object_id": "ccbb9559-4405-56ac-af5f-a19cc2927c81",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+      "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+      "is_a",
+      {
+        "source_node_id": "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+        "target_node_id": "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:32",
+        "relationship_type": "is_a",
+        "edge_object_id": "c27bd47d-f482-574f-89cc-479c0fb77b46",
+        "feedback_weight": 0.5,
+        "edge_text": "borealis archive opening is a event."
+      }
+    ],
+    [
+      "ec374fa4-f17e-51b2-b67d-e26d1c921d89",
+      "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+      "made_from",
+      {
+        "source_node_id": "ec374fa4-f17e-51b2-b67d-e26d1c921d89",
+        "target_node_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "relationship_name": "made_from",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "made_from",
+        "edge_object_id": "32f8962a-214e-5afa-af8b-cc51c116370f",
+        "feedback_weight": 0.5,
+        "edge_text": "This chunk is about: - Files: docs/update-me.txt - Projects/Events: Kestrel laun made from # docs/update-me.txt The Kestrel launch is Friday at three PM.."
+      }
+    ],
+    [
+      "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+      "a8254dab-898e-5a3d-9e7f-169187380329",
+      "is_part_of",
+      {
+        "source_node_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "target_node_id": "a8254dab-898e-5a3d-9e7f-169187380329",
+        "relationship_name": "is_part_of",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "is_part_of",
+        "edge_object_id": "feaec8d2-c12b-541e-8c79-e560a8dd8ea8",
+        "feedback_weight": 0.5,
+        "edge_text": "# docs/update-me.txt The Kestrel launch is Friday at three PM. is part of text_b2306843bd7048ae15eb4c60962d67bf."
+      }
+    ],
+    [
+      "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+      "975b7305-e421-5ff4-99eb-76782d6618d4",
+      "contains",
+      {
+        "source_node_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "target_node_id": "975b7305-e421-5ff4-99eb-76782d6618d4",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions kestrel: Kestrel is the product whose launch is scheduled for Friday at three PM.",
+        "edge_object_id": "20176334-b96e-5553-8eac-8432dc6a8265",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+      "197810bb-4698-5f21-839d-411faa524c27",
+      "contains",
+      {
+        "source_node_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "target_node_id": "197810bb-4698-5f21-839d-411faa524c27",
+        "relationship_name": "contains",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "contains",
+        "edge_text": "Document chunk mentions kestrel launch: The Kestrel launch is the launch event for Kestrel, scheduled for Friday at three PM.",
+        "edge_object_id": "e87db1e8-d696-502e-85cf-7a16bdf24c0e",
+        "feedback_weight": 0.5
+      }
+    ],
+    [
+      "975b7305-e421-5ff4-99eb-76782d6618d4",
+      "f76d57aa-4740-5218-9539-0e0978cbf183",
+      "is_a",
+      {
+        "source_node_id": "975b7305-e421-5ff4-99eb-76782d6618d4",
+        "target_node_id": "f76d57aa-4740-5218-9539-0e0978cbf183",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "is_a",
+        "edge_object_id": "5a402c87-00e6-5535-8efd-4b3a7c3d0910",
+        "feedback_weight": 0.5,
+        "edge_text": "kestrel is a product."
+      }
+    ],
+    [
+      "197810bb-4698-5f21-839d-411faa524c27",
+      "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+      "is_a",
+      {
+        "source_node_id": "197810bb-4698-5f21-839d-411faa524c27",
+        "target_node_id": "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+        "relationship_name": "is_a",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "is_a",
+        "edge_object_id": "65a1df54-1fca-5222-be23-da50497ae5ba",
+        "feedback_weight": 0.5,
+        "edge_text": "kestrel launch is a event."
+      }
+    ],
+    [
+      "197810bb-4698-5f21-839d-411faa524c27",
+      "975b7305-e421-5ff4-99eb-76782d6618d4",
+      "launches",
+      {
+        "source_node_id": "197810bb-4698-5f21-839d-411faa524c27",
+        "target_node_id": "975b7305-e421-5ff4-99eb-76782d6618d4",
+        "relationship_name": "launches",
+        "updated_at": "2026-10-20 18:03:36",
+        "relationship_type": "launches",
+        "edge_text": "The Kestrel launch event launches Kestrel and is scheduled for Friday at three PM.",
+        "edge_object_id": "0601a10c-ae19-5023-9e4c-7710e92aecc0",
+        "feedback_weight": 0.5
+      }
+    ]
+  ],
+  "vector_counts": {
+    "DocumentChunk_text": 6,
+    "EdgeType_relationship_name": 34,
+    "EntityType_name": 7,
+    "Entity_name": 9,
+    "TextDocument_name": 6,
+    "TextSummary_text": 6
+  },
+  "vector_rows": {
+    "DocumentChunk_text": [
+      {
+        "id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+        "payload": {
+          "id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+          "created_at": 1792519407148,
+          "updated_at": 1792519407148,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/empty.txt",
+          "document_id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+          "document_name": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+        "payload": {
+          "id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+          "created_at": 1792519407153,
+          "updated_at": 1792519407153,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/unicode.txt\n\nThe caf\u00e9 mascot is a blue heron. \u2615",
+          "document_id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+          "document_name": "text_01f1161849ef5da38fde66ec3d67c2bf",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+        "payload": {
+          "id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+          "created_at": 1792519407247,
+          "updated_at": 1792519407247,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/below-limit.txt\n\nThe Meridian museum admission costs nine dollars.",
+          "document_id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+          "document_name": "text_f0f967b1b0b74756d12b7941f5c24757",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+        "payload": {
+          "id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+          "created_at": 1792519407416,
+          "updated_at": 1792519407416,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/new-document.txt\n\nThe Polaris project mascot is a silver otter.",
+          "document_id": "08face7b-d0fc-5e33-8300-d85380df4750",
+          "document_name": "text_0c49e8d5bd0b3a7f54bda67014c8cf50",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+        "payload": {
+          "id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+          "created_at": 1792519412090,
+          "updated_at": 1792519412090,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/at-limit.txt\n\nThe Borealis archive opens at noon on Saturday.",
+          "document_id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+          "document_name": "text_7583dc0170cb7e893bdd9921bba89f76",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+        "payload": {
+          "id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+          "created_at": 1792519416481,
+          "updated_at": 1792519416481,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/update-me.txt\n\nThe Kestrel launch is Friday at three PM.",
+          "document_id": "a8254dab-898e-5a3d-9e7f-169187380329",
+          "document_name": "text_b2306843bd7048ae15eb4c60962d67bf",
+          "chunk_index": 0,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "EdgeType_relationship_name": [
+      {
+        "id": "520aceab-5877-5d22-945c-d5183cec6f16",
+        "payload": {
+          "id": "520aceab-5877-5d22-945c-d5183cec6f16",
+          "created_at": 1792519407444,
+          "updated_at": 1792519407444,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - File: docs/empty.txt Facts: - The chunk contains only the made from # docs/empty.txt.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "b4d8be9e-e640-5931-bcbf-58bb76e1f451",
+        "payload": {
+          "id": "b4d8be9e-e640-5931-bcbf-58bb76e1f451",
+          "created_at": 1792519407444,
+          "updated_at": 1792519407444,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/empty.txt is part of text_bad2a223cfc40e44a2c052dc4ba1b167.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "cb263e7b-0769-5397-bd0c-8c467f64f2e5",
+        "payload": {
+          "id": "cb263e7b-0769-5397-bd0c-8c467f64f2e5",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Documents: docs/unicode.txt - Concepts: caf\u00e9 mascot - Ent made from # docs/unicode.txt The caf\u00e9 mascot is a blue heron. \u2615.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "10573598-fbe6-5c77-8c98-2ce1a7d4d0bb",
+        "payload": {
+          "id": "10573598-fbe6-5c77-8c98-2ce1a7d4d0bb",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/unicode.txt The caf\u00e9 mascot is a blue heron. \u2615 is part of text_01f1161849ef5da38fde66ec3d67c2bf.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "dbcfa26e-d7b2-5f34-871c-1f40bcfb720f",
+        "payload": {
+          "id": "dbcfa26e-d7b2-5f34-871c-1f40bcfb720f",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions caf\u00e9: A caf\u00e9 whose mascot is a blue heron.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "c6c9aab9-7719-570e-a115-8856e24781f4",
+        "payload": {
+          "id": "c6c9aab9-7719-570e-a115-8856e24781f4",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "caf\u00e9 is a organization.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "65482c7f-0dec-5ca7-87a1-0081d479d49b",
+        "payload": {
+          "id": "65482c7f-0dec-5ca7-87a1-0081d479d49b",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "The caf\u00e9's mascot is a blue heron.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "93daaaf0-1a7d-549f-b81a-479c3199e653",
+        "payload": {
+          "id": "93daaaf0-1a7d-549f-b81a-479c3199e653",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "blue heron is a animal.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "e57d25c0-9137-53ff-9b07-6cfb3e591e98",
+        "payload": {
+          "id": "e57d25c0-9137-53ff-9b07-6cfb3e591e98",
+          "created_at": 1792519407538,
+          "updated_at": 1792519407538,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions blue heron: A blue heron serving as the caf\u00e9's mascot.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "d4308c49-5f6a-57d5-99ca-7e58980e6ecb",
+        "payload": {
+          "id": "d4308c49-5f6a-57d5-99ca-7e58980e6ecb",
+          "created_at": 1792519407663,
+          "updated_at": 1792519407663,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Places: Meridian - Organizations: Meridian museum - Conce made from # docs/below-limit.txt The Meridian museum admission costs nine dollars..",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "5dd5b96d-51ae-57b4-a612-029d37e05d65",
+        "payload": {
+          "id": "5dd5b96d-51ae-57b4-a612-029d37e05d65",
+          "created_at": 1792519407663,
+          "updated_at": 1792519407663,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/below-limit.txt The Meridian museum admission costs nine dollars. is part of text_f0f967b1b0b74756d12b7941f5c24757.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "8ee3d015-d888-5653-b79a-5c6f8299bd84",
+        "payload": {
+          "id": "8ee3d015-d888-5653-b79a-5c6f8299bd84",
+          "created_at": 1792519407663,
+          "updated_at": 1792519407663,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions meridian museum: Museum whose admission costs nine dollars.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "9e442ee2-38b4-5fc6-be6b-69e8733efc42",
+        "payload": {
+          "id": "9e442ee2-38b4-5fc6-be6b-69e8733efc42",
+          "created_at": 1792519407663,
+          "updated_at": 1792519407663,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "meridian museum is a organization.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "6c087bc9-3e17-5cf1-9a8c-e96f79662767",
+        "payload": {
+          "id": "6c087bc9-3e17-5cf1-9a8c-e96f79662767",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Projects: Polaris project - Topics: mascot Facts: - The P made from # docs/new-document.txt The Polaris project mascot is a silver otter..",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "913993e2-ec37-55c1-8266-1534bac0dbdd",
+        "payload": {
+          "id": "913993e2-ec37-55c1-8266-1534bac0dbdd",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/new-document.txt The Polaris project mascot is a silver otter. is part of text_0c49e8d5bd0b3a7f54bda67014c8cf50.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "37238bcb-0c97-5c1f-b91d-dea51e35ccd8",
+        "payload": {
+          "id": "37238bcb-0c97-5c1f-b91d-dea51e35ccd8",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions polaris project: A project whose mascot is a silver otter.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "c0b0b927-1aa8-529c-948f-1761fd437c6c",
+        "payload": {
+          "id": "c0b0b927-1aa8-529c-948f-1761fd437c6c",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "polaris project is a project.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "ede231fd-4e0d-52de-8a05-e1e25714dca1",
+        "payload": {
+          "id": "ede231fd-4e0d-52de-8a05-e1e25714dca1",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Polaris project has a silver otter as its mascot.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "3ecdf8dc-4b72-527e-bec4-5fb87e727d0e",
+        "payload": {
+          "id": "3ecdf8dc-4b72-527e-bec4-5fb87e727d0e",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "silver otter is a animal.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "a8ae4943-b210-5962-8941-ef602ef6cb6c",
+        "payload": {
+          "id": "a8ae4943-b210-5962-8941-ef602ef6cb6c",
+          "created_at": 1792519407769,
+          "updated_at": 1792519407769,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions silver otter: A silver otter serving as the mascot of the Polaris project.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "924508d8-d9e0-53ac-b5f0-7bc30db77563",
+        "payload": {
+          "id": "924508d8-d9e0-53ac-b5f0-7bc30db77563",
+          "created_at": 1792519412239,
+          "updated_at": 1792519412239,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Documents: docs/at-limit.txt - Places: Borealis archive - made from # docs/at-limit.txt The Borealis archive opens at noon on Saturday..",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "21767bf1-540d-57f9-a4ad-b6d7da104319",
+        "payload": {
+          "id": "21767bf1-540d-57f9-a4ad-b6d7da104319",
+          "created_at": 1792519412239,
+          "updated_at": 1792519412239,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/at-limit.txt The Borealis archive opens at noon on Saturday. is part of text_7583dc0170cb7e893bdd9921bba89f76.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "60bc0464-83c8-58d4-8d84-7efc704f9620",
+        "payload": {
+          "id": "60bc0464-83c8-58d4-8d84-7efc704f9620",
+          "created_at": 1792519412239,
+          "updated_at": 1792519412239,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions borealis archive: An archive that opens at noon on Saturday.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "335d195b-d9e4-5942-a20d-2f3b9bb7e77e",
+        "payload": {
+          "id": "335d195b-d9e4-5942-a20d-2f3b9bb7e77e",
+          "created_at": 1792519412239,
+          "updated_at": 1792519412239,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "borealis archive is a archive.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "ffc8d927-f64c-5367-816f-8e946931f87a",
+        "payload": {
+          "id": "ffc8d927-f64c-5367-816f-8e946931f87a",
+          "created_at": 1792519412239,
+          "updated_at": 1792519412240,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "The Borealis archive opens at noon on Saturday.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "05e84480-6323-550f-add4-34d8cb6fe13e",
+        "payload": {
+          "id": "05e84480-6323-550f-add4-34d8cb6fe13e",
+          "created_at": 1792519412240,
+          "updated_at": 1792519412240,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "borealis archive opening is a event.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "33da1308-05de-5622-8e87-8d371b368bea",
+        "payload": {
+          "id": "33da1308-05de-5622-8e87-8d371b368bea",
+          "created_at": 1792519412240,
+          "updated_at": 1792519412240,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions borealis archive opening: The opening of the Borealis archive, scheduled for noon on Saturday.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "27b2d103-970a-5761-b401-2dbf9ce8859f",
+        "payload": {
+          "id": "27b2d103-970a-5761-b401-2dbf9ce8859f",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about: - Files: docs/update-me.txt - Projects/Events: Kestrel laun made from # docs/update-me.txt The Kestrel launch is Friday at three PM..",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "6a159946-16e5-5870-8ee8-ee08fc8bc684",
+        "payload": {
+          "id": "6a159946-16e5-5870-8ee8-ee08fc8bc684",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "# docs/update-me.txt The Kestrel launch is Friday at three PM. is part of text_b2306843bd7048ae15eb4c60962d67bf.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "35e497a5-dd72-5ee2-8eec-596482d5fc23",
+        "payload": {
+          "id": "35e497a5-dd72-5ee2-8eec-596482d5fc23",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions kestrel: Kestrel is the product whose launch is scheduled for Friday at three PM.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "3986385c-6251-50d7-a1b6-0773f8ba26b0",
+        "payload": {
+          "id": "3986385c-6251-50d7-a1b6-0773f8ba26b0",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "kestrel is a product.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "d5964916-3451-59c1-b619-f960d57a1f23",
+        "payload": {
+          "id": "d5964916-3451-59c1-b619-f960d57a1f23",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "Document chunk mentions kestrel launch: The Kestrel launch is the launch event for Kestrel, scheduled for Friday at three PM.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "f1781177-0f26-5e54-8ad7-59956d5ec645",
+        "payload": {
+          "id": "f1781177-0f26-5e54-8ad7-59956d5ec645",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "kestrel launch is a event.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "1dd0510e-172c-57f3-a20a-a58f5682b300",
+        "payload": {
+          "id": "1dd0510e-172c-57f3-a20a-a58f5682b300",
+          "created_at": 1792519416589,
+          "updated_at": 1792519416589,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "The Kestrel launch event launches Kestrel and is scheduled for Friday at three PM.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "EntityType_name": [
+      {
+        "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "payload": {
+          "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+          "created_at": 1792519407326,
+          "updated_at": 1792519407326,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "organization",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+        "payload": {
+          "id": "388f60fb-220d-55e8-ae9c-3ac93cead308",
+          "created_at": 1792519407373,
+          "updated_at": 1792519407373,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "organization",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "5d76eb72-04ef-5580-b2ea-161f8429437a",
+        "payload": {
+          "id": "5d76eb72-04ef-5580-b2ea-161f8429437a",
+          "created_at": 1792519407478,
+          "updated_at": 1792519407478,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "animal",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "ed098e70-7598-5ee9-a836-d175d95aae72",
+        "payload": {
+          "id": "ed098e70-7598-5ee9-a836-d175d95aae72",
+          "created_at": 1792519407478,
+          "updated_at": 1792519407478,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "project",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "1beb9f91-51dc-51f8-8a49-8dfaddc70846",
+        "payload": {
+          "id": "1beb9f91-51dc-51f8-8a49-8dfaddc70846",
+          "created_at": 1792519412125,
+          "updated_at": 1792519412125,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "archive",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+        "payload": {
+          "id": "214abcd9-9adf-5c8a-bb35-1e729f2d68c3",
+          "created_at": 1792519416517,
+          "updated_at": 1792519416517,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "event",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "f76d57aa-4740-5218-9539-0e0978cbf183",
+        "payload": {
+          "id": "f76d57aa-4740-5218-9539-0e0978cbf183",
+          "created_at": 1792519416517,
+          "updated_at": 1792519416517,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "product",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "Entity_name": [
+      {
+        "id": "136714db-2afe-573c-bab7-401b6e5fe12a",
+        "payload": {
+          "id": "136714db-2afe-573c-bab7-401b6e5fe12a",
+          "created_at": 1792519407153,
+          "updated_at": 1792519407153,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "caf\u00e9",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "877ce917-3ac5-5e07-acaf-9908ff194f21",
+        "payload": {
+          "id": "877ce917-3ac5-5e07-acaf-9908ff194f21",
+          "created_at": 1792519407153,
+          "updated_at": 1792519407153,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "blue heron",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+        "payload": {
+          "id": "8d9a896a-8241-566f-85a0-60f5b6ba3cce",
+          "created_at": 1792519407247,
+          "updated_at": 1792519407247,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "meridian museum",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+        "payload": {
+          "id": "4ff34ad7-6622-5176-a83e-aacab4d50dae",
+          "created_at": 1792519407416,
+          "updated_at": 1792519407416,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "polaris project",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+        "payload": {
+          "id": "eae2d91c-a60b-5df8-ab33-45f99317769b",
+          "created_at": 1792519407416,
+          "updated_at": 1792519407416,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "silver otter",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+        "payload": {
+          "id": "1f2ece26-3a03-5e6d-a635-971f51440ab9",
+          "created_at": 1792519412090,
+          "updated_at": 1792519412090,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "borealis archive",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+        "payload": {
+          "id": "cf54e9d7-2f03-5c2f-bcde-4f0120c9d975",
+          "created_at": 1792519412090,
+          "updated_at": 1792519412090,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "borealis archive opening",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "975b7305-e421-5ff4-99eb-76782d6618d4",
+        "payload": {
+          "id": "975b7305-e421-5ff4-99eb-76782d6618d4",
+          "created_at": 1792519416481,
+          "updated_at": 1792519416481,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "kestrel",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "197810bb-4698-5f21-839d-411faa524c27",
+        "payload": {
+          "id": "197810bb-4698-5f21-839d-411faa524c27",
+          "created_at": 1792519416481,
+          "updated_at": 1792519416481,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "kestrel launch",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": null
+        }
+      }
+    ],
+    "TextDocument_name": [
+      {
+        "id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+        "payload": {
+          "id": "f039110a-68d9-5385-a4e0-f464606d3f5e",
+          "created_at": 1792519407148,
+          "updated_at": 1792519407148,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_bad2a223cfc40e44a2c052dc4ba1b167",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      },
+      {
+        "id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+        "payload": {
+          "id": "437b10c2-083a-5b8d-b8fc-7924a1805b10",
+          "created_at": 1792519407153,
+          "updated_at": 1792519407153,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_01f1161849ef5da38fde66ec3d67c2bf",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      },
+      {
+        "id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+        "payload": {
+          "id": "0e708438-8007-5f7f-ba10-d5e8eb479a67",
+          "created_at": 1792519407247,
+          "updated_at": 1792519407247,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_f0f967b1b0b74756d12b7941f5c24757",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      },
+      {
+        "id": "08face7b-d0fc-5e33-8300-d85380df4750",
+        "payload": {
+          "id": "08face7b-d0fc-5e33-8300-d85380df4750",
+          "created_at": 1792519407416,
+          "updated_at": 1792519407416,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_0c49e8d5bd0b3a7f54bda67014c8cf50",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      },
+      {
+        "id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+        "payload": {
+          "id": "4ef205cc-0cb9-5939-8b3b-edbadd802dfb",
+          "created_at": 1792519412090,
+          "updated_at": 1792519412090,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_7583dc0170cb7e893bdd9921bba89f76",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      },
+      {
+        "id": "a8254dab-898e-5a3d-9e7f-169187380329",
+        "payload": {
+          "id": "a8254dab-898e-5a3d-9e7f-169187380329",
+          "created_at": 1792519416481,
+          "updated_at": 1792519416481,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "text_b2306843bd7048ae15eb4c60962d67bf",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": null,
+          "external_metadata": "{}"
+        }
+      }
+    ],
+    "TextSummary_text": [
+      {
+        "id": "ed0cc16a-f4c2-51d3-a51c-7955fe4ba9db",
+        "payload": {
+          "id": "ed0cc16a-f4c2-51d3-a51c-7955fe4ba9db",
+          "created_at": 1792519407148,
+          "updated_at": 1792519407148,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- File: docs/empty.txt\n\nFacts:\n- The chunk contains only the heading \"# docs/empty.txt\".\n- The chunk provides no substantive content to summarize.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "13afcc7b-4a24-585e-9408-7ddc512d96e3",
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "ccb2b8e3-54c6-5113-a40a-e4508aa5666e",
+        "payload": {
+          "id": "ccb2b8e3-54c6-5113-a40a-e4508aa5666e",
+          "created_at": 1792519407153,
+          "updated_at": 1792519407153,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/unicode.txt\n- Concepts: caf\u00e9 mascot\n- Entities: blue heron\n- Symbols: \u2615\n\nFacts:\n- The document docs/unicode.txt states that the caf\u00e9 mascot is a blue heron.\n- The caf\u00e9 mascot is a blue heron.\n- A coffee emoji appears in the chunk.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "323b7951-1f0f-558f-8249-8dc08bb76955",
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "0f7100a1-fbbc-5cb9-b4f2-16846924455f",
+        "payload": {
+          "id": "0f7100a1-fbbc-5cb9-b4f2-16846924455f",
+          "created_at": 1792519407247,
+          "updated_at": 1792519407247,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Places: Meridian\n- Organizations: Meridian museum\n- Concepts: admission costs\n\nFacts:\n- The Meridian museum admission costs nine dollars.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "7f1752f4-9fc5-5bc0-be04-a1a699005619",
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "c7ff8a14-d0ec-5847-8d94-98215233e110",
+        "payload": {
+          "id": "c7ff8a14-d0ec-5847-8d94-98215233e110",
+          "created_at": 1792519407416,
+          "updated_at": 1792519407416,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Projects: Polaris project\n- Topics: mascot\n\nFacts:\n- The Polaris project mascot is a silver otter.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "17fce3e0-b3f2-5ce4-9595-eadc89648402",
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "4d9ba274-1ac0-5afc-8a67-a29e18cf0613",
+        "payload": {
+          "id": "4d9ba274-1ac0-5afc-8a67-a29e18cf0613",
+          "created_at": 1792519412090,
+          "updated_at": 1792519412090,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Documents: docs/at-limit.txt\n- Places: Borealis archive\n- Events: Saturday opening\nFacts:\n- The Borealis archive is referenced in docs/at-limit.txt.\n- The Borealis archive opens at noon on Saturday.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "574e3675-5da0-55ce-8fb3-60f4ee636bed",
+          "external_metadata": null
+        }
+      },
+      {
+        "id": "ec374fa4-f17e-51b2-b67d-e26d1c921d89",
+        "payload": {
+          "id": "ec374fa4-f17e-51b2-b67d-e26d1c921d89",
+          "created_at": 1792519416481,
+          "updated_at": 1792519416481,
+          "ontology_valid": false,
+          "ontology_uri": null,
+          "version": 1,
+          "topological_rank": 0,
+          "type": "IndexSchema",
+          "belongs_to_set": [],
+          "source_pipeline": null,
+          "source_task": null,
+          "source_node_set": null,
+          "source_user": null,
+          "source_content_hash": null,
+          "feedback_weight": 0.5,
+          "importance_weight": 0.5,
+          "text": "This chunk is about:\n- Files: docs/update-me.txt\n- Projects/Events: Kestrel launch\n\nFacts:\n- The Kestrel launch is Friday at three PM.\n- The file docs/update-me.txt states that the Kestrel launch is Friday at three PM.",
+          "document_id": null,
+          "document_name": null,
+          "chunk_index": null,
+          "source_chunk_id": "123b9cb2-3d8a-5e70-b0e8-72d5eec6e67e",
+          "external_metadata": null
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cognee_db": {
+    "data": []
+  },
+  "dlt_database_azure_validation_final__azure_validation_final": {
+    "azure_blob_documents": [],
+    "_dlt_pipeline_state": [
+      {
+        "version": 1,
+        "engine_version": 4,
+        "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+        "state": "eNqtUk1PwzAM/S85d12Sjn1U4sAYHJCYBILLEIq81l0jsqRr0m0d4r+TjCEKghs5OX7P79lOXomwDhyKLdZWGk1SFn2mUK+k7iCDiNisxDUIDWu0JH0icGhqFEtlluQ5IpWsUIWSgJOUSL1C60SunKC8oBTOxsUw4QgTdpawCdAJXY6As4wiiUiOBTSe2vHwGh0HTwEHFt13bAtKesC3KAqpQR2lrPPhMefaKnB9E3EnbWO7UaCCVfuj4ENcN0r5TZyGFyXY0qtUyYNeXCxuqm3ille0fcnuNruSL+4vm7lm+5f51Nwy1U7rR3PuZa1p6ixs6rU7h7/V+CskcpM1a9TumJd660NTyw9a6Vxl034/MyuNCIdQwCkfMsppHC5xZmqMd1LnZmdjje5E7X1tqH/cUP+f5YxWbe+z9djtXdA/vdFfjIgo8H9jbXJZSMw9M5j3GO1x+sDGKU1SNlp4GjpYeZTux7NrfjUbDKeDMR/OLsjb6bwDrdr38Q==",
+        "created_at": "2026-10-20 18:03:48.652134",
+        "version_hash": "p3TnZAZJpv3tbE0ykcQqwh2ZRCuNn1xkNBoM1lyBrUo=",
+        "_dlt_load_id": "1792519428.557081",
+        "_dlt_id": "HkZOSbZaokQ+OQ"
+      },
+      {
+        "version": 2,
+        "engine_version": 4,
+        "pipeline_name": "ingest_dlt_02f00a58f632ea915319a090b7a21c0e",
+        "state": "eNptUF1vgzAM/C95LYNA6RfSHqdpVaV9VZO2aYpcMBApJBSHVm21/75AO41Ny5Nzdz7bd2KCLFgUO2xIGs2SyPuGUBdSD5jYY5SWWIHQUCGx5J3BsW1QbJTZsA+P1bJG1bV0PEuY1AWSFZmygkc55zCZ59NxhLAIJ+NwAXzBNzOIwpQj81iGObROOpjhPAYTnAQsENrf3A6UdIRbUeRSg+qtyLqyx+yh7rRuCX8Ak09bBaobdfjTcDbXrVIuicvxogQqncty9mpu47uZpTU9j9ZzXt2/vI1GW3qsHqKneNnGZlVPiptVHV87WzJtk3ZJnYZ3uF+D/1IiM2lbobY9LvXOlaaRZ1lpbU1JEKSm0Ihw7BoiHk1DHnG/+/ipadDfS52ZPfka7UV69ZNQ0CcUOLvP8/sCFmK2Ug==",
+        "created_at": "2026-10-20 18:04:32.753776",
+        "version_hash": "J7YoG4I7tsTsS+T80mOVZ++qsQmP2R4Ju4oLp5gELp4=",
+        "_dlt_load_id": "1792519472.651785",
+        "_dlt_id": "GnZ9XabiGFBwvA"
+      }
+    ]
+  },
+  "dlt_database_azure_validation_final__azure_validation_final_staging": {
+    "azure_blob_documents": [
+      {
+        "deleted": 1,
+        "cognee_node_set": null,
+        "id": "https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/final/only-document.txt",
+        "url": null,
+        "title": null,
+        "content": null,
+        "_dlt_load_id": "1792519472.651785",
+        "_dlt_id": "+Kx+L3JBBfrY4w"
+      }
+    ]
+  }
+}

@@ -1,0 +1,770 @@
+
+[2m2026-10-20T18:03:14.401087[0m [[32m[1minfo     [0m] [1mLog file created at: /private/tmp/azure-blob-validation-20261020/logs/fresh/2026-10-20_18-03-14.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/private/tmp/azure-blob-validation-20261020/logs/fresh/2026-10-20_18-03-14.log[0m
+
+[2m2026-10-20T18:03:14.401367[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:14.401469[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.6.5[0m [36mdatabase_path[0m=[35m/private/tmp/azure-blob-validation-20261020/runtime/fresh/system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T18:03:14.401559[0m [[32m[1minfo     [0m] [1mDatabase storage: /private/tmp/azure-blob-validation-20261020/runtime/fresh/system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:14.401621[0m [[32m[1minfo     [0m] [1mNo .env file found; using process environment variables only.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:16.669548[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '86fbea36-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '19762'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76b2c-f01e-002c-41bd-60b709000000'
+    'x-ms-client-request-id': '86fbea36-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:17 GMT'[0m
+
+[1mFresh database: building the schema from the migration chain.[0m
+
+[1msetup plugin alembic.autogenerate.schemas[0m
+
+[1msetup plugin alembic.autogenerate.tables[0m
+
+[1msetup plugin alembic.autogenerate.types[0m
+
+[1msetup plugin alembic.autogenerate.constraints[0m
+
+[1msetup plugin alembic.autogenerate.defaults[0m
+
+[1msetup plugin alembic.autogenerate.comments[0m
+
+[1msetup plugin alembic.ext.checkconstraint_byname[0m
+
+[1mUsing database: sqlite+aiosqlite:////private/tmp/azure-blob-validation-20261020/runtime/fresh/system/databases/cognee_db[0m
+
+[1mContext impl SQLiteImpl.      [0m
+
+[1mWill assume non-transactional DDL.[0m
+
+[1mRunning upgrade  -> 8057ae7329c2, Initial migration[0m
+
+[1mRunning upgrade 8057ae7329c2 -> 482cd6517ce4, Add default user[0m
+
+[1mRunning upgrade 482cd6517ce4 -> 1d0bb7fede17, Add pipeline run status[0m
+
+[1mRunning upgrade 1d0bb7fede17 -> ab7e313804ae, permission_system_rework[0m
+
+[1mRunning upgrade ab7e313804ae -> e4ebee1091e7, Expand data model info[0m
+
+[1mRunning upgrade e4ebee1091e7 -> b9274c27a25a, kuzu-11-migration[0m
+
+[1mRunning upgrade b9274c27a25a -> 1daae0df1866, incremental_loading[0m
+
+[1mRunning upgrade 1daae0df1866 -> 9e7a3cb85175, loader_separation[0m
+
+[1mRunning upgrade 9e7a3cb85175 -> 45957f0a9849, Add notebook table[0m
+
+[1mRunning upgrade 45957f0a9849 -> 211ab850ef3d, Add sync_operations table[0m
+sync_operations table already exists, skipping creation
+
+[1mRunning upgrade 211ab850ef3d -> c946955da633, Multi Tenant Support[0m
+
+[1mRunning upgrade c946955da633 -> 76625596c5c3, Expand dataset database for multi user[0m
+
+[1mRunning upgrade 76625596c5c3 -> 46a6ce2bd2b2, Expand dataset database with json connection field[0m
+
+[1mRunning upgrade 46a6ce2bd2b2 -> a1b2c3d4e5f6, Add label column to data table[0m
+
+[1mRunning upgrade a1b2c3d4e5f6 -> e1ec1dcb50b6, add_last_accessed_to_data[0m
+
+[1mRunning upgrade e1ec1dcb50b6 -> 1a58b986e6e1, Enable delete for old tutorial notebooks[0m
+
+[1mRunning upgrade 1a58b986e6e1 -> 84e5d08260d6, Replace graph ledger table with nodes and edges tables[0m
+
+[1mRunning upgrade 84e5d08260d6 -> 18f01b0a0b4c, create principal configuration table[0m
+principal_configuration table already exists, skipping creation
+
+[1mRunning upgrade 18f01b0a0b4c -> b1c2d3e4f5a6, add_user_api_key_table[0m
+
+[1mRunning upgrade b1c2d3e4f5a6 -> f1a2b3c4d5e6, add_importance_weight_to_data[0m
+
+[1mRunning upgrade f1a2b3c4d5e6 -> d4e5f6a7b8c9, add dataset_configuration table[0m
+
+[1mRunning upgrade d4e5f6a7b8c9 -> 6ee94db7381f, remove unique constraint tenant name[0m
+
+[1mRunning upgrade 6ee94db7381f -> b2c3d4e5f6a7, add created_at index to queries and results tables[0m
+
+[1mRunning upgrade b2c3d4e5f6a7 -> 7c5d4e2f8a91, Add parent_user_id to users[0m
+
+[1mRunning upgrade 7c5d4e2f8a91 -> 24f5d4f64d0d, Add session lifecycle tables.[0m
+session_records table already exists, skipping creation
+session_model_usage table already exists, skipping creation
+
+[1mRunning upgrade 24f5d4f64d0d -> 760ef4f08ef0, change node label and type to text[0m
+
+[1mRunning upgrade 760ef4f08ef0 -> c1a2b3d4e5f9, Add Cognee version and migration revision tracking to dataset_database[0m
+
+[1mRunning upgrade c1a2b3d4e5f9 -> d8f4a1b2c3e9, Add the single-row global_database_version table[0m
+
+[1mRunning upgrade d8f4a1b2c3e9 -> aa753a730673, add pipeline run id to nodes and edges[0m
+
+[1mRunning upgrade aa753a730673 -> b2c4d6e8f0a1, add_integration_credentials_table[0m
+
+[1mRunning upgrade b2c4d6e8f0a1 -> c3d5e7f9a1b2, dedupe cache_session_context and add unique entry index[0m
+
+[1mRunning upgrade c3d5e7f9a1b2 -> d4e6f8a0b2c3, add_integration_credentials_workspace_id[0m
+
+[1mRunning upgrade d4e6f8a0b2c3 -> e5a7b9c1d3f4, add_dataset_id_to_queries_and_results[0m
+
+[1mRunning upgrade e5a7b9c1d3f4 -> c5d7e9f1a3b5, add_dataset_id_to_data[0m
+
+[1mRunning upgrade c5d7e9f1a3b5 -> d6e8f0a2b4c6, backfill_dataset_scoped_data_drop_dataset_data[0m
+
+[1mRunning upgrade d6e8f0a2b4c6 -> f2b4c6d8e0a1, add_system_metadata_to_data[0m
+
+[1mRunning upgrade f2b4c6d8e0a1 -> b8c1d3e5f7a9, Add provenance_entries table[0m
+
+[1mRunning upgrade b8c1d3e5f7a9 -> a7f3c9e1b5d2, Extend pipeline_runs into the operation record (SDK-399)[0m
+
+[1mRunning upgrade a7f3c9e1b5d2 -> c7e2a9b4d1f3, add_created_and_last_used_to_user_api_key[0m
+
+[1mRunning upgrade c7e2a9b4d1f3 -> c4e8a1f6b3d7, Index pipeline_runs on (created_at, id)[0m
+
+[1mRunning upgrade c4e8a1f6b3d7 -> b3d5f7a9c1e2, add_graph_metrics_has_full_metrics[0m
+
+[1mRunning upgrade b3d5f7a9c1e2 -> d1e2f3a4b5c6, Add composite index on pipeline_runs for the /status latest-run lookup[0m
+
+[1mRunning upgrade d1e2f3a4b5c6 -> f3a7b9c1d2e4, Add the compact graph edge evidence sidecar.[0m
+
+[1mRunning upgrade f3a7b9c1d2e4 -> 1c22e6cb5aec, Reconcile every database to the chain's frozen truth[0m
+
+[1mRunning upgrade 1c22e6cb5aec -> a7c2e9f4b8d1, Add agent_id to session_records for agent-to-search attribution[0m
+
+[1mRunning upgrade a7c2e9f4b8d1 -> e7f9a1c3d5b8, Add composite index on data for the dataset listing[0m
+
+[1mRunning upgrade e7f9a1c3d5b8 -> f6b8d0a2c4e6, Add the capability layer[0m
+
+[1mRunning upgrade f6b8d0a2c4e6 -> d4a8e2f6b1c9, Add embedding token usage columns (SDK-1077)[0m
+
+[1mRelational migrations applied (target head).[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '8780a2c6-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '6300'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76c0d-f01e-002c-01bd-60b709000000'
+    'x-ms-client-request-id': '8780a2c6-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[2m2026-10-20T18:03:18.613116[0m [[33m[1mwarning  [0m] [1mAzure Blob: skipping docs/above-limit.txt (1025 bytes > max_object_size=1024).[0m [[0m[1m[34mazure_blob_connector[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/at-limit.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED3C381D4F9'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '879429ea-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '1024'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 17:58:36 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED3C381D4F9"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76c19-f01e-002c-0bbd-60b709000000'
+    'x-ms-client-request-id': '879429ea-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/below-limit.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED3C38888FF'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '879ae1ae-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '1023'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 17:58:36 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED3C38888FF"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76c2a-f01e-002c-1abd-60b709000000'
+    'x-ms-client-request-id': '879ae1ae-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED3C393F60B'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '87a13eb4-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 416
+Response headers:
+    'Content-Length': '249'
+    'Content-Type': 'application/xml'
+    'Content-Range': 'REDACTED'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76c32-f01e-002c-22bd-60b709000000'
+    'x-ms-client-request-id': '87a13eb4-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-error-code': 'InvalidRange'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/empty.txt'
+Request method: 'GET'
+Request headers:
+    'If-Match': '0x8DF2ED3C393F60B'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '87a737b0-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '0'
+    'Content-Type': 'application/octet-stream'
+    'Content-MD5': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 17:58:36 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED3C393F60B"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': '48c76c3b-f01e-002c-2bbd-60b709000000'
+    'x-ms-client-request-id': '87a737b0-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/new-document.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED4427F5D42'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '87acc5f4-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '46'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:02:09 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED4427F5D42"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'dc906622-801e-0036-3ebd-60d6d6000000'
+    'x-ms-client-request-id': '87acc5f4-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[2m2026-10-20T18:03:18.942482[0m [[33m[1mwarning  [0m] [1mAzure Blob: skipping docs/support.txt (1115 bytes > max_object_size=1024).[0m [[0m[1m[34mazure_blob_connector[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/unicode.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED45B0190F7'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '87c6670c-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '38'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:02:50 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED45B0190F7"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'dc90662f-801e-0036-48bd-60d6d6000000'
+    'x-ms-client-request-id': '87c6670c-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-meta-validation': 'REDACTED'
+    'x-ms-meta-scenario': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation/docs/update-me.txt'
+Request method: 'GET'
+Request headers:
+    'x-ms-range': 'REDACTED'
+    'If-Match': '0x8DF2ED406817FC2'
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '87cc96fe-ccb0-11f1-9385-957afa269328'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 206
+Response headers:
+    'Content-Length': '42'
+    'Content-Type': 'application/octet-stream'
+    'Content-Range': 'REDACTED'
+    'Last-Modified': 'Tue, 20 Oct 2026 18:00:28 GMT'
+    'Accept-Ranges': 'REDACTED'
+    'ETag': '"0x8DF2ED406817FC2"'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'dc906636-801e-0036-4ebd-60d6d6000000'
+    'x-ms-client-request-id': '87cc96fe-ccb0-11f1-9385-957afa269328'
+    'x-ms-version': 'REDACTED'
+    'x-ms-creation-time': 'REDACTED'
+    'x-ms-blob-content-md5': 'REDACTED'
+    'x-ms-lease-status': 'REDACTED'
+    'x-ms-lease-state': 'REDACTED'
+    'x-ms-blob-type': 'REDACTED'
+    'x-ms-server-encrypted': 'REDACTED'
+    'x-ms-access-tier': 'REDACTED'
+    'x-ms-access-tier-inferred': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 18:03:18 GMT'[0m
+
+[2m2026-10-20T18:03:19.218083[0m [[32m[1minfo     [0m] [1mResolved 1 DLT source(s) into 6 DataItem(s) (0 manifest(s), 6 document(s)).[0m [[0m[1m[34mresolve_dlt_sources[0m][0m
+
+[2m2026-10-20T18:03:19.221447[0m [[32m[1minfo     [0m] [1mSkipping LLM connection test: this pipeline has no LLM task.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:19.222607[0m [[32m[1minfo     [0m] [1mTesting connection to Embedding endpoint...[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:19.517160[0m [[32m[1minfo     [0m] [1mLoading local model BAAI/bge-small-en-v1.5 from /private/tmp/azure-blob-validation-20261020/runtime/models[0m [[0m[1m[34mFastembedEmbeddingEngine[0m][0m
+
+[2m2026-10-20T18:03:22.197414[0m [[32m[1minfo     [0m] [1mEmbedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:22.274551[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.274733[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.275073[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.275219[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.275311[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.276110[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.001 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.276185[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.276608[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.276683[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.276758[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.276833[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.276891[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.277411[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.277516[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.278169[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.278265[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.278471[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.278550[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.278612[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.279064[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.279149[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.279705[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.279872[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.279977[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.280055[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.280121[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.280662[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.280740[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.281446[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.281566[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.281653[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.281720[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.281782[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.282302[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.282367[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.282940[0m [[32m[1minfo     [0m] [1mPipeline item started: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.283048[0m [[32m[1minfo     [0m] [1mCoroutine task started: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.283121[0m [[32m[1minfo     [0m] [1mCoroutine task started: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.283182[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset starting[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.283240[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] starting: save files and compute content hashes (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.283589[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 1/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.283644[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] starting: resolve data IDs (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.308095[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.030 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.308320[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.308466[0m [[32m[1minfo     [0m] [1mRegistered loader: pypdf_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308545[0m [[32m[1minfo     [0m] [1mRegistered loader: text_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308615[0m [[32m[1minfo     [0m] [1mRegistered loader: code_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308717[0m [[32m[1minfo     [0m] [1mRegistered loader: image_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308819[0m [[32m[1minfo     [0m] [1mRegistered loader: audio_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308881[0m [[32m[1minfo     [0m] [1mRegistered loader: video_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.308948[0m [[32m[1minfo     [0m] [1mRegistered loader: csv_loader [0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.309018[0m [[32m[1minfo     [0m] [1mRegistered loader: advanced_pdf_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.309273[0m [[32m[1minfo     [0m] [1mRegistered loader: docling_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.309330[0m [[32m[1minfo     [0m] [1mRegistered loader: dlt_csv_loader[0m [[0m[1m[34mcognee.infrastructure.loaders.LoaderEngine[0m][0m
+
+[2m2026-10-20T18:03:22.310042[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.002 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.310141[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.310408[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.031 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.310483[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.311067[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.311213[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.316374[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.036 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.316526[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.317213[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.001 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.317316[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.317837[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.042 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.317983[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.318495[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.318565[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.321925[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.038 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.322130[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.322620[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.322729[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.322962[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 2/4] finished in 0.041 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.323034[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] starting: process files and build data records (1 items)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.323573[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 3/4] finished in 0.000 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.323684[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] starting: DB commit (1 new, 0 updated)[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.326510[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.016 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.326647[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.050 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.326827[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.326950[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.327039[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.328224[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.017 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.328331[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.050 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.328439[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.328508[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.328568[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.329282[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.011 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.329386[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.054 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.329502[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.329585[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.329655[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.331875[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.014 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.332031[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.052 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.332162[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.332234[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.332294[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.333203[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.010 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.333295[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.050 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.333400[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.333468[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.333529[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.335295[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset [loop 4/4] finished in 0.012 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.335402[0m [[32m[1minfo     [0m] [1mcognee-core store_to_dataset finished in 0.054 seconds[0m [[0m[1m[34mcognee.tasks.ingestion.ingest_data[0m][0m
+
+[2m2026-10-20T18:03:22.335517[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `ingest_data`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.335592[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `resolve_data_directories`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:22.335659[0m [[32m[1minfo     [0m] [1mPipeline item completed: `69e2d03f-371e-5f32-a4be-78658971e215`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:22.599460[0m [[32m[1minfo     [0m] [1mEmbedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:22.610160[0m [[32m[1minfo     [0m] [1mTesting connection to LLM endpoint...[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T18:03:24.161032[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.161211[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.161487[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.173249[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.173404[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.173595[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.175059[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.175307[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.175463[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.192181[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.192326[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.192527[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.195238[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.195418[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.195583[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.196654[0m [[32m[1minfo     [0m] [1mPipeline item started: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:24.196865[0m [[32m[1minfo     [0m] [1mCoroutine task started: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.197038[0m [[32m[1minfo     [0m] [1mAsync Generator task started: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.203924[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.218480[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.225322[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.231415[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.241800[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:24.257495[0m [[32m[1minfo     [0m] [1mCoroutine task started: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:26.747147[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.088599[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.210097[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.374501[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.522952[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.525614[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.525716[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.525789[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.525859[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:27.604126[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.604362[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.604444[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.604514[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.604584[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:27.706383[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.706554[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.706633[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.706697[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.706769[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:27.830648[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.830819[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.830900[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.830963[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:27.831023[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:32.053122[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:32.300970[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:32.301165[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:32.301249[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:32.301312[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:32.301374[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:36.441794[0m [[32m[1minfo     [0m] [1mCoroutine task started: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:36.653619[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `add_data_points`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:36.653793[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `extract_graph_and_summarize`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:36.653868[0m [[32m[1minfo     [0m] [1mAsync Generator task completed: `extract_chunks_from_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:36.653931[0m [[32m[1minfo     [0m] [1mCoroutine task completed: `classify_documents`[0m [[0m[1m[34mrun_tasks_base[0m][0m
+
+[2m2026-10-20T18:03:36.654004[0m [[32m[1minfo     [0m] [1mPipeline item completed: `18667364-6685-5159-96fa-29ccf73fea53`[0m [[0m[1m[34mrun_tasks_with_telemetry()[0m][0m
+
+[2m2026-10-20T18:03:36.958862[0m [[32m[1minfo     [0m] [1mVector store compaction: 6 collection(s), fragments 22 -> 4, 0 old version(s) removed, left for later runs: 2 task(s) and 0 version(s), 0 error(s)[0m [[0m[1m[34mcompact_vector_store[0m][0m
+
+[2m2026-10-20T18:03:37.001373[0m [[32m[1minfo     [0m] [1mRetrieved 33 nodes and 34 edges in 0.01 seconds[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+/private/tmp/azure-blob-validation-20261020/run_scenario.py:86: DeprecationWarning: table_names() is deprecated, use list_tables() instead
+  names=connection.table_names()
+RESULT 07-fresh completed downloads 6 counts {'data': 6, 'nodes': 33, 'edges': 34, 'vectors': {'DocumentChunk_text': 6, 'EdgeType_relationship_name': 34, 'EntityType_name': 7, 'Entity_name': 9, 'TextDocument_name': 6, 'TextSummary_text': 6}} snapshot_error None

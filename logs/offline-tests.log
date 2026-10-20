@@ -1,0 +1,34 @@
+.............................................................            [100%]
+=============================== warnings summary ===============================
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:47
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:47: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'env'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    graph_database_provider: str = Field("ladybug", env="GRAPH_DATABASE_PROVIDER")
+
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:65
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:65: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'env'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    kuzu_num_threads: int = Field(0, env="KUZU_NUM_THREADS")
+
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:66
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:66: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'env'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    kuzu_buffer_pool_size: int = Field(DEFAULT_KUZU_BUFFER_POOL_SIZE, env="KUZU_BUFFER_POOL_SIZE")
+
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:67
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/cognee/infrastructure/databases/graph/config.py:67: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'env'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    kuzu_max_db_size: int = Field(DEFAULT_KUZU_MAX_DB_SIZE, env="KUZU_MAX_DB_SIZE")
+
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+../../.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py:300: PydanticDeprecatedSince20: `json_encoders` is deprecated. See https://pydantic.dev/docs/validation/2.14/concepts/serialization/#custom-serializers for alternatives. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+    warnings.warn(
+
+tests/test_azure_blob.py: 38 warnings
+  /Users/apple/.codex/worktrees/06c1/cognee-community/packages/connector/azure-blob/.venv/lib/python3.13/site-packages/dlt/destinations/impl/sqlalchemy/merge_job.py:248: SAWarning: implicitly coercing SELECT object to scalar subquery; please use the .scalar_subquery() method to produce a scalar subquery.
+    order_by=order_dir_func(order_by_col),
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+61 passed, 49 warnings in 13.75s

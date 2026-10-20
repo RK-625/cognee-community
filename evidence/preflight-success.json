@@ -1,0 +1,62 @@
+{
+  "time": "2026-10-20T17:59:20.865354+00:00",
+  "python": "3.13.5",
+  "versions": {
+    "cognee": "1.6.5",
+    "dlt": "1.30.0",
+    "fastembed": "0.8.0",
+    "azure-core": "1.41.0",
+    "azure-storage-blob": "12.31.0"
+  },
+  "commit": "972c8897790f739255e0d7385c7e54ef83c67f5b",
+  "source_sha256": "e08712992cdc1ee5e33f71581d50f0162b2c18cbbd8f205879d9dfdc17db0ab4",
+  "container": {
+    "name": "cognee-validation",
+    "exists": true,
+    "blobs": [
+      "docs/above-limit.txt",
+      "docs/at-limit.txt",
+      "docs/below-limit.txt",
+      "docs/delete-me.txt",
+      "docs/empty.txt",
+      "docs/folder/",
+      "docs/support.txt",
+      "docs/unicode.txt",
+      "docs/update-me.txt",
+      "outside-prefix.txt"
+    ]
+  },
+  "embedding": {
+    "dimensions": 384,
+    "nonzero": true,
+    "tokens": 4
+  },
+  "llm": {
+    "model": "openai/deepseek-flash",
+    "provider": "custom",
+    "response": "",
+    "usage": {
+      "completion_tokens": 50,
+      "prompt_tokens": 37,
+      "total_tokens": 87,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 50,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "image_tokens": null,
+        "video_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "text_tokens": null,
+        "image_tokens": null,
+        "video_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 37
+    }
+  }
+}

@@ -1,0 +1,119 @@
+
+[2m2026-10-20T17:59:44.222149[0m [[32m[1minfo     [0m] [1mLog file created at: /private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_17-59-44.log[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mlog_file[0m=[35m/private/tmp/azure-blob-validation-20261020/logs/main/2026-10-20_17-59-44.log[0m
+
+[2m2026-10-20T17:59:44.222467[0m [[33m[1mwarning  [0m] [1mCognee 1.0 changes: New API — remember/recall/forget/improve (V1 add/cognify/search still work). Session memory enabled by default (CACHING=false to disable). Multi-user access control on by default (ENABLE_BACKEND_ACCESS_CONTROL=false to disable). Agents (@cognee.agent) auto-verified on registration. See https://docs.cognee.ai/[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:44.222671[0m [[32m[1minfo     [0m] [1mLogging initialized           [0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mcognee_version[0m=[35m1.6.5[0m [36mdatabase_path[0m=[35m/private/tmp/azure-blob-validation-20261020/runtime/main/system/databases[0m [36mos_info[0m=[35m'Darwin 27.0.0 (Darwin Kernel Version 27.0.0: Tue Aug 11 21:22:49 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6000)'[0m [36mpython_version[0m=[35m3.13.5[0m [36mstructlog_version[0m=[35m25.5.0[0m
+
+[2m2026-10-20T17:59:44.222764[0m [[32m[1minfo     [0m] [1mDatabase storage: /private/tmp/azure-blob-validation-20261020/runtime/main/system/databases[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:44.222833[0m [[32m[1minfo     [0m] [1mNo .env file found; using process environment variables only.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:46.427720[0m [[32m[1minfo     [0m] [1mauth posture: authentication=required, multi_tenant=enabled (default (no env vars set))[0m [[0m[1m[34mget_authenticated_user[0m][0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '099eaa9c-ccb0-11f1-b622-3be07f19c1b2'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '6947'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c40fae73-c01e-0055-78bc-604b2d000000'
+    'x-ms-client-request-id': '099eaa9c-ccb0-11f1-b622-3be07f19c1b2'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 17:59:47 GMT'[0m
+
+[1msetup plugin alembic.autogenerate.schemas[0m
+
+[1msetup plugin alembic.autogenerate.tables[0m
+
+[1msetup plugin alembic.autogenerate.types[0m
+
+[1msetup plugin alembic.autogenerate.constraints[0m
+
+[1msetup plugin alembic.autogenerate.defaults[0m
+
+[1msetup plugin alembic.autogenerate.comments[0m
+
+[1msetup plugin alembic.ext.checkconstraint_byname[0m
+
+[1mUsing database: sqlite+aiosqlite:////private/tmp/azure-blob-validation-20261020/runtime/main/system/databases/cognee_db[0m
+
+[1mContext impl SQLiteImpl.      [0m
+
+[1mWill assume non-transactional DDL.[0m
+
+[1mRelational migrations applied (target head).[0m
+
+[1mRequest URL: 'https://cogneeazblob20261020.blob.core.windows.net/cognee-validation?restype=REDACTED&comp=REDACTED&prefix=REDACTED'
+Request method: 'GET'
+Request headers:
+    'x-ms-version': 'REDACTED'
+    'Accept': 'application/xml'
+    'User-Agent': 'azsdk-python-storage-blob/12.31.0 Python/3.13.5 (macOS-27.0-arm64-arm-64bit-Mach-O)'
+    'x-ms-date': 'REDACTED'
+    'x-ms-client-request-id': '0a01df72-ccb0-11f1-b622-3be07f19c1b2'
+    'Authorization': 'REDACTED'
+No body was attached to the request[0m
+
+[1mResponse status: 200
+Response headers:
+    'Content-Length': '6295'
+    'Content-Type': 'application/xml'
+    'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0'
+    'x-ms-request-id': 'c40faefb-c01e-0055-77bc-604b2d000000'
+    'x-ms-client-request-id': '0a01df72-ccb0-11f1-b622-3be07f19c1b2'
+    'x-ms-version': 'REDACTED'
+    'Date': 'Tue, 20 Oct 2026 17:59:47 GMT'[0m
+
+[2m2026-10-20T17:59:47.989625[0m [[33m[1mwarning  [0m] [1mAzure Blob: skipping docs/above-limit.txt (1025 bytes > max_object_size=1024).[0m [[0m[1m[34mazure_blob_connector[0m][0m
+
+[2m2026-10-20T17:59:48.099052[0m [[32m[1minfo     [0m] [1mResolved 1 DLT source(s) into 7 DataItem(s) (0 manifest(s), 7 document(s)).[0m [[0m[1m[34mresolve_dlt_sources[0m][0m
+
+[2m2026-10-20T17:59:48.101754[0m [[32m[1minfo     [0m] [1mSkipping LLM connection test: this pipeline has no LLM task.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:48.102776[0m [[32m[1minfo     [0m] [1mTesting connection to Embedding endpoint...[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:48.403157[0m [[32m[1minfo     [0m] [1mLoading local model BAAI/bge-small-en-v1.5 from /private/tmp/azure-blob-validation-20261020/runtime/models[0m [[0m[1m[34mFastembedEmbeddingEngine[0m][0m
+
+[2m2026-10-20T17:59:51.061590[0m [[32m[1minfo     [0m] [1mEmbedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:51.374844[0m [[32m[1minfo     [0m] [1mEmbedding model 'BAAI/bge-small-en-v1.5' accepts 510 tokens of text (fastembed model tokenizer); chunks are limited to that instead of the default 4096.[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:51.380859[0m [[32m[1minfo     [0m] [1mTesting connection to LLM endpoint...[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:52.804547[0m [[32m[1minfo     [0m] [1mVector store compaction: 7 collection(s), fragments 14 -> 2, 0 old version(s) removed, left for later runs: 0 task(s) and 0 version(s), 0 error(s)[0m [[0m[1m[34mcompact_vector_store[0m][0m
+
+[2m2026-10-20T17:59:52.854122[0m [[32m[1minfo     [0m] [1mRetrieved 41 nodes and 42 edges in 0.02 seconds[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+/private/tmp/azure-blob-validation-20261020/run_scenario.py:86: DeprecationWarning: table_names() is deprecated, use list_tables() instead
+  names=connection.table_names()
+
+[2m2026-10-20T17:59:53.063909[0m [[32m[1minfo     [0m] [1mVector collection retrieval completed: Retrieved distances from 7 collections in 0.03s[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:53.064209[0m [[32m[1minfo     [0m] [1mRetrieving ID-filtered graph from database.[0m [[0m[1m[34mCogneeGraph[0m][0m
+
+[2m2026-10-20T17:59:53.064505[0m [[32m[1minfo     [0m] [1mVector collection retrieval completed: Retrieved distances from 7 collections in 0.03s[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:53.064635[0m [[32m[1minfo     [0m] [1mRetrieving ID-filtered graph from database.[0m [[0m[1m[34mCogneeGraph[0m][0m
+
+[2m2026-10-20T17:59:53.070019[0m [[32m[1minfo     [0m] [1mID-filtered retrieval: 41 nodes and 42 edges in 0.01s[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:53.071172[0m [[32m[1minfo     [0m] [1mGraph projection completed: 41 nodes, 42 edges in 0.00s[0m [[0m[1m[34mCogneeGraph[0m][0m
+
+[2m2026-10-20T17:59:53.072221[0m [[32m[1minfo     [0m] [1mID-filtered retrieval: 41 nodes and 42 edges in 0.01s[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+
+[2m2026-10-20T17:59:53.072843[0m [[32m[1minfo     [0m] [1mGraph projection completed: 41 nodes, 42 edges in 0.00s[0m [[0m[1m[34mCogneeGraph[0m][0m
+
+[2m2026-10-20T17:59:53.073466[0m [[32m[1minfo     [0m] [1mCompleted resolving edges to text[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m [36mextra[0m=[35m{'node_count': 18, 'connection_count': 15}[0m
+
+[2m2026-10-20T17:59:53.085478[0m [[32m[1minfo     [0m] [1mNeighborhood retrieval (1-hop): 4 nodes and 0 edges in 0.01s[0m [[0m[1m[34mcognee.shared.logging_utils[0m][0m
+RESULT 02-unchanged completed downloads 0 counts {'data': 7, 'nodes': 41, 'edges': 42, 'vectors': {'DocumentChunk_text': 7, 'EdgeType_relationship_name': 42, 'EntityType_name': 9, 'Entity_name': 11, 'SessionQAVector_text': 1, 'TextDocument_name': 7, 'TextSummary_text': 7}} snapshot_error None

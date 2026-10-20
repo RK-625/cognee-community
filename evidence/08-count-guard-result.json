@@ -1,0 +1,275 @@
+{
+  "step": "08-count-guard",
+  "started": "2026-10-20T18:03:32.999648+00:00",
+  "scope": "main",
+  "prefix": "docs/",
+  "dataset": "azure_validation_main",
+  "max_object_size": 1024,
+  "max_objects": 7,
+  "source_sha256": "e08712992cdc1ee5e33f71581d50f0162b2c18cbbd8f205879d9dfdc17db0ab4",
+  "versions": {
+    "cognee": "1.6.5",
+    "dlt": "1.30.0",
+    "fastembed": "0.8.0",
+    "azure-storage-blob": "12.31.0"
+  },
+  "azure_inventory": [
+    {
+      "name": "docs/above-limit.txt",
+      "size": 1025,
+      "etag": "0x8DF2ED3C3AA5B15",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/at-limit.txt",
+      "size": 1024,
+      "etag": "0x8DF2ED3C381D4F9",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/below-limit.txt",
+      "size": 1023,
+      "etag": "0x8DF2ED3C38888FF",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/empty.txt",
+      "size": 0,
+      "etag": "0x8DF2ED3C393F60B",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/folder/",
+      "size": 0,
+      "etag": "0x8DF2ED3C3B04C14",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    },
+    {
+      "name": "docs/new-document.txt",
+      "size": 46,
+      "etag": "0x8DF2ED4427F5D42",
+      "last_modified": "2026-10-20 18:02:09+00:00"
+    },
+    {
+      "name": "docs/support.txt",
+      "size": 1115,
+      "etag": "0x8DF2ED442863845",
+      "last_modified": "2026-10-20 18:02:09+00:00"
+    },
+    {
+      "name": "docs/unicode.txt",
+      "size": 38,
+      "etag": "0x8DF2ED45B0190F7",
+      "last_modified": "2026-10-20 18:02:50+00:00"
+    },
+    {
+      "name": "docs/update-me.txt",
+      "size": 42,
+      "etag": "0x8DF2ED406817FC2",
+      "last_modified": "2026-10-20 18:00:28+00:00"
+    },
+    {
+      "name": "final/only-document.txt",
+      "size": 57,
+      "etag": "0x8DF2ED46B4826DA",
+      "last_modified": "2026-10-20 18:03:17+00:00"
+    },
+    {
+      "name": "formats/bom.txt",
+      "size": 30,
+      "etag": "0x8DF2ED4166C4710",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/folder/",
+      "size": 0,
+      "etag": "0x8DF2ED416812617",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/invalid.txt",
+      "size": 25,
+      "etag": "0x8DF2ED416717512",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/noextension",
+      "size": 11,
+      "etag": "0x8DF2ED4167BF816",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.TXT",
+      "size": 50,
+      "etag": "0x8DF2ED41666F213",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.csv",
+      "size": 50,
+      "etag": "0x8DF2ED4163B86FF",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.htm",
+      "size": 50,
+      "etag": "0x8DF2ED4165BFA15",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.html",
+      "size": 51,
+      "etag": "0x8DF2ED41656F309",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.json",
+      "size": 51,
+      "etag": "0x8DF2ED41635BCFF",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.log",
+      "size": 50,
+      "etag": "0x8DF2ED416519E0E",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.markdown",
+      "size": 55,
+      "etag": "0x8DF2ED4163019F8",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.md",
+      "size": 49,
+      "etag": "0x8DF2ED4162A9DFC",
+      "last_modified": "2026-10-20 18:00:54+00:00"
+    },
+    {
+      "name": "formats/sample.rst",
+      "size": 50,
+      "etag": "0x8DF2ED41661C413",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.txt",
+      "size": 50,
+      "etag": "0x8DF2ED416245EF8",
+      "last_modified": "2026-10-20 18:00:54+00:00"
+    },
+    {
+      "name": "formats/sample.xml",
+      "size": 50,
+      "etag": "0x8DF2ED416410301",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.yaml",
+      "size": 51,
+      "etag": "0x8DF2ED41646CD01",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/sample.yml",
+      "size": 50,
+      "etag": "0x8DF2ED4164C4905",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "formats/skip.pdf",
+      "size": 9,
+      "etag": "0x8DF2ED41676CA10",
+      "last_modified": "2026-10-20 18:00:55+00:00"
+    },
+    {
+      "name": "outside-prefix.txt",
+      "size": 42,
+      "etag": "0x8DF2ED3C3B52C13",
+      "last_modified": "2026-10-20 17:58:36+00:00"
+    }
+  ],
+  "pipeline_name": "ingest_dlt_02f50b966d082d9e161da5c58201848b",
+  "status": "raised",
+  "error": "DLTIngestionError: DLT pipeline execution failed for dataset 'azure_validation_main': Pipeline execution failed at `step=extract` when processing package with `load_id=1792519413.8031979` with exception:\n\n<class 'dlt.extract.exceptions.ResourceExtractionError'>\nIn processing pipe `azure_blob_documents`: extraction of resource `azure_blob_documents` in `generator` `azure_blob_documents` caused an exception: Azure prefix exceeds max_objects=7. (Status code: 500)",
+  "exception": "DLTIngestionError",
+  "duration_seconds": 0.513,
+  "sdk_events": [
+    {
+      "operation": "list_blobs",
+      "prefix": "docs/",
+      "objects": [
+        {
+          "name": "docs/above-limit.txt",
+          "size": 1025,
+          "etag": "0x8DF2ED3C3AA5B15",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/at-limit.txt",
+          "size": 1024,
+          "etag": "0x8DF2ED3C381D4F9",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/below-limit.txt",
+          "size": 1023,
+          "etag": "0x8DF2ED3C38888FF",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/empty.txt",
+          "size": 0,
+          "etag": "0x8DF2ED3C393F60B",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/folder/",
+          "size": 0,
+          "etag": "0x8DF2ED3C3B04C14",
+          "last_modified": "2026-10-20 17:58:36+00:00"
+        },
+        {
+          "name": "docs/new-document.txt",
+          "size": 46,
+          "etag": "0x8DF2ED4427F5D42",
+          "last_modified": "2026-10-20 18:02:09+00:00"
+        },
+        {
+          "name": "docs/support.txt",
+          "size": 1115,
+          "etag": "0x8DF2ED442863845",
+          "last_modified": "2026-10-20 18:02:09+00:00"
+        },
+        {
+          "name": "docs/unicode.txt",
+          "size": 38,
+          "etag": "0x8DF2ED45B0190F7",
+          "last_modified": "2026-10-20 18:02:50+00:00"
+        },
+        {
+          "name": "docs/update-me.txt",
+          "size": 42,
+          "etag": "0x8DF2ED406817FC2",
+          "last_modified": "2026-10-20 18:00:28+00:00"
+        }
+      ]
+    }
+  ],
+  "downloads": [],
+  "counts": {
+    "data": 6,
+    "nodes": 33,
+    "edges": 34,
+    "vectors": {
+      "DocumentChunk_text": 6,
+      "EdgeType_relationship_name": 34,
+      "EntityType_name": 6,
+      "Entity_name": 9,
+      "SessionQAVector_text": 1,
+      "TextDocument_name": 6,
+      "TextSummary_text": 6
+    }
+  },
+  "finished": "2026-10-20T18:03:35.777492+00:00"
+}
